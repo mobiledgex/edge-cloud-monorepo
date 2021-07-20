@@ -1,7 +1,10 @@
 name: build-docker-image
 on:
-  pull_request:
-    types: [opened, reopened]
+  push:
+    branches:
+      - "!*"
+    tags:
+      - '*'
 jobs:
   build-docker-image:
     name: Build the edge-cloud image
@@ -19,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: harbor.mobiledgex.net/mobiledgex-dev/edge-cloud
+          images: harbor.mobiledgex.net/mobiledgex/edge-cloud
       -
         name: Compute build tag
         id: build-tag
@@ -41,9 +44,6 @@ jobs:
         name: Set up .dockerignore
         run: cp edge-cloud/.dockerignore .
       -
-        name: List files
-        run: ls -la * .*
-      -
         name: Build edge-cloud image
         uses: docker/build-push-action@v2
         with:
@@ -54,4 +54,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             BUILD_TAG=${{ steps.build-tag.outputs.BUILD_TAG }}
-            REGISTRY=harbor.mobiledgex.net/mobiledgex-dev
+            REGISTRY=harbor.mobiledgex.net/mobiledgex
