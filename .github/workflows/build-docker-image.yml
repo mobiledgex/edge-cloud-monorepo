@@ -1,0 +1,57 @@
+name: build-docker-image
+on:
+  push:
+    branches:
+      - "!*"
+    tags:
+      - '*'
+jobs:
+  build-docker-image:
+    name: Build the edge-cloud image
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Check out the monorepo
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+          submodules: recursive
+          fetch-depth: 0
+      -
+        name: Compute docker image meta
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: harbor.mobiledgex.net/mobiledgex/edge-cloud
+      -
+        name: Compute build tag
+        id: build-tag
+        run: echo "::set-output name=BUILD_TAG::$(git describe --always --dirty=+), $(TZ=UTC date +'%Y-%m-%d'), $(echo -e '${{steps.meta.outputs.tags}}' | head -n 1 | cut -d':' -f2)"
+      -
+        name: Set up builder username
+        run: git config --global user.name github
+      -
+        name: Set up docker buildx
+        uses: docker/setup-buildx-action@v1
+      -
+        name: Log in to registry
+        uses: docker/login-action@v1
+        with:
+          registry: harbor.mobiledgex.net
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+      -
+        name: Set up .dockerignore
+        run: cp edge-cloud/.dockerignore .
+      -
+        name: Build edge-cloud image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          file: ./edge-cloud/docker/Dockerfile.edge-cloud
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            BUILD_TAG=${{ steps.build-tag.outputs.BUILD_TAG }}
+            REGISTRY=harbor.mobiledgex.net/mobiledgex
