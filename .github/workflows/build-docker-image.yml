@@ -13,6 +13,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           submodules: recursive
+          fetch-depth: 0
       -
         name: Compute docker image meta
         id: meta
