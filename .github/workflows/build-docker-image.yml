@@ -27,16 +27,23 @@ jobs:
         name: Set up builder username
         run: git config --global user.name github
       -
-        name: Set up Docker Buildx
+        name: Set up docker buildx
         uses: docker/setup-buildx-action@v1
+      -
+        name: Log in to registry
+        uses: docker/login-action@v1
+        with:
+          registry: harbor.mobiledgex.net
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
       -
         name: Build edge-cloud image
         uses: docker/build-push-action@v2
         with:
           context: .
           file: ./edge-cloud/docker/Dockerfile.edge-cloud
-          push: false
+          push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            REGISTRY=harbor.mobiledgex.net/mobiledgex-dev/edge-cloud
+            REGISTRY=harbor.mobiledgex.net/mobiledgex-dev
