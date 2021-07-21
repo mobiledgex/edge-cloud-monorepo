@@ -1,0 +1,10 @@
+name: Create Tag
+description: Create a tag and a changelog
+inputs: 
+  tag:
+    description: Tag
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.tag }}
