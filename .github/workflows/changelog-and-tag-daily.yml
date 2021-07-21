@@ -1,8 +1,7 @@
 name: Changelog and Tag
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '5 5 * * *'
+    - cron: "5 5 * * *"
 jobs:
   changelog-and-tag:
     runs-on: ubuntu-latest
