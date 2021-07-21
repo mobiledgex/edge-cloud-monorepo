@@ -1,10 +1,10 @@
-name: build-docker-image
+name: Build Docker Image
 on:
   push:
     branches:
       - "!*"
     tags:
-      - '*'
+      - "*"
 jobs:
   build-docker-image:
     name: Build the edge-cloud image
