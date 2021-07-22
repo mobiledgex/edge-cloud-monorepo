@@ -9,6 +9,9 @@ jobs:
   build-docker-image:
     name: Build the edge-cloud image
     runs-on: ubuntu-latest
+    env:
+      REGISTRY: harbor.mobiledgex.net
+      ARTIFACTORY_PATH: https://artifactory.mobiledgex.net/artifactory/build-artifacts/swagger-spec
     steps:
       -
         name: Check out the monorepo
@@ -22,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: harbor.mobiledgex.net/mobiledgex/edge-cloud
+          images: ${{ env.REGISTRY }}/mobiledgex/edge-cloud
       -
         name: Compute build tag
         id: build-tag
@@ -37,7 +40,7 @@ jobs:
         name: Log in to registry
         uses: docker/login-action@v1
         with:
-          registry: harbor.mobiledgex.net
+          registry: ${{ env.REGISTRY }}
           username: ${{ secrets.REGISTRY_USERNAME }}
           password: ${{ secrets.REGISTRY_PASSWORD }}
       -
@@ -54,4 +57,12 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             BUILD_TAG=${{ steps.build-tag.outputs.BUILD_TAG }}
-            REGISTRY=harbor.mobiledgex.net/mobiledgex
+            REGISTRY=${{ env.REGISTRY }}/mobiledgex
+      -
+        name: Upload swagger
+        run: |
+          for docs in internal external; do
+            docker run --rm ${{ env.REGISTRY }}/mobiledgex/edge-cloud:${{ steps.build-tag.outputs.BUILD_TAG }} dump-docs "$docs" >"${docs}.json"
+          done
+          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT internal.json "${{ env.ARTIFACTORY_PATH }}/${{ steps.build-tag.outputs.BUILD_TAG }}/apidocs.swagger.json"
+          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT external.json "${{ env.ARTIFACTORY_PATH }}/${{ steps.build-tag.outputs.BUILD_TAG }}/external/apidocs.swagger.json"
