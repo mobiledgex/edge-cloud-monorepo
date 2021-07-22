@@ -62,7 +62,7 @@ jobs:
       -
         name: Upload swagger
         run: |
-          IMAGE="${{ env.REGISTRY }}/mobiledgex/edge-cloud:${{ steps.build.outputs.digest }}"
+          IMAGE="${{ env.REGISTRY }}/mobiledgex/edge-cloud@${{ steps.build.outputs.digest }}"
           IMAGE_TAG=$( echo -e '${{steps.meta.outputs.tags}}' | head -n 1 | awk -F':' '{print $NF}' )
           for docs in internal external; do
             docker run --rm "$IMAGE" dump-docs "$docs" >"${docs}.json"
