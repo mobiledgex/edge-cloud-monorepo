@@ -67,5 +67,5 @@ jobs:
           for docs in internal external; do
             docker run --rm "$IMAGE" dump-docs "$docs" >"${docs}.json"
           done
-          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT internal.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/apidocs.swagger.json"
-          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT external.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/external/apidocs.swagger.json"
+          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT -T internal.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/apidocs.swagger.json"
+          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT -T external.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/external/apidocs.swagger.json"
