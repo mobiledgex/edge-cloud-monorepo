@@ -49,6 +49,7 @@ jobs:
       -
         name: Build edge-cloud image
         uses: docker/build-push-action@v2
+        id: build
         with:
           context: .
           file: ./edge-cloud/docker/Dockerfile.edge-cloud
@@ -61,8 +62,8 @@ jobs:
       -
         name: Upload swagger
         run: |
-          IMAGE=$( echo -e '${{steps.meta.outputs.tags}}' | head -n 1 )
-          IMAGE_TAG=$( echo "$IMAGE" | awk -F':' '{print $NF}')
+          IMAGE="${{ env.REGISTRY }}/mobiledgex/edge-cloud:${{ steps.build.outputs.digest }}"
+          IMAGE_TAG=$( echo -e '${{steps.meta.outputs.tags}}' | head -n 1 | awk -F':' '{print $NF}' )
           for docs in internal external; do
             docker run --rm "$IMAGE" dump-docs "$docs" >"${docs}.json"
           done
