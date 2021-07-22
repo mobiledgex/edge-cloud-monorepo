@@ -29,7 +29,7 @@ jobs:
       -
         name: Compute build tag
         id: build-tag
-        run: echo "::set-output name=BUILD_TAG::$(git describe --always --dirty=+), $(TZ=UTC date +'%Y-%m-%d'), $(echo -e '${{steps.meta.outputs.tags}}' | head -n 1 | cut -d':' -f2)"
+        run: echo "::set-output name=BUILD_TAG::$(git describe --always --dirty=+), $(TZ=UTC date +'%Y-%m-%d'), $(echo -e '${{steps.meta.outputs.tags}}' | head -n 1 | awk -F':' '{print $NF}')"
       -
         name: Set up builder username
         run: git config --global user.name github
@@ -61,8 +61,10 @@ jobs:
       -
         name: Upload swagger
         run: |
+          IMAGE=$( echo -e '${{steps.meta.outputs.tags}}' | head -n 1 )
+          IMAGE_TAG=$( echo "$IMAGE" | awk -F':' '{print $NF}')
           for docs in internal external; do
-            docker run --rm ${{ env.REGISTRY }}/mobiledgex/edge-cloud:${{ steps.build-tag.outputs.BUILD_TAG }} dump-docs "$docs" >"${docs}.json"
+            docker run --rm "$IMAGE" dump-docs "$docs" >"${docs}.json"
           done
-          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT internal.json "${{ env.ARTIFACTORY_PATH }}/${{ steps.build-tag.outputs.BUILD_TAG }}/apidocs.swagger.json"
-          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT external.json "${{ env.ARTIFACTORY_PATH }}/${{ steps.build-tag.outputs.BUILD_TAG }}/external/apidocs.swagger.json"
+          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT internal.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/apidocs.swagger.json"
+          curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT external.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/external/apidocs.swagger.json"
