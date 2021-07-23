@@ -57,7 +57,7 @@ def get_changelog_for_module(mod, rev_range):
 def get_changelog(tag):
     # Title
     datestamp = datetime.now().strftime("%Y-%m-%d")
-    title = f"## [{tag}] - {datestamp}\n\n"
+    title = f"## [{tag}] - {datestamp}\n[Details](../../commit/{tag})\n\n"
 
     # Submodule commits
     p = subprocess.run(["git", "submodule", "summary"],
