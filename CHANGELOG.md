@@ -1,3 +1,13 @@
+## [2021-07-28] - 2021-07-28
+[Details](../../commit/2021-07-28)
+
+### edge-cloud:
+- Check trigger time correctly ([#1435](https://github.com/mobiledgex/edge-cloud/pull/1435)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- e2e clusterSvc alert fixes ([#1666](https://github.com/mobiledgex/edge-cloud-infra/pull/1666)) (Devdatta)
+- Change pod cpu promql query ([#1665](https://github.com/mobiledgex/edge-cloud-infra/pull/1665)) (Lev Shvarts)
+
 ## [2021-07-27] - 2021-07-27
 [Details](../../commit/2021-07-27)
 
