@@ -1,3 +1,10 @@
+## [2021-07-30] - 2021-07-30
+[Details](../../commit/2021-07-30)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5389](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5389) Add case for an operator that is also a developer ([#1671](https://github.com/mobiledgex/edge-cloud-infra/pull/1671)) (Lev Shvarts)
+- [EDGECLOUD-5389](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5389): Remove hardcoded controller notify port in MC ([#1673](https://github.com/mobiledgex/edge-cloud-infra/pull/1673)) (Ashish Jain)
+
 ## [2021-07-29] - 2021-07-29
 [Details](../../commit/2021-07-29)
 
