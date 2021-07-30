@@ -1,5 +1,10 @@
 name: Changelog and Tag
 on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Build tag (eg. 2021-07-01-2)"
+        required: true
   schedule:
     - cron: "0 4 * * *"
 jobs:
@@ -15,10 +20,13 @@ jobs:
           fetch-depth: 0
       -
         name: Compute tag
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        id: tag
+        run: |
+          build_tag="${{ github.event.inputs.tag }}"
+          [[ -z "$build_tag" ]] && build_tag="$(date +'%Y-%m-%d')"
+          echo "::set-output name=tag::$build_tag"
       -
         name: Update and tag
         uses: ./.github/actions/changelog-and-tag
         with:
-          tag: ${{ steps.date.outputs.date }}
+          tag: ${{ steps.tag.outputs.tag }}
