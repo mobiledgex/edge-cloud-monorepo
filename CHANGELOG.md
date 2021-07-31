@@ -1,3 +1,10 @@
+## [2021-07-31] - 2021-07-31
+[Details](../../commit/2021-07-31)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5405](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5405)  clientappusage metrics not giving the correct interval as developer ([#1677](https://github.com/mobiledgex/edge-cloud-infra/pull/1677)) (Lev Shvarts)
+- Fix MC crash as ratelimitmgr is not initialised ([#1675](https://github.com/mobiledgex/edge-cloud-infra/pull/1675)) (Ashish Jain)
+
 ## [2021-07-30] - 2021-07-30
 [Details](../../commit/2021-07-30)
 
