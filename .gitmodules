@@ -1,9 +1,12 @@
 [submodule "edge-cloud"]
 	path = edge-cloud
 	url = git@github.com:mobiledgex/edge-cloud.git
+	branch = r3.0-hf
 [submodule "edge-cloud-infra"]
 	path = edge-cloud-infra
 	url = git@github.com:mobiledgex/edge-cloud-infra.git
+	branch = r3.0-hf
 [submodule "edge-proto"]
 	path = edge-proto
 	url = git@github.com:mobiledgex/edge-proto.git
+	branch = r3.0-hf
