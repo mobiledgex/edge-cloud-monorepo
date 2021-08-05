@@ -1,3 +1,13 @@
+## [2021-08-05] - 2021-08-05
+[Details](../../commit/2021-08-05)
+
+### edge-cloud:
+- [EDGECLOUD-5399](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5399)  Add information to help txt for alertpolicy annotations for description and title ([#1440](https://github.com/mobiledgex/edge-cloud/pull/1440)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5426](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5426): Fix issues with Operator's access to appinst/clusterinst billingevents ([#1685](https://github.com/mobiledgex/edge-cloud-infra/pull/1685)) (Ashish Jain)
+- [EDGECLOUD-5399](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5399)  Add information to help txt for alertpolicy annotations for description and title ([#1683](https://github.com/mobiledgex/edge-cloud-infra/pull/1683)) (Lev Shvarts)
+
 ## [2021-08-04] - 2021-08-04
 [Details](../../commit/2021-08-04)
 
