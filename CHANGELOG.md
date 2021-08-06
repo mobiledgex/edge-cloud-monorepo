@@ -1,3 +1,27 @@
+## [2021-08-06] - 2021-08-06
+[Details](../../commit/2021-08-06)
+
+### edge-cloud:
+- Mark appinsts down when cloudlet down ([#1444](https://github.com/mobiledgex/edge-cloud/pull/1444)) (Jim)
+- Resthrd ([#1441](https://github.com/mobiledgex/edge-cloud/pull/1441)) (mwilliams-mex)
+   - * [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):InfraResourceUpdateThread initial
+   - * [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):add update lastCloudletResRefreshTime
+   - * [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):Review comments + e2e tests
+- [EDGECLOUD-5427](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5427) allow operator to see apps for cloudlet pools ([#1442](https://github.com/mobiledgex/edge-cloud/pull/1442)) (Jon)
+
+### edge-cloud-infra:
+- fix e2e test affected by edge-cloud change ([#1686](https://github.com/mobiledgex/edge-cloud-infra/pull/1686)) (Jim)
+- Resthrd ([#1687](https://github.com/mobiledgex/edge-cloud-infra/pull/1687)) (mwilliams-mex)
+   - * [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):InfraResourceUpdateThread initial
+   - * [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191): add new setting for e2e tests
+   - * [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191): e2e data .yml files missing newlines at end of file
+   - * [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):Add missing newlines at the end of the files
+- [EDGECLOUD-5427](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5427) allow operator to see apps for cloudlet pools ([#1684](https://github.com/mobiledgex/edge-cloud-infra/pull/1684)) (Jon)
+
+### edge-proto:
+- Merge pull request #42 from mobiledgex/cloudlet-down (Jim)
+- add HEALTH_CHECK_CLOUDLET_OFFLINE (Jim)
+
 ## [2021-08-05] - 2021-08-05
 [Details](../../commit/2021-08-05)
 
