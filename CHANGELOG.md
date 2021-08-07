@@ -1,3 +1,20 @@
+## [2021-08-07] - 2021-08-07
+[Details](../../commit/2021-08-07)
+
+### edge-cloud:
+- Ratelimit settings api fixes ([#1446](https://github.com/mobiledgex/edge-cloud/pull/1446)) (franklin-huang-mobiledgex)
+   - * [EDGECLOUD-5436](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5436): mcctl ratelimitsettings should make FlowAlgorithm required
+   - * [EDGECLOUD-5438](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5438): ratelimitsettings reqsPerSecond/burstSize should be underscore format
+   - * [EDGECLOUD-5432](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5432): ratelimitsettings for LeakyBucketAlgorithm should not require burstsize arg
+- [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):Address potential race on thread startup with settings value ([#1447](https://github.com/mobiledgex/edge-cloud/pull/1447)) (mwilliams-mex)
+- [EDGECLOUD-2583](https://mobiledgex.atlassian.net/browse/EDGECLOUD-2583): PlatformFindCloudlet with bad client_token returns wrong status code ([#1445](https://github.com/mobiledgex/edge-cloud/pull/1445)) (franklin-huang-mobiledgex)
+
+### edge-cloud-infra:
+- MC Ratelimit settings api fixes ([#1689](https://github.com/mobiledgex/edge-cloud-infra/pull/1689)) (franklin-huang-mobiledgex)
+   - * [EDGECLOUD-5437](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5437): mcctl ratelimitsettingsmc createflow should make flow settings required
+   - * [EDGECLOUD-5310](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5310): ratelimitsettingsmc createflow of duplicate flow should give better error message
+- [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):fix units add misisng  m for settings e2e tests ([#1688](https://github.com/mobiledgex/edge-cloud-infra/pull/1688)) (mwilliams-mex)
+
 ## [2021-08-06] - 2021-08-06
 [Details](../../commit/2021-08-06)
 
