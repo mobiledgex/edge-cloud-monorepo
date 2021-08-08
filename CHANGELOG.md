@@ -1,3 +1,15 @@
+## [2021-08-08] - 2021-08-08
+[Details](../../commit/2021-08-08)
+
+### edge-cloud:
+- [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):set cd.settings to defaults ([#1449](https://github.com/mobiledgex/edge-cloud/pull/1449)) (mwilliams-mex)
+- developer namespaces ([#1448](https://github.com/mobiledgex/edge-cloud/pull/1448)) (Jim)
+- [EDGECLOUD-5358](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5358): Add unit-tests for Operator's access to billing events ([#1438](https://github.com/mobiledgex/edge-cloud/pull/1438)) (Ashish Jain)
+
+### edge-cloud-infra:
+- developer namespaces ([#1690](https://github.com/mobiledgex/edge-cloud-infra/pull/1690)) (Jim)
+- [EDGECLOUD-5358](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5358): Add unit-tests for Operator's access to billing events ([#1672](https://github.com/mobiledgex/edge-cloud-infra/pull/1672)) (Ashish Jain)
+
 ## [2021-08-07] - 2021-08-07
 [Details](../../commit/2021-08-07)
 
