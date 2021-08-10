@@ -1,3 +1,20 @@
+## [2021-08-10] - 2021-08-10
+[Details](../../commit/2021-08-10)
+
+### edge-cloud:
+- master taint fix ([#1451](https://github.com/mobiledgex/edge-cloud/pull/1451)) (Jim)
+- [EDGECLOUD-5230](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5230): Envoy crashing for UDP packet size larger than 1500 ([#1443](https://github.com/mobiledgex/edge-cloud/pull/1443)) (Ashish Jain)
+
+### edge-cloud-infra:
+- master taint on update ([#1693](https://github.com/mobiledgex/edge-cloud-infra/pull/1693)) (Jim)
+- [EDGECLOUD-5230](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5230): Envoy crashing for UDP packet size large than 1500 ([#1691](https://github.com/mobiledgex/edge-cloud-infra/pull/1691)) (Ashish Jain)
+
+### edge-proto:
+- [EDGECLOUD-5230](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5230): Envoy crashing for UDP packet size large than 1500 (Ashish Jain)
+- change pktsize -> maxpktsize (Ashish Jain)
+- Merge branch 'master' of github.com:mobiledgex/edge-proto into fixenvoyvers (Ashish Jain)
+- [EDGECLOUD-5230](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5230): Envoy crashing for UDP packet size large than 1500 (Ashish Jain)
+
 ## [2021-08-08] - 2021-08-08
 [Details](../../commit/2021-08-08)
 
