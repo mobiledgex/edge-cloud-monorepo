@@ -1,3 +1,15 @@
+## [2021-08-11] - 2021-08-11
+[Details](../../commit/2021-08-11)
+
+### edge-cloud:
+- Show ratelimit api fixes ([#1450](https://github.com/mobiledgex/edge-cloud/pull/1450)) (franklin-huang-mobiledgex)
+   - * show flow/maxreqs filter by more than just key, remove extra args from showratelimitsettings ([EDGECLOUD-5315](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5315): unable to do "ratelimitsettingsmc show" by flowsettings or maxreqssettings)
+- namespace service fix ([#1452](https://github.com/mobiledgex/edge-cloud/pull/1452)) (Jim)
+
+### edge-cloud-infra:
+- Show ratelimit mc api fixes ([#1692](https://github.com/mobiledgex/edge-cloud-infra/pull/1692)) (franklin-huang-mobiledgex)
+   - * allow filter show flow/maxreqs mcratelimitsettings by more than just key, get rid of extra args for ShowRateLimitMcSettings ([EDGECLOUD-5315](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5315): unable to do "ratelimitsettingsmc show" by flowsettings or maxreqssettings, [EDGECLOUD-5310](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5310): ratelimitsettingsmc createflow of duplicate flow should give better error message)
+
 ## [2021-08-10] - 2021-08-10
 [Details](../../commit/2021-08-10)
 
