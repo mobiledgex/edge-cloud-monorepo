@@ -1,3 +1,19 @@
+## [2021-08-12] - 2021-08-12
+[Details](../../commit/2021-08-12)
+
+### edge-cloud:
+- add UpdateClientCarrier to EdgeEventsHandler interface ([#1453](https://github.com/mobiledgex/edge-cloud/pull/1453)) (franklin-huang-mobiledgex)
+- [EDGECLOUD-5463](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5463): Envoy restarts on rootlb with TLS setting on access ports ([#1454](https://github.com/mobiledgex/edge-cloud/pull/1454)) (Ashish Jain)
+
+### edge-cloud-infra:
+- optimize taint add/remove timing ([#1697](https://github.com/mobiledgex/edge-cloud-infra/pull/1697)) (Jim)
+- add UpdateClientCarrier function to edgeeventshandler ([#1695](https://github.com/mobiledgex/edge-cloud-infra/pull/1695)) (franklin-huang-mobiledgex)
+- [EDGECLOUD-5273](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5273) [EDGECLOUD-5248](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5248) [EDGECLOUD-5435](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5435) Metrics api fixes ([#1696](https://github.com/mobiledgex/edge-cloud-infra/pull/1696)) (Lev Shvarts)
+   - * [EDGECLOUD-5273](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5273) unable to query dme metrics query with real cloudlet/cloudletorg
+   - * [EDGECLOUD-5248](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5248) VM app instance disk stats are not reported correctly for OpenStack
+   - * [EDGECLOUD-5435](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5435) metrics filtered by cluster-org doesn't work
+- fix svc patching with namespace ([#1694](https://github.com/mobiledgex/edge-cloud-infra/pull/1694)) (Jim)
+
 ## [2021-08-11] - 2021-08-11
 [Details](../../commit/2021-08-11)
 
