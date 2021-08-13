@@ -1,3 +1,16 @@
+## [2021-08-13] - 2021-08-13
+[Details](../../commit/2021-08-13)
+
+### edge-cloud:
+- [EDGECLOUD-5448](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5448) alertpolicy tirigger-time needs to limit value of input([#1456](https://github.com/mobiledgex/edge-cloud/pull/1456)) (Lev Shvarts)
+- [EDGECLOUD-5459](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5459): mcctl "ratelimitsettings showmaxreqs" does not work with filtering ([#1455](https://github.com/mobiledgex/edge-cloud/pull/1455)) (franklin-huang-mobiledgex)
+- Fix docker exec command ([#1457](https://github.com/mobiledgex/edge-cloud/pull/1457)) (Ashish Jain)
+   - [EDGECLOUD-5463](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5463): Envoy restarts on rootlb with TLS setting on access ports
+
+### edge-cloud-infra:
+- Disable VCD template import property ([#1699](https://github.com/mobiledgex/edge-cloud-infra/pull/1699)) (Jim)
+- [EDGECLOUD-5448](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5448)  alertpolicy tirigger-time needs to limit value of input ([#1698](https://github.com/mobiledgex/edge-cloud-infra/pull/1698)) (Lev Shvarts)
+
 ## [2021-08-12] - 2021-08-12
 [Details](../../commit/2021-08-12)
 
