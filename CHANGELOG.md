@@ -1,3 +1,15 @@
+## [2021-08-14] - 2021-08-14
+[Details](../../commit/2021-08-14)
+
+### edge-cloud:
+- Fix maxpktsize config for k8s apps + fix comments ([#1459](https://github.com/mobiledgex/edge-cloud/pull/1459)) (Ashish Jain)
+- Small followup for PR 1456 ([#1458](https://github.com/mobiledgex/edge-cloud/pull/1458)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- Autogen file ([#1701](https://github.com/mobiledgex/edge-cloud-infra/pull/1701)) (Lev Shvarts)
+- [EDGECLOUD-4894](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4894) Alerts: Request to include timestamp ([#1700](https://github.com/mobiledgex/edge-cloud-infra/pull/1700)) (Lev Shvarts)
+- Bump up controller/DME replica count for QA ([#1702](https://github.com/mobiledgex/edge-cloud-infra/pull/1702)) (Venky)
+
 ## [2021-08-13] - 2021-08-13
 [Details](../../commit/2021-08-13)
 
