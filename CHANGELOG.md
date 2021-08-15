@@ -1,3 +1,9 @@
+## [2021-08-15] - 2021-08-15
+[Details](../../commit/2021-08-15)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5469](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5469): mcctl "app create" needs updated arg description for accessports and skiphcports ([#1704](https://github.com/mobiledgex/edge-cloud-infra/pull/1704)) (Ashish Jain)
+
 ## [2021-08-14] - 2021-08-14
 [Details](../../commit/2021-08-14)
 
