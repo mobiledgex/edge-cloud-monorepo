@@ -4,7 +4,7 @@
 ### edge-cloud-infra:
 - [EDGECLOUD-5469](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5469): mcctl "app create" needs updated arg description for accessports and skiphcports ([#1704](https://github.com/mobiledgex/edge-cloud-infra/pull/1704)) (Ashish Jain)
 
-## [2021-08-14] - 2021-08-14
+## [2021-08-14] - 2021-08-14 (R3.0 RC3)
 [Details](../../commit/2021-08-14)
 
 ### edge-cloud:
@@ -103,7 +103,7 @@
    - * [EDGECLOUD-5310](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5310): ratelimitsettingsmc createflow of duplicate flow should give better error message
 - [EDGECLOUD-5191](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5191):fix units add misisng  m for settings e2e tests ([#1688](https://github.com/mobiledgex/edge-cloud-infra/pull/1688)) (mwilliams-mex)
 
-## [2021-08-06] - 2021-08-06
+## [2021-08-06] - 2021-08-06 (R3.0 RC2)
 [Details](../../commit/2021-08-06)
 
 ### edge-cloud:
@@ -165,7 +165,7 @@
 - [EDGECLOUD-5066](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5066) show filter by empty value failed because value null ([#1680](https://github.com/mobiledgex/edge-cloud-infra/pull/1680)) (Jon)
 - [EDGECLOUD-5265](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5265) mc context deadline exceeded errors - conn cache ([#1678](https://github.com/mobiledgex/edge-cloud-infra/pull/1678)) (Jon)
 
-## [2021-07-31] - 2021-07-31
+## [2021-07-31] - 2021-07-31 (R3.0 RC1)
 [Details](../../commit/2021-07-31)
 
 ### edge-cloud-infra:
