@@ -1,3 +1,12 @@
+## [2021-08-17] - 2021-08-17
+[Details](../../commit/2021-08-17)
+
+### edge-cloud:
+- [EDGECLOUD-5473](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5473) mcctl help text for alertpolicy need to capitalize sentences ([#1460](https://github.com/mobiledgex/edge-cloud/pull/1460)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- [EDGECLOUD-2352](https://mobiledgex.atlassian.net/browse/EDGECLOUD-2352) Clean up mexenv.json from local vault, comment changes ([#1703](https://github.com/mobiledgex/edge-cloud-infra/pull/1703)) (Lev Shvarts)
+
 ## [2021-08-15] - 2021-08-15
 [Details](../../commit/2021-08-15)
 
