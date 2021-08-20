@@ -1,3 +1,13 @@
+## [2021-08-20] - 2021-08-20
+[Details](../../commit/2021-08-20)
+
+### edge-cloud:
+- Continuous query settings updates ([#1461](https://github.com/mobiledgex/edge-cloud/pull/1461)) (franklin-huang-mobiledgex)
+
+### edge-cloud-infra:
+- Continuous query settings updates ([#1705](https://github.com/mobiledgex/edge-cloud-infra/pull/1705)) (franklin-huang-mobiledgex)
+- fix taint when master name is >63 char ([#1706](https://github.com/mobiledgex/edge-cloud-infra/pull/1706)) (Jim)
+
 ## [2021-08-17] - 2021-08-17
 [Details](../../commit/2021-08-17)
 
