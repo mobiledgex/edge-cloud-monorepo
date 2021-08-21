@@ -1,3 +1,12 @@
+## [2021-08-21] - 2021-08-21
+[Details](../../commit/2021-08-21)
+
+### edge-cloud:
+- [EDGECLOUD-5142](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5142) Metrics - make use of MetricsCommon in App/Cluster/Cloudlet metrics([#1462](https://github.com/mobiledgex/edge-cloud/pull/1462)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5142](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5142)  Metrics - make use of MetricsCommon in App/Cluster/Cloudlet metrics ([#1707](https://github.com/mobiledgex/edge-cloud-infra/pull/1707)) (Lev Shvarts)
+
 ## [2021-08-20] - 2021-08-20
 [Details](../../commit/2021-08-20)
 
