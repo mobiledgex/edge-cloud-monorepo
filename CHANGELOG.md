@@ -1,3 +1,13 @@
+## [2021-08-24] - 2021-08-24
+[Details](../../commit/2021-08-24)
+
+### edge-cloud:
+- [EDGECLOUD-4988](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4988) disallow cloudletpool add with existing developer objects ([#1463](https://github.com/mobiledgex/edge-cloud/pull/1463)) (Jon)
+- renew the internal use mex certs ([#1464](https://github.com/mobiledgex/edge-cloud/pull/1464)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-4988](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4988) disallow cloudletpool add with existing developer objects ([#1708](https://github.com/mobiledgex/edge-cloud-infra/pull/1708)) (Jon)
+
 ## [2021-08-21] - 2021-08-21
 [Details](../../commit/2021-08-21)
 
