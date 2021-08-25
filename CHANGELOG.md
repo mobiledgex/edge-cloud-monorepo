@@ -1,3 +1,9 @@
+## [2021-08-25] - 2021-08-25
+[Details](../../commit/2021-08-25)
+
+### edge-cloud:
+- Fix cleanup code ([#1466](https://github.com/mobiledgex/edge-cloud/pull/1466)) (Ashish Jain)
+
 ## [2021-08-24] - 2021-08-24
 [Details](../../commit/2021-08-24)
 
