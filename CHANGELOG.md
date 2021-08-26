@@ -1,3 +1,13 @@
+## [2021-08-26-1] - 2021-08-26
+[Details](../../commit/2021-08-26-1)
+
+### edge-cloud:
+- [EDGECLOUD-5512](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5512): Failed to refresh TLS certs as expired SSH certs are used ([#1468](https://github.com/mobiledgex/edge-cloud/pull/1468)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5512](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5512): Failed to refresh TLS certs as expired SSH certs are used ([#1712](https://github.com/mobiledgex/edge-cloud-infra/pull/1712)) (Ashish Jain)
+- Enable Chargify in main and staging ([#1714](https://github.com/mobiledgex/edge-cloud-infra/pull/1714)) (Venky)
+
 ## [2021-08-25] - 2021-08-25
 [Details](../../commit/2021-08-25)
 
