@@ -1,3 +1,11 @@
+## [2021-08-27] - 2021-08-27
+[Details](../../commit/2021-08-27)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5496](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5496) [EDGECLOUD-5528](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5528)  App metrics response contains version value concatenated with app name for some app ([#1711](https://github.com/mobiledgex/edge-cloud-infra/pull/1711)) (Lev Shvarts)
+   - [EDGECLOUD-5496](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5496)
+   - [EDGECLOUD-5528](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5528)
+
 ## [2021-08-26-1] - 2021-08-26
 [Details](../../commit/2021-08-26-1)
 
