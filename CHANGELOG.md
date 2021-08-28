@@ -1,3 +1,9 @@
+## [2021-08-28] - 2021-08-28
+[Details](../../commit/2021-08-28)
+
+### edge-cloud-infra:
+- make copies of props ([#1715](https://github.com/mobiledgex/edge-cloud-infra/pull/1715)) (Jim)
+
 ## [2021-08-27] - 2021-08-27
 [Details](../../commit/2021-08-27)
 
