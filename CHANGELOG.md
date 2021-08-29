@@ -1,3 +1,18 @@
+## [2021-08-29] - 2021-08-29
+[Details](../../commit/2021-08-29)
+
+### edge-cloud:
+- [EDGECLOUD-4438](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4438), [EDGECLOUD-5324](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5324) ([#1465](https://github.com/mobiledgex/edge-cloud/pull/1465)) (franklin-huang-mobiledgex)
+- MetalLB and Anthos ([#1469](https://github.com/mobiledgex/edge-cloud/pull/1469)) (Jim)
+- fix anthos autocluster ([#1470](https://github.com/mobiledgex/edge-cloud/pull/1470)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-4438](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4438), [EDGECLOUD-5324](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5324) ([#1709](https://github.com/mobiledgex/edge-cloud-infra/pull/1709)) (franklin-huang-mobiledgex)
+- MetalLB and Anthos ([#1713](https://github.com/mobiledgex/edge-cloud-infra/pull/1713)) (Jim)
+
+### edge-proto:
+- [EDGECLOUD-4438](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4438), [EDGECLOUD-5324](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5324) ([#44](https://github.com/mobiledgex/edge-proto/pull/44)) (franklin-huang-mobiledgex)
+
 ## [2021-08-28] - 2021-08-28
 [Details](../../commit/2021-08-28)
 
