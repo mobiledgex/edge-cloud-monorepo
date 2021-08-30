@@ -1,3 +1,12 @@
+## [2021-08-30] - 2021-08-30
+[Details](../../commit/2021-08-30)
+
+### edge-cloud-infra:
+- fix edgeevent unit test: remove appinsts to clear out maps ([#1718](https://github.com/mobiledgex/edge-cloud-infra/pull/1718)) (franklin-huang-mobiledgex)
+- [EDGECLOUD-5529](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5529) [EDGECLOUD-5534](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5534) Check for startage/endage. Change Port from value to a tag ([#1717](https://github.com/mobiledgex/edge-cloud-infra/pull/1717)) (Lev Shvarts)
+   - [EDGECLOUD-5534](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5534)
+   - [EDGECLOUD-5529](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5529)
+
 ## [2021-08-29] - 2021-08-29
 [Details](../../commit/2021-08-29)
 
