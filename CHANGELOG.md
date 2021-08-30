@@ -1,3 +1,16 @@
+## [2021-08-14-1] - 2021-08-30
+[Details](../../commit/2021-08-14-1)
+
+### edge-cloud:
+- fix anthos autocluster ([#1470](https://github.com/mobiledgex/edge-cloud/pull/1470)) (Jim)
+- [EDGECLOUD-5512](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5512): Failed to refresh TLS certs as expired SSH certs are used ([#1468](https://github.com/mobiledgex/edge-cloud/pull/1468)) (Ashish Jain)
+- renew the internal use mex certs ([#1464](https://github.com/mobiledgex/edge-cloud/pull/1464)) (Jim)
+
+### edge-cloud-infra:
+- make copies of props ([#1715](https://github.com/mobiledgex/edge-cloud-infra/pull/1715)) (Jim)
+- [EDGECLOUD-5512](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5512): Failed to refresh TLS certs as expired SSH certs are used ([#1712](https://github.com/mobiledgex/edge-cloud-infra/pull/1712)) (Ashish Jain)
+- Enable Chargify in main and staging ([#1714](https://github.com/mobiledgex/edge-cloud-infra/pull/1714)) (Venky)
+
 ## [2021-08-14] - 2021-08-14 (R3.0 RC3)
 [Details](../../commit/2021-08-14)
 
