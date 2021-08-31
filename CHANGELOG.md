@@ -1,3 +1,9 @@
+## [2021-08-14-2] - Aug 31, 2021
+[Details](../../commit/2021-08-14-2)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5548](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5548) CVE-2021-3711/12 - Base image needs openssl package update ([#1722](https://github.com/mobiledgex/edge-cloud-infra/pull/1722)) (Venky)
+
 ## [2021-08-14-1] - 2021-08-30 (R3.0 RC4)
 [Details](../../commit/2021-08-14-1)
 
