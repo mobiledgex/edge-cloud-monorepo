@@ -1,3 +1,16 @@
+## [2021-08-14-3] - Aug 31, 2021
+[Details](../../commit/2021-08-14-3)
+
+### edge-cloud:
+- [EDGECLOUD-4438](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4438), [EDGECLOUD-5324](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5324) ([#1465](https://github.com/mobiledgex/edge-cloud/pull/1465)) (franklin-huang-mobiledgex)
+
+### edge-cloud-infra:
+- fix edgeevent unit test: remove appinsts to clear out maps ([#1718](https://github.com/mobiledgex/edge-cloud-infra/pull/1718)) (franklin-huang-mobiledgex)
+- [EDGECLOUD-4438](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4438), [EDGECLOUD-5324](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5324) ([#1709](https://github.com/mobiledgex/edge-cloud-infra/pull/1709)) (franklin-huang-mobiledgex)
+
+### edge-proto:
+- [EDGECLOUD-4438](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4438), [EDGECLOUD-5324](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5324) ([#44](https://github.com/mobiledgex/edge-proto/pull/44)) (franklin-huang-mobiledgex)
+
 ## [2021-08-14-2] - Aug 31, 2021
 [Details](../../commit/2021-08-14-2)
 
