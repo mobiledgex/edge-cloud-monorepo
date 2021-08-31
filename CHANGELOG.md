@@ -1,3 +1,9 @@
+## [2021-08-31] - Aug 31, 2021
+[Details](../../commit/2021-08-31)
+
+### edge-cloud:
+- Influxq unittest fix ([#1471](https://github.com/mobiledgex/edge-cloud/pull/1471)) (franklin-huang-mobiledgex)
+
 ## [2021-08-30] - 2021-08-30
 [Details](../../commit/2021-08-30)
 
