@@ -1,3 +1,16 @@
+## [2021-09-01] - Sep 01, 2021
+[Details](../../commit/2021-09-01)
+
+### edge-cloud:
+- [EDGECLOUD-5513](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5513) add cloudletpool member required args ([#1473](https://github.com/mobiledgex/edge-cloud/pull/1473)) (Jon)
+
+### edge-cloud-infra:
+- Cluster and cloudlet grouped metrics api ([#1716](https://github.com/mobiledgex/edge-cloud-infra/pull/1716)) (Lev Shvarts)
+- [EDGECLOUD-5551](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5551) VCD cloudlet metrics don't get recorded ([#1724](https://github.com/mobiledgex/edge-cloud-infra/pull/1724)) (Lev Shvarts)
+- [EDGECLOUD-5514](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5514) authz addcloudletpoolmember fix error messages ([#1721](https://github.com/mobiledgex/edge-cloud-infra/pull/1721)) (Jon)
+- [EDGECLOUD-5548](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5548) CVE-2021-3711/12 - Base image needs openssl package update ([#1722](https://github.com/mobiledgex/edge-cloud-infra/pull/1722)) (Venky)
+- Flag to control actual staging deployment ([#1720](https://github.com/mobiledgex/edge-cloud-infra/pull/1720)) (Venky)
+
 ## [2021-08-31] - Aug 31, 2021
 [Details](../../commit/2021-08-31)
 
