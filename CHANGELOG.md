@@ -1,3 +1,12 @@
+## [2021-08-14-4] - Sep 01, 2021
+[Details](../../commit/2021-08-14-4)
+
+### edge-cloud:
+- Influxq unittest fix ([#1471](https://github.com/mobiledgex/edge-cloud/pull/1471)) (franklin-huang-mobiledgex)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5551](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5551) VCD cloudlet metrics don't get recorded ([#1724](https://github.com/mobiledgex/edge-cloud-infra/pull/1724)) (Lev Shvarts)
+
 ## [2021-08-14-3] - Aug 31, 2021 (R3.0 RC5)
 [Details](../../commit/2021-08-14-3)
 
