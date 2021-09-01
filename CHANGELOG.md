@@ -1,3 +1,9 @@
+## [2021-08-14-5] - Sep 01, 2021
+[Details](../../commit/2021-08-14-5)
+
+### edge-cloud:
+- [EDGECLOUD-5556](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5556): Sidecar app creation fails when controller is on R3.0 and CRM is on R2.4.x ([#1477](https://github.com/mobiledgex/edge-cloud/pull/1477)) (Ashish Jain)
+
 ## [2021-08-14-4] - Sep 01, 2021 (R3.0 RC6)
 [Details](../../commit/2021-08-14-4)
 
