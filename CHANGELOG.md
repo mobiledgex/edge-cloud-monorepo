@@ -1,3 +1,19 @@
+## [2021-09-02] - Sep 02, 2021
+[Details](../../commit/2021-09-02)
+
+### edge-cloud:
+- [EDGECLOUD-5560](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5560) reservable clusterinsts deleted on controller restart ([#1478](https://github.com/mobiledgex/edge-cloud/pull/1478)) (Jon)
+- [EDGECLOUD-5538](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5538) Need configurable cluster-svc app flavor ([#1474](https://github.com/mobiledgex/edge-cloud/pull/1474)) (Lev Shvarts)
+- [EDGECLOUD-5512](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5512): Add debug command to trigger refresh of RootLB certs ([#1476](https://github.com/mobiledgex/edge-cloud/pull/1476)) (Ashish Jain)
+- [EDGECLOUD-5556](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5556): Sidecar app creation fails when controller is on R3.0 and CRM is on R2.4.x ([#1477](https://github.com/mobiledgex/edge-cloud/pull/1477)) (Ashish Jain)
+- [EDGECLOUD-5527](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5527) able to delete Cloudlet with associated AutoProvPolicy ([#1475](https://github.com/mobiledgex/edge-cloud/pull/1475)) (Jon)
+- Continuous query and retention fixes ([#1472](https://github.com/mobiledgex/edge-cloud/pull/1472)) (franklin-huang-mobiledgex)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5538](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5538) Need configurable cluster-svc app flavor ([#1723](https://github.com/mobiledgex/edge-cloud-infra/pull/1723)) (Lev Shvarts)
+- [EDGECLOUD-5554](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5554): GPU driver state is not shown for Operator Manager ([#1725](https://github.com/mobiledgex/edge-cloud-infra/pull/1725)) (Ashish Jain)
+- fix anthos sharedlb certs ([#1726](https://github.com/mobiledgex/edge-cloud-infra/pull/1726)) (Jim)
+
 ## [2021-09-01] - Sep 01, 2021
 [Details](../../commit/2021-09-01)
 
