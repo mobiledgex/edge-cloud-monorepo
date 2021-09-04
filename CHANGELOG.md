@@ -1,3 +1,9 @@
+## [2021-09-04] - Sep 04, 2021
+[Details](../../commit/2021-09-04)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5547](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5547)  docker app instance stats are showing >100% ([#1730](https://github.com/mobiledgex/edge-cloud-infra/pull/1730)) (Lev Shvarts)
+
 ## [2021-09-03] - Sep 03, 2021
 [Details](../../commit/2021-09-03)
 
