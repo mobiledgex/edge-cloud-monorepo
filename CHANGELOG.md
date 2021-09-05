@@ -1,3 +1,14 @@
+## [2021-09-05] - Sep 05, 2021
+[Details](../../commit/2021-09-05)
+
+### edge-cloud:
+- [EDGECLOUD-5565](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5565): R3.0 Orange_Spain MXFUN-EDC99 cloudlet upgrade failed ([#1482](https://github.com/mobiledgex/edge-cloud/pull/1482)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5565](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5565): R3.0 Orange_Spain MXFUN-EDC99 cloudlet upgrade failed ([#1733](https://github.com/mobiledgex/edge-cloud-infra/pull/1733)) (Ashish Jain)
+- [EDGECLOUD-5564](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5564): R3.0 NTT VM Pool cloudlet upgrade failed ([#1732](https://github.com/mobiledgex/edge-cloud-infra/pull/1732)) (Ashish Jain)
+- Compact and defrag etcd after backup ([#1734](https://github.com/mobiledgex/edge-cloud-infra/pull/1734)) (Venky)
+
 ## [2021-09-04] - Sep 04, 2021
 [Details](../../commit/2021-09-04)
 
