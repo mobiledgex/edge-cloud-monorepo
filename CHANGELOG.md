@@ -1,3 +1,13 @@
+## [2021-09-06] - Sep 06, 2021
+[Details](../../commit/2021-09-06)
+
+### edge-cloud:
+- separate UpdateLoadBalancerPortMap into new function ([#1480](https://github.com/mobiledgex/edge-cloud/pull/1480)) (Jim)
+   - [EDGECLOUD-5558](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5558) Shepherd cannot collect prometheus stats with MetalLB IP
+
+### edge-cloud-infra:
+- Fix Prometheus when using MetalLB ([#1729](https://github.com/mobiledgex/edge-cloud-infra/pull/1729)) (Jim)
+
 ## [2021-09-05] - Sep 05, 2021
 [Details](../../commit/2021-09-05)
 
