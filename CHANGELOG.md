@@ -1,3 +1,10 @@
+## [2021-09-07] - Sep 07, 2021
+[Details](../../commit/2021-09-07)
+
+### edge-cloud:
+- use wildcard certs ([#1484](https://github.com/mobiledgex/edge-cloud/pull/1484)) (Jim)
+- [EDGECLOUD-5499](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5499) kafka messages don't have a timestamp ([#1481](https://github.com/mobiledgex/edge-cloud/pull/1481)) (Jon)
+
 ## [2021-09-06] - Sep 06, 2021
 [Details](../../commit/2021-09-06)
 
