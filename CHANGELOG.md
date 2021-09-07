@@ -1,3 +1,15 @@
+## [2021-08-14-6] - Sep 07, 2021
+[Details](../../commit/2021-08-14-6)
+
+### edge-cloud:
+- use wildcard certs ([#1484](https://github.com/mobiledgex/edge-cloud/pull/1484)) (Jim)
+- [EDGECLOUD-5512](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5512): Add debug command to trigger refresh of RootLB certs ([#1476](https://github.com/mobiledgex/edge-cloud/pull/1476)) (Ashish Jain)
+- [EDGECLOUD-5565](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5565): R3.0 Orange_Spain MXFUN-EDC99 cloudlet upgrade failed ([#1482](https://github.com/mobiledgex/edge-cloud/pull/1482)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5565](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5565): R3.0 Orange_Spain MXFUN-EDC99 cloudlet upgrade failed ([#1733](https://github.com/mobiledgex/edge-cloud-infra/pull/1733)) (Ashish Jain)
+- Region cluster upgrades in main ([#1728](https://github.com/mobiledgex/edge-cloud-infra/pull/1728)) (Venky)
+
 ## [2021-08-14-5] - Sep 01, 2021 (R3.0)
 [Details](../../commit/2021-08-14-5)
 
