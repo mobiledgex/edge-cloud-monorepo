@@ -1,3 +1,16 @@
+## [2021-09-08] - Sep 08, 2021
+[Details](../../commit/2021-09-08)
+
+### edge-cloud:
+- add const for disk ([#1486](https://github.com/mobiledgex/edge-cloud/pull/1486)) (Jim)
+
+### edge-cloud-infra:
+- vcd disk usage ([#1742](https://github.com/mobiledgex/edge-cloud-infra/pull/1742)) (Jim)
+- use common namespace code so metadata:name is applied ([#1738](https://github.com/mobiledgex/edge-cloud-infra/pull/1738)) (Jim)
+- [EDGECLOUD-5578](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5578): Add ability in Chef to perform actions like stop, restart, delete on docker containers ([#1736](https://github.com/mobiledgex/edge-cloud-infra/pull/1736)) (Ashish Jain)
+- Missed updating chef cookbooks/policy ([#1739](https://github.com/mobiledgex/edge-cloud-infra/pull/1739)) (Venky)
+- Turn on commercial certs ([#1737](https://github.com/mobiledgex/edge-cloud-infra/pull/1737)) (Venky)
+
 ## [2021-09-07] - Sep 07, 2021
 [Details](../../commit/2021-09-07)
 
