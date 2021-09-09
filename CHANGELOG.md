@@ -1,3 +1,9 @@
+## [2021-09-09] - Sep 09, 2021
+[Details](../../commit/2021-09-09)
+
+### edge-cloud:
+- Fix CRM server unit test ([#1483](https://github.com/mobiledgex/edge-cloud/pull/1483)) (Ashish Jain)
+
 ## [2021-09-08] - Sep 08, 2021
 [Details](../../commit/2021-09-08)
 
