@@ -1,3 +1,9 @@
+## [2021-09-11] - Sep 11, 2021
+[Details](../../commit/2021-09-11)
+
+### edge-cloud-infra:
+- Wildcard selector(*) for group metrics ([#1735](https://github.com/mobiledgex/edge-cloud-infra/pull/1735)) (Lev Shvarts)
+
 ## [2021-09-09] - Sep 09, 2021
 [Details](../../commit/2021-09-09)
 
