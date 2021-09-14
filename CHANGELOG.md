@@ -1,3 +1,9 @@
+## [2021-09-14] - Sep 14, 2021
+[Details](../../commit/2021-09-14)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5597](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5597): GPU cluster instance creation fails with ssh connection rejected issue on KDDI setup ([#1744](https://github.com/mobiledgex/edge-cloud-infra/pull/1744)) (Ashish Jain)
+
 ## [2021-09-11] - Sep 11, 2021
 [Details](../../commit/2021-09-11)
 
