@@ -1,3 +1,13 @@
+## [2021-08-14-7] - Sep 14, 2021
+[Details](../../commit/2021-08-14-7)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5597](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5597): GPU cluster instance creation fails with ssh connection rejected issue on KDDI setup ([#1744](https://github.com/mobiledgex/edge-cloud-infra/pull/1744)) (Ashish Jain)
+- [EDGECLOUD-5578](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5578): Add ability in Chef to perform actions like stop, restart, delete on docker containers ([#1736](https://github.com/mobiledgex/edge-cloud-infra/pull/1736)) (Ashish Jain)
+- Missed updating chef cookbooks/policy ([#1739](https://github.com/mobiledgex/edge-cloud-infra/pull/1739)) (Venky)
+- Turn on commercial certs ([#1737](https://github.com/mobiledgex/edge-cloud-infra/pull/1737)) (Venky)
+- [EDGECLOUD-5564](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5564): R3.0 NTT VM Pool cloudlet upgrade failed ([#1732](https://github.com/mobiledgex/edge-cloud-infra/pull/1732)) (Ashish Jain)
+
 ## [2021-08-14-6] - Sep 07, 2021 (R3.0 HF1)
 [Details](../../commit/2021-08-14-6)
 
