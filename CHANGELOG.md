@@ -1,3 +1,9 @@
+## [2021-09-15] - Sep 15, 2021
+[Details](../../commit/2021-09-15)
+
+### edge-cloud:
+- fix race condition when doing multiple updates ([#1488](https://github.com/mobiledgex/edge-cloud/pull/1488)) (Jim)
+
 ## [2021-09-14] - Sep 14, 2021
 [Details](../../commit/2021-09-14)
 
