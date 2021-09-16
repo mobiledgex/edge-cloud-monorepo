@@ -1,3 +1,18 @@
+## [2021-09-16] - Sep 16, 2021
+[Details](../../commit/2021-09-16)
+
+### edge-cloud:
+- Disable alert policy on MT clusters ([#1489](https://github.com/mobiledgex/edge-cloud/pull/1489)) (Lev Shvarts)
+- fix e2e test ([#1490](https://github.com/mobiledgex/edge-cloud/pull/1490)) (Jim)
+- [EDGECLOUD-5602](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5602) Edge-cloud docker baseimage update for security issues ([#1487](https://github.com/mobiledgex/edge-cloud/pull/1487)) (Venky)
+
+### edge-cloud-infra:
+- fix infra e2e test ([#1748](https://github.com/mobiledgex/edge-cloud-infra/pull/1748)) (Jim)
+- KIND platform integration for shepherd ([#1746](https://github.com/mobiledgex/edge-cloud-infra/pull/1746)) (Lev Shvarts)
+- [EDGECLOUD-5584](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5584)  cloudletusage metrics gives db error when using unknown cloudlet org ([#1743](https://github.com/mobiledgex/edge-cloud-infra/pull/1743)) (Lev Shvarts)
+- [EDGECLOUD-5602](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5602) Edge-cloud docker baseimage update for security issues ([#1745](https://github.com/mobiledgex/edge-cloud-infra/pull/1745)) (Venky)
+- Move common functions from orm package to ormutil package ([#1747](https://github.com/mobiledgex/edge-cloud-infra/pull/1747)) (Ashish Jain)
+
 ## [2021-09-15] - Sep 15, 2021
 [Details](../../commit/2021-09-15)
 
