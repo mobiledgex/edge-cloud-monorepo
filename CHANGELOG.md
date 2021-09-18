@@ -1,3 +1,10 @@
+## [2021-09-18] - Sep 18, 2021
+[Details](../../commit/2021-09-18)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5584](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5584) cloudletusage metrics gives db error when using unknown cloudlet org ([#1752](https://github.com/mobiledgex/edge-cloud-infra/pull/1752)) (Lev Shvarts)
+- Move controller gRPC client calls from orm to ctrlapi package ([#1750](https://github.com/mobiledgex/edge-cloud-infra/pull/1750)) (Ashish Jain)
+
 ## [2021-09-16] - Sep 16, 2021
 [Details](../../commit/2021-09-16)
 
