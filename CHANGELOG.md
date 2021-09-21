@@ -1,3 +1,12 @@
+## [2021-09-21] - Sep 21, 2021
+[Details](../../commit/2021-09-21)
+
+### edge-cloud:
+- unit test fixes ([#1493](https://github.com/mobiledgex/edge-cloud/pull/1493)) (Jon)
+
+### edge-cloud-infra:
+- unit test fixes ([#1751](https://github.com/mobiledgex/edge-cloud-infra/pull/1751)) (Jon)
+
 ## [2021-09-18] - Sep 18, 2021
 [Details](../../commit/2021-09-18)
 
