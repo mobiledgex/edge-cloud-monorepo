@@ -1,3 +1,10 @@
+## [2021-09-22] - Sep 22, 2021
+[Details](../../commit/2021-09-22)
+
+### edge-cloud:
+- [EDGECLOUD-5624](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5624) controller crash on appinstrefs DeleteRequestedInsts ([#1497](https://github.com/mobiledgex/edge-cloud/pull/1497)) (Jon)
+- [EDGECLOUD-5596](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5596) mcctl audit operation bad args causes mcctl crash ([#1496](https://github.com/mobiledgex/edge-cloud/pull/1496)) (Jon)
+
 ## [2021-09-21] - Sep 21, 2021
 [Details](../../commit/2021-09-21)
 
