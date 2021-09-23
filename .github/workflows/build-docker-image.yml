@@ -5,12 +5,18 @@ on:
       - "!*"
     tags:
       - "*"
+env:
+  REGISTRY: harbor.mobiledgex.net
+
 jobs:
+
   build-docker-image:
     name: Build the edge-cloud image
     runs-on: ubuntu-latest
+    outputs:
+      image: ${{ fromJSON(steps.meta.outputs.json).tags[0] }}
+      edge-cloud-base-image: ${{ steps.edge-cloud-base-image.outputs.version }}
     env:
-      REGISTRY: harbor.mobiledgex.net
       ARTIFACTORY_PATH: https://artifactory.mobiledgex.net/artifactory/build-artifacts/swagger-spec
     steps:
       -
@@ -20,6 +26,10 @@ jobs:
           token: ${{ secrets.PAT }}
           submodules: recursive
           fetch-depth: 0
+      -
+        name: Fetch version from Makefile
+        id: edge-cloud-base-image
+        run: echo "::set-output name=version::$( grep '^EDGE_CLOUD_BASE_IMAGE *=' edge-cloud/Makefile | awk -F/ '{print $NF}' )"
       -
         name: Compute docker image meta
         id: meta
@@ -53,12 +63,13 @@ jobs:
         with:
           context: .
           file: ./edge-cloud/docker/Dockerfile.edge-cloud
-          push: true
+          push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             BUILD_TAG=${{ steps.build-tag.outputs.BUILD_TAG }}
             REGISTRY=${{ env.REGISTRY }}/mobiledgex
+            EDGE_CLOUD_BASE_IMAGE=${{ env.REGISTRY }}/mobiledgex/${{ steps.edge-cloud-base-image.outputs.version }}
       -
         name: Upload swagger
         run: |
@@ -69,3 +80,50 @@ jobs:
           done
           curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT -T internal.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/apidocs.swagger.json"
           curl -sf -u "swagger-upload:${{ secrets.ARTIFACTORY_TOKEN }}" -XPUT -T external.json "${{ env.ARTIFACTORY_PATH }}/${IMAGE_TAG}/external/apidocs.swagger.json"
+
+  component-containers:
+    name: Build component-specific containers
+    runs-on: ubuntu-latest
+    needs: build-docker-image
+    strategy:
+      matrix:
+        component: [ alertmgr-sidecar, autoprov, cluster-svc, controller, crm, dme, edgeturn, mc, notifyroot ]
+    steps:
+      -
+        name: Checkout edge-cloud
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+          submodules: recursive
+      -
+        name: Extract image tag
+        id: image-tag
+        run: echo "::set-output name=tag::$( echo ${{ needs.build-docker-image.outputs.image }} | awk -F':' '{print $NF}' )"
+      -
+        name: Compute docker image meta
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY }}/mobiledgex/edge-cloud-${{ matrix.component }}
+      -
+        name: Set up docker buildx
+        uses: docker/setup-buildx-action@v1
+      -
+        name: Log in to registry
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+      -
+        name: Build edge-cloud component image
+        uses: docker/build-push-action@v2
+        with:
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ env.REGISTRY }}/mobiledgex/edge-cloud-${{ matrix.component }}:${{ steps.image-tag.outputs.tag }}
+          labels: ${{ steps.meta.outputs.labels }}
+          context: ./edge-cloud/docker
+          file: ./edge-cloud/docker/Dockerfile.${{ matrix.component }}
+          build-args: |
+            ALLINONE=${{ needs.build-docker-image.outputs.image }}
+            EDGE_CLOUD_BASE_IMAGE=${{ env.REGISTRY }}/mobiledgex/${{ needs.build-docker-image.outputs.edge-cloud-base-image }}
