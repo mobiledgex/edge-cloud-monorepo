@@ -1,3 +1,14 @@
+## [2021-09-23] - Sep 23, 2021
+[Details](../../commit/2021-09-23)
+
+### edge-cloud:
+- [EDGECLOUD-5549](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5549) Cloudlet alliance orgs ([#1495](https://github.com/mobiledgex/edge-cloud/pull/1495)) (Jon)
+- [EDGECLOUD-5630](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5630): After updating a k8s appinst the runcommand tries to fetch the old pod name ([#1498](https://github.com/mobiledgex/edge-cloud/pull/1498)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5549](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5549) Cloudlet alliance orgs ([#1755](https://github.com/mobiledgex/edge-cloud-infra/pull/1755)) (Jon)
+- Rename ctrlapi package to ctrlclient ([#1756](https://github.com/mobiledgex/edge-cloud-infra/pull/1756)) (Ashish Jain)
+
 ## [2021-09-22] - Sep 22, 2021
 [Details](../../commit/2021-09-22)
 
