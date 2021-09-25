@@ -1,3 +1,14 @@
+## [2021-09-25] - Sep 25, 2021
+[Details](../../commit/2021-09-25)
+
+### edge-cloud:
+- Cluster networks ([#1492](https://github.com/mobiledgex/edge-cloud/pull/1492)) (Jim)
+- [EDGECLOUD-5623](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5623) spew-rate-limit-mgr ([#1500](https://github.com/mobiledgex/edge-cloud/pull/1500)) (Jon)
+
+### edge-cloud-infra:
+- fix GetAppInstRuntime in public cloudlet CRM ([#1753](https://github.com/mobiledgex/edge-cloud-infra/pull/1753)) (Jim)
+- initial changes ([#1754](https://github.com/mobiledgex/edge-cloud-infra/pull/1754)) (Jim)
+
 ## [2021-09-23] - Sep 23, 2021
 [Details](../../commit/2021-09-23)
 
