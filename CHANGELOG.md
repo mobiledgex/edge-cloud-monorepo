@@ -1,3 +1,12 @@
+## [2021-09-28] - Sep 28, 2021
+[Details](../../commit/2021-09-28)
+
+### edge-cloud:
+- Switch to component-specific docker images ([#1499](https://github.com/mobiledgex/edge-cloud/pull/1499)) (Venky)
+
+### edge-cloud-infra:
+- Switch to component-specific docker images ([#1757](https://github.com/mobiledgex/edge-cloud-infra/pull/1757)) (Venky)
+
 ## [2021-09-25] - Sep 25, 2021
 [Details](../../commit/2021-09-25)
 
