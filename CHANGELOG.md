@@ -1,3 +1,22 @@
+## [2021-09-29] - Sep 29, 2021
+[Details](../../commit/2021-09-29)
+
+### edge-cloud:
+- [EDGECLOUD-5648](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5648) [EDGECLOUD-5647](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5647) fix various help comments ([#1505](https://github.com/mobiledgex/edge-cloud/pull/1505)) (Jon)
+- [EDGECLOUD-5653](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5653): US Controller keeps crashing during regression run ([#1504](https://github.com/mobiledgex/edge-cloud/pull/1504)) (Ashish Jain)
+- [EDGECLOUD-5604](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5604)  active connections graph data appears to go backward when two apps share the same internal port ([#1503](https://github.com/mobiledgex/edge-cloud/pull/1503)) (Lev Shvarts)
+- [EDGECLOUD-5642](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5642) bad allianceorg gives for forbidden ([#1502](https://github.com/mobiledgex/edge-cloud/pull/1502)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5254](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5254) Validate limit or numsamples is a positive value ([#1762](https://github.com/mobiledgex/edge-cloud-infra/pull/1762)) (Bruce Armstrong)
+   - * [EDGECLOUD-5254](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5254) Validate limit is a positive value
+- [EDGECLOUD-5648](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5648) [EDGECLOUD-5647](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5647) fix various help comments ([#1761](https://github.com/mobiledgex/edge-cloud-infra/pull/1761)) (Jon)
+- [EDGECLOUD-5642](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5642) bad allianceorg gives for forbidden ([#1759](https://github.com/mobiledgex/edge-cloud-infra/pull/1759)) (Jon)
+- Switch back to the full edge-cloud image for the controller ([#1760](https://github.com/mobiledgex/edge-cloud-infra/pull/1760)) (Venky)
+
+### edge-proto:
+- [EDGECLOUD-5648](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5648) fix help comments capitalization ([#46](https://github.com/mobiledgex/edge-proto/pull/46)) (Jon)
+
 ## [2021-09-28] - Sep 28, 2021
 [Details](../../commit/2021-09-28)
 
