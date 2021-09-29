@@ -1,3 +1,9 @@
+## [2021-09-29-1] - Sep 29, 2021
+[Details](../../commit/2021-09-29-1)
+
+### edge-cloud:
+- [EDGECLOUD-5656](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5656) Report generation fails with error "Missing logo" ([#1507](https://github.com/mobiledgex/edge-cloud/pull/1507)) (Venky)
+
 ## [2021-09-29] - Sep 29, 2021
 [Details](../../commit/2021-09-29)
 
