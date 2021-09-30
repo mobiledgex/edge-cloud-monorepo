@@ -1,3 +1,17 @@
+## [2021-09-30] - Sep 30, 2021
+[Details](../../commit/2021-09-30)
+
+### edge-cloud:
+- [EDGECLOUD-5609](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5609) ShowFlavorsFor API Optional Arg to Filter By Operator ([#1509](https://github.com/mobiledgex/edge-cloud/pull/1509)) (Jon)
+- [EDGECLOUD-5561](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5561) debug: appinstlatency request failing with deadline exceeded ([#1511](https://github.com/mobiledgex/edge-cloud/pull/1511)) (Jon)
+- [EDGECLOUD-5502](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5502) Correcting capitalization ([#1510](https://github.com/mobiledgex/edge-cloud/pull/1510)) (Bruce Armstrong)
+   - * [EDGECLOUD-5502](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5502) Correcting capitalization
+- [EDGECLOUD-5626](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5626) Alert for RootLB down has "instance" in the labels ([#1508](https://github.com/mobiledgex/edge-cloud/pull/1508)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5614](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5614) [EDGECLOUD-5626](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5626) Metrics bugs ([#1764](https://github.com/mobiledgex/edge-cloud-infra/pull/1764)) (Lev Shvarts)
+- [EDGECLOUD-5618](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5618) AddCloudletPoolMember without region gives wrong error message ([#1763](https://github.com/mobiledgex/edge-cloud-infra/pull/1763)) (Jon)
+
 ## [2021-09-29-1] - Sep 29, 2021
 [Details](../../commit/2021-09-29-1)
 
