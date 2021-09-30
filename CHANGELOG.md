@@ -1,3 +1,22 @@
+## [2021-08-14-8] - Sep 30, 2021
+[Details](../../commit/2021-08-14-8)
+
+### edge-cloud:
+- [EDGECLOUD-5648](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5648) [EDGECLOUD-5647](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5647) fix various help comments ([#1505](https://github.com/mobiledgex/edge-cloud/pull/1505)) (Jon)
+- [EDGECLOUD-5642](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5642) bad allianceorg gives for forbidden ([#1502](https://github.com/mobiledgex/edge-cloud/pull/1502)) (Jon)
+- [EDGECLOUD-5549](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5549) Cloudlet alliance orgs ([#1495](https://github.com/mobiledgex/edge-cloud/pull/1495)) (Jon)
+- [EDGECLOUD-5630](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5630): After updating a k8s appinst the runcommand tries to fetch the old pod name ([#1498](https://github.com/mobiledgex/edge-cloud/pull/1498)) (Ashish Jain)
+- [EDGECLOUD-5602](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5602) Edge-cloud docker baseimage update for security issues ([#1487](https://github.com/mobiledgex/edge-cloud/pull/1487)) (Venky)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5648](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5648) [EDGECLOUD-5647](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5647) fix various help comments ([#1761](https://github.com/mobiledgex/edge-cloud-infra/pull/1761)) (Jon)
+- [EDGECLOUD-5642](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5642) bad allianceorg gives for forbidden ([#1759](https://github.com/mobiledgex/edge-cloud-infra/pull/1759)) (Jon)
+- [EDGECLOUD-5549](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5549) Cloudlet alliance orgs ([#1755](https://github.com/mobiledgex/edge-cloud-infra/pull/1755)) (Jon)
+- [EDGECLOUD-5602](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5602) Edge-cloud docker baseimage update for security issues ([#1745](https://github.com/mobiledgex/edge-cloud-infra/pull/1745)) (Venky)
+
+### edge-proto:
+- [EDGECLOUD-5648](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5648) fix help comments capitalization ([#46](https://github.com/mobiledgex/edge-proto/pull/46)) (Jon)
+
 ## [2021-08-14-7] - Sep 14, 2021 (R3.0 HF2)
 [Details](../../commit/2021-08-14-7)
 
