@@ -1,3 +1,10 @@
+## [2021-10-01] - Oct 01, 2021
+[Details](../../commit/2021-10-01)
+
+### edge-cloud:
+- Switch to debug images for component docker images ([#1512](https://github.com/mobiledgex/edge-cloud/pull/1512)) (Venky)
+- [EDGECLOUD-5623](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5623) DME rate limiting not working with Global apiname ([#1506](https://github.com/mobiledgex/edge-cloud/pull/1506)) (Jon)
+
 ## [2021-09-30] - Sep 30, 2021
 [Details](../../commit/2021-09-30)
 
