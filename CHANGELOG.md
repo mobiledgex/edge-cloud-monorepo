@@ -1,3 +1,16 @@
+## [2021-10-02] - Oct 02, 2021
+[Details](../../commit/2021-10-02)
+
+### edge-cloud:
+- Cloudlet cleanup onerr ([#1516](https://github.com/mobiledgex/edge-cloud/pull/1516)) (Jim)
+- [EDGECLOUD-5494](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5494) able to add more rate limit flows than maxnumperipratelimiters ([#1514](https://github.com/mobiledgex/edge-cloud/pull/1514)) (Jon)
+- [EDGECLOUD-5658](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5658) able to add the same alliance org twice to the same cloudlet ([#1513](https://github.com/mobiledgex/edge-cloud/pull/1513)) (Jon)
+
+### edge-cloud-infra:
+- Cloudlet cleanup onerr ([#1767](https://github.com/mobiledgex/edge-cloud-infra/pull/1767)) (Jim)
+- [EDGECLOUD-5494](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5494) able to add more rate limit flows than maxnumperipratelimiters ([#1765](https://github.com/mobiledgex/edge-cloud-infra/pull/1765)) (Jon)
+- Docker base image build workflow ([#1766](https://github.com/mobiledgex/edge-cloud-infra/pull/1766)) (Venky)
+
 ## [2021-10-01] - Oct 01, 2021
 [Details](../../commit/2021-10-01)
 
