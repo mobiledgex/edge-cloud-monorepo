@@ -1,3 +1,9 @@
+## [2021-10-03] - Oct 03, 2021
+[Details](../../commit/2021-10-03)
+
+### edge-cloud:
+- Docker base image bump ([#1515](https://github.com/mobiledgex/edge-cloud/pull/1515)) (Venky)
+
 ## [2021-10-02] - Oct 02, 2021
 [Details](../../commit/2021-10-02)
 
