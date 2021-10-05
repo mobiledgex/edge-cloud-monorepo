@@ -1,3 +1,9 @@
+## [2021-10-05] - Oct 05, 2021
+[Details](../../commit/2021-10-05)
+
+### edge-cloud-infra:
+- Fix entrypoint in debug docker baseimages ([#1768](https://github.com/mobiledgex/edge-cloud-infra/pull/1768)) (Venky)
+
 ## [2021-10-03] - Oct 03, 2021
 [Details](../../commit/2021-10-03)
 
