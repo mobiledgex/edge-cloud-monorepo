@@ -1,3 +1,9 @@
+## [2021-10-06] - Oct 06, 2021
+[Details](../../commit/2021-10-06)
+
+### edge-cloud:
+- [EDGECLOUD-5487](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5487) [EDGECLOUD-5481](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5481) [EDGECLOUD-5480](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5480) ratelimit err msg fixes ([#1518](https://github.com/mobiledgex/edge-cloud/pull/1518)) (Jon)
+
 ## [2021-10-05] - Oct 05, 2021
 [Details](../../commit/2021-10-05)
 
