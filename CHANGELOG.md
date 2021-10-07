@@ -1,3 +1,15 @@
+## [2021-10-07] - Oct 07, 2021
+[Details](../../commit/2021-10-07)
+
+### edge-cloud:
+- [EDGECLOUD-5475](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5475) [EDGECLOUD-5465](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5465) rate limit api minor fixes ([#1521](https://github.com/mobiledgex/edge-cloud/pull/1521)) (Jon)
+- [EDGECLOUD-5477](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5477) Flavor should be mandatory argument when creating an App ([#1520](https://github.com/mobiledgex/edge-cloud/pull/1520)) (Jon)
+- [EDGECLOUD-4609](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4609)  CloudletDown alert not clearing when running 2 controllers in replica ([#1519](https://github.com/mobiledgex/edge-cloud/pull/1519)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5475](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5475) [EDGECLOUD-5465](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5465) rate limit api minor fixes ([#1771](https://github.com/mobiledgex/edge-cloud-infra/pull/1771)) (Jon)
+- [EDGECLOUD-4609](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4609)  CloudletDown alert not clearing when running 2 controllers in replica ([#1770](https://github.com/mobiledgex/edge-cloud-infra/pull/1770)) (Lev Shvarts)
+
 ## [2021-10-06] - Oct 06, 2021
 [Details](../../commit/2021-10-06)
 
