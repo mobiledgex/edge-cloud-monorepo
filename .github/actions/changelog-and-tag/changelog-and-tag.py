@@ -3,7 +3,9 @@
 import argparse
 from datetime import datetime
 import logging
+import os
 import re
+import requests
 import subprocess
 
 markup = (
@@ -11,14 +13,32 @@ markup = (
     (re.compile(r'\(#(\d+)\)$'), "([#\\1](https://github.com/mobiledgex/{0}/pull/\\1))".format),
 )
 
+pr_re = {
+    "issue": re.compile(r'\* ((EDGECLOUD-\d+).*)'),
+    "end": re.compile(r'### Description'),
+}
+
 def update_submodules():
     logging.info("Updating submodules")
     subprocess.run(["git", "submodule", "update", "--remote"])
 
 def markup_line(line, mod):
+    jiras = set(markup[0][0].findall(line))
+    pr = markup[1][0].search(line)
     for pat, repl in markup:
         line = re.sub(pat, repl(mod), line)
-    return line
+    return line, jiras
+
+def get_pr_body(mod, pr):
+    url = "{0}/repos/{1}/{2}/pulls/{3}".format(
+                os.environ["GITHUB_API_URL"],
+                os.path.dirname(os.environ["GITHUB_REPOSITORY"]),
+                mod, pr)
+    r = requests.get(url,
+                     headers={"Authorization": "Token {0}".format(os.environ.get("GITHUB_TOKEN"))})
+    if r.status_code == requests.codes.ok:
+        return r.json()["body"]
+    return ""
 
 def get_changelog_for_commit(mod, commit):
     logging.info("Fetching changelog for commit " + commit)
@@ -27,14 +47,34 @@ def get_changelog_for_commit(mod, commit):
 
     lines = p.stdout.splitlines()
     author = lines.pop(0)
-    subject = markup_line(lines.pop(0), mod)
+    subject = lines.pop(0)
+    m = markup[1][0].search(subject)
+    pr = m[1] if m else None
+
+    subject, jiras = markup_line(subject, mod)
 
     body = []
     for line in lines:
         # Check if line has a JIRA ticket ID
         m = re.search(markup[0][0], line)
         if m:
-            body.append(markup_line(line, mod))
+            l, lj = markup_line(line, mod)
+            new_jiras = lj - jiras
+            if new_jiras:
+                body.append(l)
+            jiras = jiras | new_jiras
+
+    try:
+        for line in get_pr_body(mod, pr).splitlines():
+            if pr_re["end"].match(line):
+                break
+            m = pr_re["issue"].match(line)
+            if m:
+                if m[2] not in jiras:
+                    l, _ = markup_line(m[1], mod)
+                    body.append(l)
+    except Exception as e:
+        logging.exception("Failed to fetch PR body")
 
     cl = f"- {subject} ({author})"
     for line in body:
