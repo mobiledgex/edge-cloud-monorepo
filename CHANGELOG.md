@@ -1,3 +1,16 @@
+## [2021-10-08] - Oct 08, 2021
+[Details](../../commit/2021-10-08)
+
+### edge-cloud:
+- [EDGECLOUD-5502](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5502) Removing extra period ([#1522](https://github.com/mobiledgex/edge-cloud/pull/1522)) (Bruce Armstrong)
+   - * [EDGECLOUD-5502](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5502) Removing extra period
+
+### edge-cloud-infra:
+- [EDGECLOUD-5502](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5502) Removing extra period ([#1776](https://github.com/mobiledgex/edge-cloud-infra/pull/1776)) (Bruce Armstrong)
+- multi cluster networks part 2 ([#1773](https://github.com/mobiledgex/edge-cloud-infra/pull/1773)) (Jim)
+- Rename 'Fake' to 'Simulated' as part of PDF report & fix sort order of cloudlets ([#1775](https://github.com/mobiledgex/edge-cloud-infra/pull/1775)) (Ashish Jain)
+- [EDGECLOUD-5682](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5682) [EDGECLOUD-5681](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5681) [EDGECLOUD-5679](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5679) Cloudlet usage validation and clientapiusage fix ([#1772](https://github.com/mobiledgex/edge-cloud-infra/pull/1772)) (Lev Shvarts)
+
 ## [2021-10-07] - Oct 07, 2021
 [Details](../../commit/2021-10-07)
 
