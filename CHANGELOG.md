@@ -1,3 +1,10 @@
+## [2021-10-09] - Oct 09, 2021
+[Details](../../commit/2021-10-09)
+
+### edge-cloud-infra:
+- Base image 4.7.0 ([#1774](https://github.com/mobiledgex/edge-cloud-infra/pull/1774)) (Venky)
+   - - [EDGECLOUD-5651](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5651) Set the ubuntu user password to not expire in base images
+
 ## [2021-10-08] - Oct 08, 2021
 [Details](../../commit/2021-10-08)
 
