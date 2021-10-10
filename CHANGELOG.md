@@ -1,3 +1,9 @@
+## [2021-10-10] - Oct 10, 2021
+[Details](../../commit/2021-10-10)
+
+### edge-cloud-infra:
+- fix intel issues ([#1777](https://github.com/mobiledgex/edge-cloud-infra/pull/1777)) (Jim)
+
 ## [2021-10-09] - Oct 09, 2021
 [Details](../../commit/2021-10-09)
 
