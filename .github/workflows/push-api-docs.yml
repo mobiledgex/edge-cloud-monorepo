@@ -1,0 +1,59 @@
+name: Push API docs to api-docs repo
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Build tag for edge-cloud image to pull API docs from (eg. 2021-07-01-2)"
+        required: true
+        default: "latest"
+  workflow_run:
+    workflows: ["Build Docker Image"]
+    branches: ["master"]
+    types:
+      - completed
+env:
+  REGISTRY: harbor.mobiledgex.net
+
+jobs:
+
+  push-api-docs:
+    name: Push API docs
+    runs-on: ubuntu-latest
+
+    steps:
+      -
+        name: Check out the api-docs repo
+        uses: actions/checkout@v2
+        with:
+          repository: mobiledgex/api-docs
+          token: ${{ secrets.PAT }}
+          path: api-docs
+      -
+        name: Log in to docker
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+      -
+        name: Dump API docs
+        id: dump-docs
+        run: |
+          build_tag="${{ github.event.inputs.tag }}"
+          [[ -z "$build_tag" ]] && build_tag="latest"
+          for docs in client internal mc; do
+            dir="api-docs/$docs"
+            mkdir -p "$dir"
+            docker run --rm "${REGISTRY}/mobiledgex/edge-cloud:${build_tag}" dump-docs "$docs" >"$dir/swagger.json"
+          done
+          version=$( docker run --rm "${REGISTRY}/mobiledgex/edge-cloud:${build_tag}" version )
+          echo "::set-output name=version::$version"
+      -
+        name: Commit changes
+        run: |
+          cd api-docs
+          git config --global user.name github
+          git config --global user.email "Github Actions <mobiledgex.ops@mobiledgex.com>"
+          git add .
+          git commit -m "${{ steps.dump-docs.outputs.version }}"
+          git push
