@@ -1,3 +1,10 @@
+## [2021-10-12] - Oct 12, 2021
+[Details](../../commit/2021-10-12)
+
+### edge-cloud:
+- [EDGECLOUD-5502](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5502) Reverting float format change ([#1524](https://github.com/mobiledgex/edge-cloud/pull/1524)) (Bruce Armstrong)
+- [EDGECLOUD-5673](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5673) shepherd got Prometheus LB IP not found after upgrade from HF3 to R3.1 ([#1523](https://github.com/mobiledgex/edge-cloud/pull/1523)) (Lev Shvarts)
+
 ## [2021-10-10] - Oct 10, 2021
 [Details](../../commit/2021-10-10)
 
