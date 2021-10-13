@@ -1,3 +1,12 @@
+## [2021-10-13] - Oct 13, 2021
+[Details](../../commit/2021-10-13)
+
+### edge-cloud:
+- validate additional cluster networks ([#1525](https://github.com/mobiledgex/edge-cloud/pull/1525)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5247](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5247)  clientapiusage does not report the cellID/foundCloudlet/foundOperator value ([#1778](https://github.com/mobiledgex/edge-cloud-infra/pull/1778)) (Lev Shvarts)
+
 ## [2021-10-12] - Oct 12, 2021
 [Details](../../commit/2021-10-12)
 
