@@ -1,3 +1,17 @@
+## [2021-10-14] - Oct 14, 2021
+[Details](../../commit/2021-10-14)
+
+### edge-cloud:
+- [EDGECLOUD-5675](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5675) edge-cloud build fails in proto generated files ([#1517](https://github.com/mobiledgex/edge-cloud/pull/1517)) (Jon)
+- e2e-test use docker network instead of link ([#1526](https://github.com/mobiledgex/edge-cloud/pull/1526)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5675](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5675) edge-cloud build fails in proto generated files ([#1769](https://github.com/mobiledgex/edge-cloud-infra/pull/1769)) (Jon)
+- e2e-test use docker network instead of link ([#1779](https://github.com/mobiledgex/edge-cloud-infra/pull/1779)) (Jon)
+
+### edge-proto:
+- [EDGECLOUD-5675](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5675) edge-cloud build fails in proto generated files ([#47](https://github.com/mobiledgex/edge-proto/pull/47)) (Jon)
+
 ## [2021-10-13] - Oct 13, 2021
 [Details](../../commit/2021-10-13)
 
