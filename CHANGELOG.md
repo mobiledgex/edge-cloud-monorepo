@@ -1,3 +1,13 @@
+## [2021-10-15] - Oct 15, 2021
+[Details](../../commit/2021-10-15)
+
+### edge-cloud:
+- fix yaml ([#1528](https://github.com/mobiledgex/edge-cloud/pull/1528)) (Jim)
+- [EDGECLOUD-5712](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5712) appinst alerts are not triggering for cpu mem and disk ([#1527](https://github.com/mobiledgex/edge-cloud/pull/1527)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5712](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5712) appinst alerts are not triggering for cpu mem and disk ([#1780](https://github.com/mobiledgex/edge-cloud-infra/pull/1780)) (Lev Shvarts)
+
 ## [2021-10-14] - Oct 14, 2021
 [Details](../../commit/2021-10-14)
 
