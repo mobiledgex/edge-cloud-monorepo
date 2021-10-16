@@ -1,3 +1,14 @@
+## [2021-10-16] - Oct 16, 2021
+[Details](../../commit/2021-10-16)
+
+### edge-cloud:
+- Fix for minor bug that probably doesn't cause harm ([#1531](https://github.com/mobiledgex/edge-cloud/pull/1531)) (Bruce Armstrong)
+- DME REST API noTLS fix ([#1529](https://github.com/mobiledgex/edge-cloud/pull/1529)) (Jon)
+- [EDGECLOUD-5726](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5726): DME crash in dme-common.RemoveApp ([#1530](https://github.com/mobiledgex/edge-cloud/pull/1530)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Fix e2e test failure ([#1782](https://github.com/mobiledgex/edge-cloud-infra/pull/1782)) (Lev Shvarts)
+
 ## [2021-10-15] - Oct 15, 2021
 [Details](../../commit/2021-10-15)
 
