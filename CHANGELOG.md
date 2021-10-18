@@ -1,3 +1,9 @@
+## [2021-10-18] - Oct 18, 2021
+[Details](../../commit/2021-10-18)
+
+### edge-cloud-infra:
+- Sync up current state of infra with terraform ([#1781](https://github.com/mobiledgex/edge-cloud-infra/pull/1781)) (Venky)
+
 ## [2021-10-16] - Oct 16, 2021
 [Details](../../commit/2021-10-16)
 
