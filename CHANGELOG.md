@@ -1,3 +1,10 @@
+## [2021-10-19-1] - Oct 19, 2021
+[Details](../../commit/2021-10-19-1)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5736](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5736): Fix MC crash ([#1786](https://github.com/mobiledgex/edge-cloud-infra/pull/1786)) (Ashish Jain)
+- Monitor Jaeger metrics ([#1783](https://github.com/mobiledgex/edge-cloud-infra/pull/1783)) (Venky)
+
 ## [2021-10-19] - Oct 19, 2021
 [Details](../../commit/2021-10-19)
 
