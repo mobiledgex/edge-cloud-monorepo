@@ -1,3 +1,15 @@
+## [2021-10-19] - Oct 19, 2021
+[Details](../../commit/2021-10-19)
+
+### edge-cloud:
+- Support for Federation Interconnect with other Operator Platforms ([#1494](https://github.com/mobiledgex/edge-cloud/pull/1494)) (Ashish Jain)
+   - [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Support for Federation Interconnect with other operator platforms 
+
+### edge-cloud-infra:
+- fix port detach ([#1784](https://github.com/mobiledgex/edge-cloud-infra/pull/1784)) (Jim)
+- Support for Federation Interconnect with other Operator Platforms (OPs) ([#1740](https://github.com/mobiledgex/edge-cloud-infra/pull/1740)) (Ashish Jain)
+   - [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Support for Federation Interconnect with other operator platforms 
+
 ## [2021-10-18] - Oct 18, 2021
 [Details](../../commit/2021-10-18)
 
