@@ -1,3 +1,16 @@
+## [2021-10-21] - Oct 21, 2021
+[Details](../../commit/2021-10-21)
+
+### edge-cloud:
+- [EDGECLOUD-5749](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5749) controller crash related to crmserver ([#1533](https://github.com/mobiledgex/edge-cloud/pull/1533)) (Jon)
+- new unsigned decimal proto type for milli vcpus ([#1532](https://github.com/mobiledgex/edge-cloud/pull/1532)) (Jon)
+
+### edge-cloud-infra:
+- Teleport for audited access to region kubernetes clusters ([#1789](https://github.com/mobiledgex/edge-cloud-infra/pull/1789)) (Venky)
+- new unsigned decimal proto type for milli vcpus ([#1787](https://github.com/mobiledgex/edge-cloud-infra/pull/1787)) (Jon)
+- On AddAppInst use client's carrier for search ([#1788](https://github.com/mobiledgex/edge-cloud-infra/pull/1788)) (Bruce Armstrong)
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Use federation ID as an identifier and not as an authentication key ([#1785](https://github.com/mobiledgex/edge-cloud-infra/pull/1785)) (Ashish Jain)
+
 ## [2021-10-19-1] - Oct 19, 2021
 [Details](../../commit/2021-10-19-1)
 
