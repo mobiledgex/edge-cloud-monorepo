@@ -1,3 +1,16 @@
+## [2021-10-22] - Oct 22, 2021
+[Details](../../commit/2021-10-22)
+
+### edge-cloud:
+- [EDGECLOUD-5687](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5687) Fix capitalization of error message ([#1534](https://github.com/mobiledgex/edge-cloud/pull/1534)) (Bruce Armstrong)
+   - * [EDGECLOUD-5687](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5687) Fix capitalization of error message
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Add revision/requestID to each federation object ([#1536](https://github.com/mobiledgex/edge-cloud/pull/1536)) (Ashish Jain)
+   - * [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Add revision/requestID to each federation object
+
+### edge-cloud-infra:
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Add revision/requestID to each federation object ([#1790](https://github.com/mobiledgex/edge-cloud-infra/pull/1790)) (Ashish Jain)
+   - * [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Add revision/requestID to each federation object
+
 ## [2021-10-21] - Oct 21, 2021
 [Details](../../commit/2021-10-21)
 
