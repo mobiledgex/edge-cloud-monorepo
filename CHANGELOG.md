@@ -1,3 +1,13 @@
+## [2021-10-23] - Oct 23, 2021
+[Details](../../commit/2021-10-23)
+
+### edge-cloud:
+- k8s cluster-inst node resource info ([#1535](https://github.com/mobiledgex/edge-cloud/pull/1535)) (Jon)
+
+### edge-cloud-infra:
+- k8s cluster-inst node resource info ([#1792](https://github.com/mobiledgex/edge-cloud-infra/pull/1792)) (Jon)
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Federation fixes + TLS support ([#1793](https://github.com/mobiledgex/edge-cloud-infra/pull/1793)) (Ashish Jain)
+
 ## [2021-10-22] - Oct 22, 2021
 [Details](../../commit/2021-10-22)
 
