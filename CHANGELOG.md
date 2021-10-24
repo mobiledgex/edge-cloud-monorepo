@@ -1,3 +1,12 @@
+## [2021-10-24] - Oct 24, 2021
+[Details](../../commit/2021-10-24)
+
+### edge-cloud:
+- edge-cloud Trustpolicyexception Openstack and VCD  ([#1491](https://github.com/mobiledgex/edge-cloud/pull/1491)) (Devdatta)
+
+### edge-cloud-infra:
+- edge-cloud-infra Trustpolicyexception Openstack and VCD  ([#1749](https://github.com/mobiledgex/edge-cloud-infra/pull/1749)) (Devdatta)
+
 ## [2021-10-23] - Oct 23, 2021
 [Details](../../commit/2021-10-23)
 
