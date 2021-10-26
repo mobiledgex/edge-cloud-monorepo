@@ -1,3 +1,14 @@
+## [2021-10-26] - Oct 26, 2021
+[Details](../../commit/2021-10-26)
+
+### edge-cloud:
+- [EDGECLOUD-5561](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5561) appinstlatency request failing with deadline exceeded ([#1537](https://github.com/mobiledgex/edge-cloud/pull/1537)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5561](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5561) appinstlatency request failing with deadline exceeded ([#1795](https://github.com/mobiledgex/edge-cloud-infra/pull/1795)) (Jon)
+- [EDGECLOUD-5742](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5742)  clientapiusage with numsamples give wrong number of reqs ([#1791](https://github.com/mobiledgex/edge-cloud-infra/pull/1791)) (Lev Shvarts)
+- VCD UpdateClusterInst fixes ([#1794](https://github.com/mobiledgex/edge-cloud-infra/pull/1794)) (Jim)
+
 ## [2021-10-24] - Oct 24, 2021
 [Details](../../commit/2021-10-24)
 
