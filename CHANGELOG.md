@@ -1,3 +1,12 @@
+## [2021-10-28] - Oct 28, 2021
+[Details](../../commit/2021-10-28)
+
+### edge-cloud:
+- Add auto-gen'd files ([#1538](https://github.com/mobiledgex/edge-cloud/pull/1538)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Add auto-gen'd files ([#1797](https://github.com/mobiledgex/edge-cloud-infra/pull/1797)) (Ashish Jain)
+
 ## [2021-10-26] - Oct 26, 2021
 [Details](../../commit/2021-10-26)
 
