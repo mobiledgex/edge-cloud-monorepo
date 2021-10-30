@@ -1,3 +1,14 @@
+## [2021-10-30] - Oct 30, 2021
+[Details](../../commit/2021-10-30)
+
+### edge-cloud:
+- [EDGECLOUD-5337](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5337) Configurable rate limiting for dme persistent connections ([#1540](https://github.com/mobiledgex/edge-cloud/pull/1540)) (Bruce Armstrong)
+   - * [EDGECLOUD-5337](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5337) Configurable rate limiting for dme persistent connections
+- Fix upgrade unit-test ([#1539](https://github.com/mobiledgex/edge-cloud/pull/1539)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Federation changes ([#1798](https://github.com/mobiledgex/edge-cloud-infra/pull/1798)) (Ashish Jain)
+
 ## [2021-10-28] - Oct 28, 2021
 [Details](../../commit/2021-10-28)
 
