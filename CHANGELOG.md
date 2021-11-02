@@ -1,3 +1,13 @@
+## [2021-11-02] - Nov 02, 2021
+[Details](../../commit/2021-11-02)
+
+### edge-cloud:
+- [EDGECLOUD-5520](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5520) mt/st single cluster platform ([#1542](https://github.com/mobiledgex/edge-cloud/pull/1542)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5520](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5520) mt/st single cluster platform ([#1799](https://github.com/mobiledgex/edge-cloud-infra/pull/1799)) (Jon)
+- Upgrade Gitlab to version 13.12.12 ([#1800](https://github.com/mobiledgex/edge-cloud-infra/pull/1800)) (Venky)
+
 ## [2021-10-30] - Oct 30, 2021
 [Details](../../commit/2021-10-30)
 
