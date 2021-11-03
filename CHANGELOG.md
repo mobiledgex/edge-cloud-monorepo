@@ -1,3 +1,16 @@
+## [2021-11-03] - Nov 03, 2021
+[Details](../../commit/2021-11-03)
+
+### edge-cloud:
+- [EDGECLOUD-5774](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5774): K8s svc manifest empty protocol should default to TCP ([#1543](https://github.com/mobiledgex/edge-cloud/pull/1543)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Harden VMs by turning off global cron and at access ([#1802](https://github.com/mobiledgex/edge-cloud-infra/pull/1802)) (Venky)
+- [EDGECLOUD-5767](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5767):  vSphere CRM fails to initialized and panics trying to add IptablesRules ([#1801](https://github.com/mobiledgex/edge-cloud-infra/pull/1801)) (Devdatta)
+   - * [EDGECLOUD-5767](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5767): nil pointer checks before deereferencing OutboundSecurityRules
+   - * [EDGECLOUD-5767](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5767): Even if no TP, it should still call SetupIptablesRulesForRootLB for the ssh
+   - * [EDGECLOUD-5767](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5767): PR comments : removed setting unnecessary explicit nil
+
 ## [2021-11-02] - Nov 02, 2021
 [Details](../../commit/2021-11-02)
 
