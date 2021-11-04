@@ -1,3 +1,14 @@
+## [2021-11-04] - Nov 04, 2021
+[Details](../../commit/2021-11-04)
+
+### edge-cloud:
+- [EDGECLOUD-5546](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5546) Handle non-fatal errors in cluster-svc prometheus deployments ([#1541](https://github.com/mobiledgex/edge-cloud/pull/1541)) (Devdatta)
+   - * [EDGECLOUD-5546](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5546): addressing review comments from Jon
+   - * [EDGECLOUD-5546](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5546): added cloudletDeletedCb for cleanup, changed array to a map for retryMapValue
+
+### edge-cloud-infra:
+- Bump up teleport proxy to version 7.3.3 ([#1803](https://github.com/mobiledgex/edge-cloud-infra/pull/1803)) (Venky)
+
 ## [2021-11-03] - Nov 03, 2021
 [Details](../../commit/2021-11-03)
 
