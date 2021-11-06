@@ -1,3 +1,9 @@
+## [2021-11-06] - Nov 06, 2021
+[Details](../../commit/2021-11-06)
+
+### edge-cloud-infra:
+- Pod autoscaling for controller and DME ([#1796](https://github.com/mobiledgex/edge-cloud-infra/pull/1796)) (Venky)
+
 ## [2021-11-04] - Nov 04, 2021
 [Details](../../commit/2021-11-04)
 
