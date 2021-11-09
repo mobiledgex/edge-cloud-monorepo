@@ -1,3 +1,9 @@
+## [2021-11-09] - Nov 09, 2021
+[Details](../../commit/2021-11-09)
+
+### edge-cloud-infra:
+- Upgrade setup ansible and terraform manifests ([#1806](https://github.com/mobiledgex/edge-cloud-infra/pull/1806)) (Venky)
+
 ## [2021-11-06] - Nov 06, 2021
 [Details](../../commit/2021-11-06)
 
