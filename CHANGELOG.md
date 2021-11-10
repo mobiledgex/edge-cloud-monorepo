@@ -1,3 +1,13 @@
+## [2021-11-10] - Nov 10, 2021
+[Details](../../commit/2021-11-10)
+
+### edge-cloud:
+- [EDGECLOUD-5751](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5751) controller race conditions tests ([#1545](https://github.com/mobiledgex/edge-cloud/pull/1545)) (Jon)
+
+### edge-cloud-infra:
+- fix e2e test ([#1810](https://github.com/mobiledgex/edge-cloud-infra/pull/1810)) (Jon)
+- Infra changes for federated MC ([#1808](https://github.com/mobiledgex/edge-cloud-infra/pull/1808)) (Venky)
+
 ## [2021-11-09] - Nov 09, 2021
 [Details](../../commit/2021-11-09)
 
