@@ -1,3 +1,23 @@
+## [2021-11-11] - Nov 11, 2021
+[Details](../../commit/2021-11-11)
+
+### edge-cloud:
+- Ec 5765 ([#1550](https://github.com/mobiledgex/edge-cloud/pull/1550)) (mwilliams-mex)
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):e2e test
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comment for e2e yml file
+- [EDGECLOUD-5798](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5798): Fix controller crash ([#1549](https://github.com/mobiledgex/edge-cloud/pull/1549)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Add aliases to billingevents and clean up common args ([#1813](https://github.com/mobiledgex/edge-cloud-infra/pull/1813)) (Lev Shvarts)
+- [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):add cloudlet name suffix to vmApps ([#1804](https://github.com/mobiledgex/edge-cloud-infra/pull/1804)) (mwilliams-mex)
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):add cloudlet name suffix to vmApps
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):Review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):Review comments
+- Harbot cert renewal fix ([#1812](https://github.com/mobiledgex/edge-cloud-infra/pull/1812)) (Venky)
+
 ## [2021-11-10] - Nov 10, 2021
 [Details](../../commit/2021-11-10)
 
