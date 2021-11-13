@@ -1,3 +1,20 @@
+## [2021-11-13] - Nov 13, 2021
+[Details](../../commit/2021-11-13)
+
+### edge-cloud:
+- [EDGECLOUD-5772](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5772) Adding an alertpolicy to an app does not require creating a new revision of the app([#1552](https://github.com/mobiledgex/edge-cloud/pull/1552)) (Lev Shvarts)
+- [EDGECLOUD-5790](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5790) App instance health status wrongly shows “Cloudletoffline” status for an online & operational cloudlet  ([#1551](https://github.com/mobiledgex/edge-cloud/pull/1551)) (Lev Shvarts)
+- [EDGECLOUD-5751](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5751) delete_prepare and auto tests ([#1548](https://github.com/mobiledgex/edge-cloud/pull/1548)) (Jon)
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Add registered partner zones as cloudlets ([#1547](https://github.com/mobiledgex/edge-cloud/pull/1547)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5790](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5790)  App instance health status wrongly shows “Cloudletoffline” status for an online & operational cloudlet ([#1815](https://github.com/mobiledgex/edge-cloud-infra/pull/1815)) (Lev Shvarts)
+- [EDGECLOUD-5751](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5751) delete_prepare and auto tests ([#1811](https://github.com/mobiledgex/edge-cloud-infra/pull/1811)) (Jon)
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): API Key based authentication for federation API endpoint ([#1809](https://github.com/mobiledgex/edge-cloud-infra/pull/1809)) (Ashish Jain)
+- [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):update fed plat GetConsoleUrl signature ([#1816](https://github.com/mobiledgex/edge-cloud-infra/pull/1816)) (mwilliams-mex)
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Add registered partner zones as cloudlets ([#1807](https://github.com/mobiledgex/edge-cloud-infra/pull/1807)) (Ashish Jain)
+- [EDGECLOUD-5651](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5651) Disable ubuntu account password expiry in all chef-managed VMs ([#1814](https://github.com/mobiledgex/edge-cloud-infra/pull/1814)) (Venky)
+
 ## [2021-11-11] - Nov 11, 2021
 [Details](../../commit/2021-11-11)
 
