@@ -18,6 +18,7 @@ jobs:
   push-api-docs:
     name: Push API docs
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       -
