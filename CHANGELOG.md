@@ -1,3 +1,13 @@
+## [2021-11-16] - Nov 16, 2021
+[Details](../../commit/2021-11-16)
+
+### edge-cloud:
+- SendAllEnd fix for CRM startup ([#1553](https://github.com/mobiledgex/edge-cloud/pull/1553)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5710](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5710) usage with unknown app/cloudlet returns columns only ([#1817](https://github.com/mobiledgex/edge-cloud-infra/pull/1817)) (Lev Shvarts)
+- Disable password expiry in platform VMs too ([#1818](https://github.com/mobiledgex/edge-cloud-infra/pull/1818)) (Venky)
+
 ## [2021-11-13] - Nov 13, 2021
 [Details](../../commit/2021-11-13)
 
