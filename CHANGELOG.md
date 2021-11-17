@@ -1,3 +1,9 @@
+## [2021-11-17] - Nov 17, 2021
+[Details](../../commit/2021-11-17)
+
+### edge-cloud-infra:
+- Add missing files ([#1819](https://github.com/mobiledgex/edge-cloud-infra/pull/1819)) (Lev Shvarts)
+
 ## [2021-11-16] - Nov 16, 2021
 [Details](../../commit/2021-11-16)
 
