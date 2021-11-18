@@ -19,13 +19,16 @@ jobs:
     name: Push API docs
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    strategy:
+      matrix:
+        component: [ client, mc ]
 
     steps:
       -
         name: Check out the api-docs repo
         uses: actions/checkout@v2
         with:
-          repository: mobiledgex/api-docs
+          repository: mobiledgex/api-docs-${{ matrix.component }}
           token: ${{ secrets.PAT }}
           path: api-docs
       -
@@ -41,11 +44,7 @@ jobs:
         run: |
           build_tag="${{ github.event.inputs.tag }}"
           [[ -z "$build_tag" ]] && build_tag="latest"
-          for docs in client internal mc; do
-            dir="api-docs/$docs"
-            mkdir -p "$dir"
-            docker run --rm "${REGISTRY}/mobiledgex/edge-cloud:${build_tag}" dump-docs "$docs" >"$dir/swagger.json"
-          done
+          docker run --rm "${REGISTRY}/mobiledgex/edge-cloud:${build_tag}" dump-docs ${{ matrix.component }} >"api-docs/swagger.json"
           version=$( docker run --rm "${REGISTRY}/mobiledgex/edge-cloud:${build_tag}" version )
           echo "::set-output name=version::$version"
       -
