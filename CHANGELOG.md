@@ -1,3 +1,12 @@
+## [2021-11-18] - Nov 18, 2021
+[Details](../../commit/2021-11-18)
+
+### edge-cloud:
+- [EDGECLOUD-5751](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5751) add refs auto-gen tests ([#1554](https://github.com/mobiledgex/edge-cloud/pull/1554)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5751](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5751) add refs auto-gen tests ([#1820](https://github.com/mobiledgex/edge-cloud-infra/pull/1820)) (Jon)
+
 ## [2021-11-17] - Nov 17, 2021
 [Details](../../commit/2021-11-17)
 
