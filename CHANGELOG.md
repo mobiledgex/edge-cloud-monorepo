@@ -1,3 +1,14 @@
+## [2021-11-19] - Nov 19, 2021
+[Details](../../commit/2021-11-19)
+
+### edge-cloud:
+- CRM high availability part 1 ([#1546](https://github.com/mobiledgex/edge-cloud/pull/1546)) (Jim)
+
+### edge-cloud-infra:
+- CRM high availability part 1 ([#1805](https://github.com/mobiledgex/edge-cloud-infra/pull/1805)) (Jim)
+- Vcd api reduce ([#1824](https://github.com/mobiledgex/edge-cloud-infra/pull/1824)) (Jim)
+- Vault role for federation access ([#1826](https://github.com/mobiledgex/edge-cloud-infra/pull/1826)) (Venky)
+
 ## [2021-11-18] - Nov 18, 2021
 [Details](../../commit/2021-11-18)
 
