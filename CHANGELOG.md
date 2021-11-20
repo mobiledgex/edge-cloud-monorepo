@@ -1,3 +1,22 @@
+## [2021-11-20] - Nov 20, 2021
+[Details](../../commit/2021-11-20)
+
+### edge-cloud:
+- [EDGECLOUD-5829](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5829): CRM without restagtable doesn't receive updates to GPU driver cache ([#1558](https://github.com/mobiledgex/edge-cloud/pull/1558)) (Ashish Jain)
+- Fix uncaught unit-test failure ([#1559](https://github.com/mobiledgex/edge-cloud/pull/1559)) (Ashish Jain)
+- default the HA role ([#1560](https://github.com/mobiledgex/edge-cloud/pull/1560)) (Jim)
+- [EDGECLOUD-5828](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5828): Support for cloudlet specific GPU driver license config ([#1556](https://github.com/mobiledgex/edge-cloud/pull/1556)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5218](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5218): add vcd-cli to rundebug and docker base image ([#1829](https://github.com/mobiledgex/edge-cloud-infra/pull/1829)) (mwilliams-mex)
+   - * [EDGECLOUD-5218](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5218): add vcd-cli to rundebug and docker base image
+   - * [EDGECLOUD-5218](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5218): bump qemu utils to .38
+   - * [EDGECLOUD-5218](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5218): add example usage, remove dead code
+- Support for teleport access to Sonoral VMs ([#1828](https://github.com/mobiledgex/edge-cloud-infra/pull/1828)) (Venky)
+- [EDGECLOUD-5828](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5828): Support of cloudlet specific GPU driver license config ([#1827](https://github.com/mobiledgex/edge-cloud-infra/pull/1827)) (Ashish Jain)
+- Fix build ([#1831](https://github.com/mobiledgex/edge-cloud-infra/pull/1831)) (Lev Shvarts)
+- [EDGECLOUD-5775](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5775)  shepherd not starting on anthos ([#1830](https://github.com/mobiledgex/edge-cloud-infra/pull/1830)) (Lev Shvarts)
+
 ## [2021-11-19] - Nov 19, 2021
 [Details](../../commit/2021-11-19)
 
