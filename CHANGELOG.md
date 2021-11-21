@@ -1,3 +1,15 @@
+## [2021-11-21] - Nov 21, 2021
+[Details](../../commit/2021-11-21)
+
+### edge-cloud:
+- [EDGECLOUD-5802](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5802) VM App Deployment aliasing fix: AppInstId ([#1562](https://github.com/mobiledgex/edge-cloud/pull/1562)) (Jon)
+- k8s baremetal MT fix ([#1561](https://github.com/mobiledgex/edge-cloud/pull/1561)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5802](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5802) VM App Deployment aliasing fix: AppInstId ([#1833](https://github.com/mobiledgex/edge-cloud-infra/pull/1833)) (Jon)
+- renaming CreateDeveloperDefinedNamespaces ([#1832](https://github.com/mobiledgex/edge-cloud-infra/pull/1832)) (Jim)
+- [EDGECLOUD-5704](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5704): Federation enhancements ([#1821](https://github.com/mobiledgex/edge-cloud-infra/pull/1821)) (Ashish Jain)
+
 ## [2021-11-20] - Nov 20, 2021
 [Details](../../commit/2021-11-20)
 
