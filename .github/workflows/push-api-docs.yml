@@ -28,7 +28,7 @@ jobs:
         name: Check out the api-docs repo
         uses: actions/checkout@v2
         with:
-          repository: mobiledgex/api-docs-${{ matrix.component }}
+          repository: mobiledgex-docs/api-docs-${{ matrix.component }}
           token: ${{ secrets.PAT }}
           path: api-docs
       -
