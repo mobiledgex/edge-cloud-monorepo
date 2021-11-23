@@ -1,3 +1,15 @@
+## [2021-11-23] - Nov 23, 2021
+[Details](../../commit/2021-11-23)
+
+### edge-cloud:
+- TrustPolicyException PR comments addressed ([#1555](https://github.com/mobiledgex/edge-cloud/pull/1555)) (Devdatta)
+- [EDGECLOUD-5840](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5840): Controller allows setting deprecated values to appinst autoclusteripaccess field ([#1563](https://github.com/mobiledgex/edge-cloud/pull/1563)) (Ashish Jain)
+
+### edge-cloud-infra:
+- TrustPolicyException PR comments addressed ([#1822](https://github.com/mobiledgex/edge-cloud-infra/pull/1822)) (Devdatta)
+- Fix intermittent e2e tests failures for client app/cloudlet metrics ([#1825](https://github.com/mobiledgex/edge-cloud-infra/pull/1825)) (Lev Shvarts)
+- Adding Tom to the upg setup access list ([#1834](https://github.com/mobiledgex/edge-cloud-infra/pull/1834)) (Venky)
+
 ## [2021-11-21] - Nov 21, 2021
 [Details](../../commit/2021-11-21)
 
