@@ -1,3 +1,28 @@
+## [2021-08-14-9] - Nov 23, 2021
+[Details](../../commit/2021-08-14-9)
+
+### edge-cloud:
+- [EDGECLOUD-5802](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5802) URGENT - VM App Deployment can delete cluster for another deployment in Shared IaaS ([#1566](https://github.com/mobiledgex/edge-cloud/pull/1566)) (Jon)
+   - * [EDGECLOUD-5802](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5802) URGENT - VM App Deployment can delete cluster for another deployment in Shared IaaS
+- Backport of EC-5790 and EC-4609 ([#1564](https://github.com/mobiledgex/edge-cloud/pull/1564)) (Lev Shvarts)
+   - * [EDGECLOUD-4609](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4609) CloudletDown alert not clearing when running 2 controllers in replica
+   - * [EDGECLOUD-5790](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5790) App instance health status wrongly shows “Cloudletoffline” status for an online & operational cloudlet
+- Ec 5765 ([#1550](https://github.com/mobiledgex/edge-cloud/pull/1550)) (mwilliams-mex)
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):e2e test
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comment for e2e yml file
+
+### edge-cloud-infra:
+- [EDGECLOUD-5802](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5802) URGENT - VM App Deployment can delete cluster for another deployment in Shared IaaS ([#1837](https://github.com/mobiledgex/edge-cloud-infra/pull/1837)) (Jon)
+- Vcd api reduce ([#1824](https://github.com/mobiledgex/edge-cloud-infra/pull/1824)) (Jim)
+- [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):add cloudlet name suffix to vmApps ([#1804](https://github.com/mobiledgex/edge-cloud-infra/pull/1804)) (mwilliams-mex)
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):add cloudlet name suffix to vmApps
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):Review comments
+   - * [EDGECLOUD-5765](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5765):Review comments
+- [EDGECLOUD-5651](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5651) Disable ubuntu account password expiry in all chef-managed VMs (Venky Tumkur)
+
 ## [2021-08-14-8] - Sep 30, 2021 (R3.0 HF3)
 [Details](../../commit/2021-08-14-8)
 
