@@ -1,3 +1,9 @@
+## [2021-11-24] - Nov 24, 2021
+[Details](../../commit/2021-11-24)
+
+### edge-cloud-infra:
+- fix dns ([#1838](https://github.com/mobiledgex/edge-cloud-infra/pull/1838)) (Jim)
+
 ## [2021-11-23] - Nov 23, 2021
 [Details](../../commit/2021-11-23)
 
