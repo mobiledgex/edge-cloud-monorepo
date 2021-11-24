@@ -1,3 +1,13 @@
+## [2021-08-14-10] - Nov 24, 2021
+[Details](../../commit/2021-08-14-10)
+
+### edge-cloud:
+- [EDGECLOUD-5829](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5829): CRM without restagmap doesn't receive updates to GPU driver cache ([#1567](https://github.com/mobiledgex/edge-cloud/pull/1567)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5846](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5846) Shepherd keeps restarting after upgrade to HF4 ([#1839](https://github.com/mobiledgex/edge-cloud-infra/pull/1839)) (Ashish Jain)
+- VCD UpdateClusterInst fixes ([#1794](https://github.com/mobiledgex/edge-cloud-infra/pull/1794)) (Jim)
+
 ## [2021-08-14-9] - Nov 23, 2021
 [Details](../../commit/2021-08-14-9)
 
