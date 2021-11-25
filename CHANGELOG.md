@@ -1,3 +1,9 @@
+## [2021-11-25] - Nov 25, 2021
+[Details](../../commit/2021-11-25)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5846](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5846) Shepherd keeps restarting after upgrade to HF4 ([#1839](https://github.com/mobiledgex/edge-cloud-infra/pull/1839)) (Ashish Jain)
+
 ## [2021-11-24] - Nov 24, 2021
 [Details](../../commit/2021-11-24)
 
