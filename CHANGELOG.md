@@ -1,3 +1,9 @@
+## [2021-08-14-12] - Nov 25, 2021
+[Details](../../commit/2021-08-14-12)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5848](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5848): Disable cert validation for 4.6.0 base image during installation of DHCP server ([#1841](https://github.com/mobiledgex/edge-cloud-infra/pull/1841)) (Ashish Jain)
+
 ## [2021-08-14-11] - Nov 24, 2021
 [Details](../../commit/2021-08-14-11)
 
