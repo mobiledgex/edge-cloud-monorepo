@@ -89,7 +89,7 @@ jobs:
     needs: build-docker-image
     strategy:
       matrix:
-        component: [ alertmgr-sidecar, autoprov, cluster-svc, controller, crm, dme, edgeturn, mc, notifyroot ]
+        component: [ alertmgr-sidecar, autoprov, cluster-svc, controller, crm, dme, edgeturn, frm, mc, notifyroot ]
     steps:
       -
         name: Checkout edge-cloud
