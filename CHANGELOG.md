@@ -1,3 +1,12 @@
+## [2021-11-27] - Nov 27, 2021
+[Details](../../commit/2021-11-27)
+
+### edge-cloud:
+- frm service build ([#1571](https://github.com/mobiledgex/edge-cloud/pull/1571)) (Venky)
+
+### edge-cloud-infra:
+- Frm deployment ([#1843](https://github.com/mobiledgex/edge-cloud-infra/pull/1843)) (Venky)
+
 ## [2021-11-25] - Nov 25, 2021
 [Details](../../commit/2021-11-25)
 
