@@ -1,3 +1,9 @@
+## [2021-11-27-1] - Nov 29, 2021
+[Details](../../commit/2021-11-27-1)
+
+### edge-cloud:
+- Fix e2e-tests ([#1570](https://github.com/mobiledgex/edge-cloud/pull/1570)) (Ashish Jain)
+
 ## [2021-11-27] - Nov 27, 2021
 [Details](../../commit/2021-11-27)
 
