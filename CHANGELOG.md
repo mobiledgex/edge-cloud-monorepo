@@ -1,3 +1,14 @@
+## [2021-11-30] - Nov 30, 2021
+[Details](../../commit/2021-11-30)
+
+### edge-cloud:
+- Pull in the latest edge-cloud base image with the VCD CLI ([#1572](https://github.com/mobiledgex/edge-cloud/pull/1572)) (Venky)
+
+### edge-cloud-infra:
+- Federation bug fixes ([#1844](https://github.com/mobiledgex/edge-cloud-infra/pull/1844)) (Ashish Jain)
+- [EDGECLOUD-5707](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5707) timed lockouts for failed login attempts ([#1835](https://github.com/mobiledgex/edge-cloud-infra/pull/1835)) (Jon)
+- Enable federation on the dev setup ([#1845](https://github.com/mobiledgex/edge-cloud-infra/pull/1845)) (Venky)
+
 ## [2021-11-27-1] - Nov 29, 2021
 [Details](../../commit/2021-11-27-1)
 
