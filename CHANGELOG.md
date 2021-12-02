@@ -1,3 +1,14 @@
+## [2021-12-02] - Dec 02, 2021
+[Details](../../commit/2021-12-02)
+
+### edge-cloud:
+- [EDGECLOUD-5667](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5667) Output JSON enum values as strings ([#1573](https://github.com/mobiledgex/edge-cloud/pull/1573)) (Jon)
+- namespaces are limited to 63 chars and cannot end in dash ([#1574](https://github.com/mobiledgex/edge-cloud/pull/1574)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5667](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5667) Output JSON enum values as strings ([#1846](https://github.com/mobiledgex/edge-cloud-infra/pull/1846)) (Jon)
+- Federation bug fixes ([#1847](https://github.com/mobiledgex/edge-cloud-infra/pull/1847)) (Ashish Jain)
+
 ## [2021-11-30] - Nov 30, 2021
 [Details](../../commit/2021-11-30)
 
