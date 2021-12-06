@@ -1,3 +1,14 @@
+## [2021-12-06] - Dec 06, 2021
+[Details](../../commit/2021-12-06)
+
+### edge-cloud:
+- add metrics ip label ([#1575](https://github.com/mobiledgex/edge-cloud/pull/1575)) (Jim)
+- add sudo option for DeleteFile ([#1578](https://github.com/mobiledgex/edge-cloud/pull/1578)) (Jim)
+
+### edge-cloud-infra:
+- metrics ip label ([#1849](https://github.com/mobiledgex/edge-cloud-infra/pull/1849)) (Jim)
+- persist ips via netplan. Remove lbinfo ([#1852](https://github.com/mobiledgex/edge-cloud-infra/pull/1852)) (Jim)
+
 ## [2021-12-02] - Dec 02, 2021
 [Details](../../commit/2021-12-02)
 
