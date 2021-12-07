@@ -1,3 +1,20 @@
+## [2021-12-07] - Dec 07, 2021
+[Details](../../commit/2021-12-07)
+
+### edge-cloud:
+- e2e-test unmarshal strict, sorted ([#1576](https://github.com/mobiledgex/edge-cloud/pull/1576)) (Jon)
+- [EDGECLOUD-5746](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5746) remove cellID from DME metrics ([#1565](https://github.com/mobiledgex/edge-cloud/pull/1565)) (Lev Shvarts)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5759](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5759)  Cloudlet usage API cloudlets array filter not working ([#1853](https://github.com/mobiledgex/edge-cloud-infra/pull/1853)) (Lev Shvarts)
+- e2e-test unmarshal strict, sorted ([#1850](https://github.com/mobiledgex/edge-cloud-infra/pull/1850)) (Jon)
+- [EDGECLOUD-5746](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5746) remove cellID from DME metrics ([#1836](https://github.com/mobiledgex/edge-cloud-infra/pull/1836)) (Lev Shvarts)
+
+### edge-proto:
+- [EDGECLOUD-5746](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5746) remove cellID from DME metrics (Lev Shvarts)
+- remove empty spaces (Lev Shvarts)
+- Remove cell_id from protobuf (Lev Shvarts)
+
 ## [2021-12-06] - Dec 06, 2021
 [Details](../../commit/2021-12-06)
 
