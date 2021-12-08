@@ -1,3 +1,13 @@
+## [2021-12-08] - Dec 08, 2021
+[Details](../../commit/2021-12-08)
+
+### edge-cloud:
+- Fix controller lease expire issue if alerts sync takes lot of time ([#1580](https://github.com/mobiledgex/edge-cloud/pull/1580)) (Ashish Jain)
+   - [EDGECLOUD-5903](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5903): Controller etcd lease might expire if there are lots of alerts
+
+### edge-cloud-infra:
+- Teleport ops access ([#1848](https://github.com/mobiledgex/edge-cloud-infra/pull/1848)) (Venky)
+
 ## [2021-12-07] - Dec 07, 2021
 [Details](../../commit/2021-12-07)
 
