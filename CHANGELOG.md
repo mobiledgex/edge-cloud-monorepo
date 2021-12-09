@@ -1,3 +1,16 @@
+## [2021-12-09] - Dec 09, 2021
+[Details](../../commit/2021-12-09)
+
+### edge-cloud:
+- Include session ID and QOS profile in Tags of FindCloudletReply ([#1583](https://github.com/mobiledgex/edge-cloud/pull/1583)) (Bruce Armstrong)
+- TDG QOS priority session creation ([#1577](https://github.com/mobiledgex/edge-cloud/pull/1577)) (Bruce Armstrong)
+- [EDGECLOUD-5907](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5907) Upgrade edge-cloud-base-image to fix CVE 2021-43527 ([#1581](https://github.com/mobiledgex/edge-cloud/pull/1581)) (Venky)
+
+### edge-cloud-infra:
+- Fixing a mis-named profile ([#1855](https://github.com/mobiledgex/edge-cloud-infra/pull/1855)) (Bruce Armstrong)
+- TDG QOS priority session creation ([#1851](https://github.com/mobiledgex/edge-cloud-infra/pull/1851)) (Bruce Armstrong)
+- Support for short-lived kubeconfigs for CI/CD ([#1840](https://github.com/mobiledgex/edge-cloud-infra/pull/1840)) (Venky)
+
 ## [2021-12-08] - Dec 08, 2021
 [Details](../../commit/2021-12-08)
 
