@@ -1,3 +1,12 @@
+## [2021-12-10-1] - Dec 10, 2021
+[Details](../../commit/2021-12-10-1)
+
+### edge-cloud:
+- Fixing default session duration time and adding logs ([#1584](https://github.com/mobiledgex/edge-cloud/pull/1584)) (Bruce Armstrong)
+
+### edge-cloud-infra:
+- DME access to sessions API keys ([#1856](https://github.com/mobiledgex/edge-cloud-infra/pull/1856)) (Venky)
+
 ## [2021-12-09] - Dec 09, 2021
 [Details](../../commit/2021-12-09)
 
