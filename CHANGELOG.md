@@ -1,3 +1,12 @@
+## [2021-12-14] - Dec 14, 2021
+[Details](../../commit/2021-12-14)
+
+### edge-cloud:
+- TrustPolicyException Cli : various bugfixes ([#1582](https://github.com/mobiledgex/edge-cloud/pull/1582)) (Devdatta)
+
+### edge-cloud-infra:
+- TrustPolicyException Cli : various bugfixes ([#1854](https://github.com/mobiledgex/edge-cloud-infra/pull/1854)) (Devdatta)
+
 ## [2021-12-10-1] - Dec 10, 2021
 [Details](../../commit/2021-12-10-1)
 
