@@ -1,3 +1,14 @@
+## [2021-12-15] - Dec 15, 2021
+[Details](../../commit/2021-12-15)
+
+### edge-cloud:
+- tpeErrorMessage/[EDGECLOUD-5925](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5925) ([#1587](https://github.com/mobiledgex/edge-cloud/pull/1587)) (Devdatta)
+   - * error message inconsistencies [EDGECLOUD-5925](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5925)
+- Per DT, removing DEFAULT profile names. Fixing LOW_LATENCY ([#1585](https://github.com/mobiledgex/edge-cloud/pull/1585)) (Bruce Armstrong)
+
+### edge-cloud-infra:
+- Per DT, removing DEFAULT profile names. Fixing LOW_LATENCY ([#1858](https://github.com/mobiledgex/edge-cloud-infra/pull/1858)) (Bruce Armstrong)
+
 ## [2021-12-14] - Dec 14, 2021
 [Details](../../commit/2021-12-14)
 
