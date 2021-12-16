@@ -1,3 +1,12 @@
+## [2021-12-16] - Dec 16, 2021
+[Details](../../commit/2021-12-16)
+
+### edge-cloud:
+- e2e-test file comparison by diffs ([#1586](https://github.com/mobiledgex/edge-cloud/pull/1586)) (Jon)
+
+### edge-cloud-infra:
+- e2e-test file comparison by diffs ([#1859](https://github.com/mobiledgex/edge-cloud-infra/pull/1859)) (Jon)
+
 ## [2021-12-15] - Dec 15, 2021
 [Details](../../commit/2021-12-15)
 
