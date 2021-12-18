@@ -1,3 +1,13 @@
+## [2021-12-18] - Dec 18, 2021
+[Details](../../commit/2021-12-18)
+
+### edge-cloud:
+- fix fake platform update clusterinst resources ([#1590](https://github.com/mobiledgex/edge-cloud/pull/1590)) (Jon)
+
+### edge-cloud-infra:
+- fix fake platform update clusterinst resources ([#1862](https://github.com/mobiledgex/edge-cloud-infra/pull/1862)) (Jon)
+- [EDGECLOUD-5934](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5934) mcctl is missing the not match fields for events find/show/terms ([#1863](https://github.com/mobiledgex/edge-cloud-infra/pull/1863)) (Jon)
+
 ## [2021-12-16] - Dec 16, 2021
 [Details](../../commit/2021-12-16)
 
