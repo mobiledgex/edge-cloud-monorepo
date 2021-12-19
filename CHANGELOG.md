@@ -1,3 +1,9 @@
+## [2021-12-19] - Dec 19, 2021
+[Details](../../commit/2021-12-19)
+
+### edge-cloud-infra:
+- Sharedlb commonnet ([#1864](https://github.com/mobiledgex/edge-cloud-infra/pull/1864)) (Jim)
+
 ## [2021-12-18] - Dec 18, 2021
 [Details](../../commit/2021-12-18)
 
