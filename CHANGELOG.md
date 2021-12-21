@@ -1,3 +1,16 @@
+## [2021-12-21] - Dec 21, 2021
+[Details](../../commit/2021-12-21)
+
+### edge-cloud:
+- Fix test-mex.go, fix one e2e-test and fix in UpdateTrustPolicyException ([#1589](https://github.com/mobiledgex/edge-cloud/pull/1589)) (Devdatta)
+- Fixing URL for session DELETE ([#1591](https://github.com/mobiledgex/edge-cloud/pull/1591)) (Bruce Armstrong)
+
+### edge-cloud-infra:
+- Fix test-mex-infa ([#1861](https://github.com/mobiledgex/edge-cloud-infra/pull/1861)) (Devdatta)
+- fix crash due to wrong slice being used ([#1867](https://github.com/mobiledgex/edge-cloud-infra/pull/1867)) (Jim)
+- fix floating ip count ([#1866](https://github.com/mobiledgex/edge-cloud-infra/pull/1866)) (Jim)
+- Fixing URL for session DELETE ([#1865](https://github.com/mobiledgex/edge-cloud-infra/pull/1865)) (Bruce Armstrong)
+
 ## [2021-12-19] - Dec 19, 2021
 [Details](../../commit/2021-12-19)
 
