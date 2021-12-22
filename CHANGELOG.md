@@ -1,3 +1,9 @@
+## [2021-12-22] - Dec 22, 2021
+[Details](../../commit/2021-12-22)
+
+### edge-cloud-infra:
+- include metallb containers in baseimage ([#1868](https://github.com/mobiledgex/edge-cloud-infra/pull/1868)) (Jim)
+
 ## [2021-12-21] - Dec 21, 2021
 [Details](../../commit/2021-12-21)
 
