@@ -1,3 +1,12 @@
+## [2021-12-23] - Dec 23, 2021
+[Details](../../commit/2021-12-23)
+
+### edge-cloud-infra:
+- Intercluster iptables ([#1872](https://github.com/mobiledgex/edge-cloud-infra/pull/1872)) (Jim)
+- [EDGECLOUD-5910](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5910) Open up CORS settings on API server ([#1857](https://github.com/mobiledgex/edge-cloud-infra/pull/1857)) (Venky)
+- [EDGECLOUD-5826](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5826) Disable vault LDAP logins ([#1869](https://github.com/mobiledgex/edge-cloud-infra/pull/1869)) (Venky)
+- [EDGECLOUD-5823](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5823) Edgeturn ingress reveals nginx version ([#1870](https://github.com/mobiledgex/edge-cloud-infra/pull/1870)) (Venky)
+
 ## [2021-12-22] - Dec 22, 2021
 [Details](../../commit/2021-12-22)
 
