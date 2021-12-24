@@ -1,3 +1,9 @@
+## [2021-12-24] - Dec 24, 2021
+[Details](../../commit/2021-12-24)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5813](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5813) InfluxDB uses weak ciphers ([#1874](https://github.com/mobiledgex/edge-cloud-infra/pull/1874)) (Venky)
+
 ## [2021-12-23] - Dec 23, 2021
 [Details](../../commit/2021-12-23)
 
