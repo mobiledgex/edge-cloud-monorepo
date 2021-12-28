@@ -1,3 +1,15 @@
+## [2021-12-28] - Dec 28, 2021
+[Details](../../commit/2021-12-28)
+
+### edge-cloud:
+- UpdateTrustPolicyException with unknown cloudlet org, gives wrong error ([#1592](https://github.com/mobiledgex/edge-cloud/pull/1592)) (Devdatta)
+   - * Fixed [EDGECLOUD-5965](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5965) UpdateTrustPolicyException with unknown cloudlet org, gives wrong error
+   - * Fixed [EDGECLOUD-5965](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5965) UpdateTrustPolicyException with unknown cloudlet org, gives wrong error: PR comments
+
+### edge-cloud-infra:
+- UpdateTrustPolicyException with unknown cloudlet org, gives wrong error ([#1875](https://github.com/mobiledgex/edge-cloud-infra/pull/1875)) (Devdatta)
+   - * Fixed [EDGECLOUD-5965](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5965) UpdateTrustPolicyException with unknown cloudlet org, gives wrong error
+
 ## [2021-12-24] - Dec 24, 2021
 [Details](../../commit/2021-12-24)
 
