@@ -1,3 +1,15 @@
+## [2021-12-29] - Dec 29, 2021
+[Details](../../commit/2021-12-29)
+
+### edge-cloud:
+- change order of validation checks ([#1593](https://github.com/mobiledgex/edge-cloud/pull/1593)) (Jim)
+
+### edge-cloud-infra:
+- Federation bug fixes ([#1871](https://github.com/mobiledgex/edge-cloud-infra/pull/1871)) (Ashish Jain)
+   - * [EDGECLOUD-5938](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5938): Bad error message while creating federatorzone with invalid geolocation
+   - * [EDGECLOUD-5946](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5946): FederatorZone register does not fail when zone list is empty
+- [EDGECLOUD-5812](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5812) Restrict InfluxDB access to trusted IPs ([#1873](https://github.com/mobiledgex/edge-cloud-infra/pull/1873)) (Venky)
+
 ## [2021-12-28] - Dec 28, 2021
 [Details](../../commit/2021-12-28)
 
