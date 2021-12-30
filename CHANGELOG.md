@@ -1,3 +1,13 @@
+## [2021-12-30] - Dec 30, 2021
+[Details](../../commit/2021-12-30)
+
+### edge-cloud:
+- [EDGECLOUD-5853](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5853) Unique URIs and DNS labels ([#1588](https://github.com/mobiledgex/edge-cloud/pull/1588)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5853](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5853) Unique URIs and DNS labels ([#1860](https://github.com/mobiledgex/edge-cloud-infra/pull/1860)) (Jon)
+- Update vault TLS ciphers list ([#1877](https://github.com/mobiledgex/edge-cloud-infra/pull/1877)) (Venky)
+
 ## [2021-12-29] - Dec 29, 2021
 [Details](../../commit/2021-12-29)
 
