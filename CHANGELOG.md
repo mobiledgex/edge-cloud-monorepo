@@ -1,3 +1,11 @@
+## [2021-12-31] - Dec 31, 2021
+[Details](../../commit/2021-12-31)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5816](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5816) Console uses weak ciphers ([#1879](https://github.com/mobiledgex/edge-cloud-infra/pull/1879)) (Venky)
+- access cloudlet support ([#1880](https://github.com/mobiledgex/edge-cloud-infra/pull/1880)) (Jim)
+- [EDGECLOUD-5952](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5952): Fix show filtering for Federation APIs ([#1876](https://github.com/mobiledgex/edge-cloud-infra/pull/1876)) (Ashish Jain)
+
 ## [2021-12-30] - Dec 30, 2021
 [Details](../../commit/2021-12-30)
 
