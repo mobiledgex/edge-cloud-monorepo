@@ -1,3 +1,15 @@
+## [2022-01-05] - Jan 05, 2022
+[Details](../../commit/2022-01-05)
+
+### edge-cloud:
+- fix error message for docker clusters on k8s baremetal ([#1597](https://github.com/mobiledgex/edge-cloud/pull/1597)) (Jim)
+- [EDGECLOUD-5947](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5947) AutoScale Scale down not working ([#1595](https://github.com/mobiledgex/edge-cloud/pull/1595)) (Jon)
+
+### edge-cloud-infra:
+- tweaks for additional networks on shared lb ([#1885](https://github.com/mobiledgex/edge-cloud-infra/pull/1885)) (Jim)
+- Fix Ansible requirements ([#1883](https://github.com/mobiledgex/edge-cloud-infra/pull/1883)) (Venky)
+- [EDGECLOUD-5947](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5947) AutoScale Scale down not working ([#1881](https://github.com/mobiledgex/edge-cloud-infra/pull/1881)) (Jon)
+
 ## [2021-12-31] - Dec 31, 2021
 [Details](../../commit/2021-12-31)
 
