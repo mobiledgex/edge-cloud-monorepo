@@ -1,3 +1,14 @@
+## [2022-01-06] - Jan 06, 2022
+[Details](../../commit/2022-01-06)
+
+### edge-cloud:
+- fix port range for network policy ([#1600](https://github.com/mobiledgex/edge-cloud/pull/1600)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5976](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5976): Unable to delete a federator ([#1889](https://github.com/mobiledgex/edge-cloud-infra/pull/1889)) (Ashish Jain)
+- Fix teleport auth service cert to have right domain ([#1888](https://github.com/mobiledgex/edge-cloud-infra/pull/1888)) (Venky)
+- [EDGECLOUD-5811](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5811) Restrict SSH access to trusted IPs ([#1882](https://github.com/mobiledgex/edge-cloud-infra/pull/1882)) (Venky)
+
 ## [2022-01-05] - Jan 05, 2022
 [Details](../../commit/2022-01-05)
 
