@@ -1,3 +1,17 @@
+## [2022-01-07] - Jan 07, 2022
+[Details](../../commit/2022-01-07)
+
+### edge-cloud:
+- [EDGECLOUD-5711](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5711) [EDGECLOUD-5766](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5766) more consistent parse error messages ([#1598](https://github.com/mobiledgex/edge-cloud/pull/1598)) (Jon)
+- Add log sync list data error ([#1602](https://github.com/mobiledgex/edge-cloud/pull/1602)) (Ashish Jain)
+- tpe cli, changed app-ver to appvers and app-name to appname to be consistent with other cli.s ([#1599](https://github.com/mobiledgex/edge-cloud/pull/1599)) (Devdatta)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5711](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5711) [EDGECLOUD-5766](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5766) more consistent parse error messages ([#1886](https://github.com/mobiledgex/edge-cloud-infra/pull/1886)) (Jon)
+- [EDGECLOUD-5906](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5906) Gitlab security upgrade to version 14.x ([#1891](https://github.com/mobiledgex/edge-cloud-infra/pull/1891)) (Venky)
+- Open up teleport port on QA kafka node ([#1890](https://github.com/mobiledgex/edge-cloud-infra/pull/1890)) (Venky)
+- tpe cli, changed app-ver to appvers and app-name to appname to be consistent with other cli.s ([#1887](https://github.com/mobiledgex/edge-cloud-infra/pull/1887)) (Devdatta)
+
 ## [2022-01-06] - Jan 06, 2022
 [Details](../../commit/2022-01-06)
 
