@@ -1,3 +1,14 @@
+## [2022-01-08] - Jan 08, 2022
+[Details](../../commit/2022-01-08)
+
+### edge-cloud:
+- [EDGECLOUD-5984](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5984): IgnoreCRM override should ignore DeletePrepare flag if set during object deletion ([#1604](https://github.com/mobiledgex/edge-cloud/pull/1604)) (Ashish Jain)
+- [EDGECLOUD-5674](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5674) mcctl cloudlet showflavorsfor should have cloudlet and cloudlet-org as optional ([#1603](https://github.com/mobiledgex/edge-cloud/pull/1603)) (Jon)
+
+### edge-cloud-infra:
+- Adding DT QOS Priority Session server simulator. ([#1894](https://github.com/mobiledgex/edge-cloud-infra/pull/1894)) (Bruce Armstrong)
+- [EDGECLOUD-5674](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5674) mcctl cloudlet showflavorsfor should have cloudlet and cloudlet-org as optional ([#1893](https://github.com/mobiledgex/edge-cloud-infra/pull/1893)) (Jon)
+
 ## [2022-01-07] - Jan 07, 2022
 [Details](../../commit/2022-01-07)
 
