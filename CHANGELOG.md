@@ -1,3 +1,13 @@
+## [2022-01-11] - Jan 11, 2022
+[Details](../../commit/2022-01-11)
+
+### edge-cloud:
+- [EDGECLOUD-5956](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5956) allow update App to AllowServerless=false ([#1605](https://github.com/mobiledgex/edge-cloud/pull/1605)) (Jon)
+
+### edge-cloud-infra:
+- tpe update (by admin) with rules and nonexisting org, should give correct error of key not found ([#1895](https://github.com/mobiledgex/edge-cloud-infra/pull/1895)) (Devdatta)
+- [EDGECLOUD-5819](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5819) Gitlab missing content-security-policy header ([#1896](https://github.com/mobiledgex/edge-cloud-infra/pull/1896)) (Venky)
+
 ## [2022-01-08] - Jan 08, 2022
 [Details](../../commit/2022-01-08)
 
