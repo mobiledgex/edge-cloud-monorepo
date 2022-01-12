@@ -1,3 +1,13 @@
+## [2022-01-12] - Jan 12, 2022
+[Details](../../commit/2022-01-12)
+
+### edge-cloud:
+- add to keyworker ([#1609](https://github.com/mobiledgex/edge-cloud/pull/1609)) (Jim)
+- [EDGECLOUD-5957](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5957) [EDGECLOUD-5958](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5958) update vcpus copyinfields fixes ([#1608](https://github.com/mobiledgex/edge-cloud/pull/1608)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5957](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5957) [EDGECLOUD-5958](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5958) update vcpus copyinfields fixes ([#1898](https://github.com/mobiledgex/edge-cloud-infra/pull/1898)) (Jon)
+
 ## [2022-01-11] - Jan 11, 2022
 [Details](../../commit/2022-01-11)
 
