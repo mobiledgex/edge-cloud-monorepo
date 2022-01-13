@@ -1,3 +1,9 @@
+## [2022-01-13] - Jan 13, 2022
+[Details](../../commit/2022-01-13)
+
+### edge-cloud:
+- [EDGECLOUD-6011](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6011) trustpolicyexception not creating rules in openstack ([#1610](https://github.com/mobiledgex/edge-cloud/pull/1610)) (Devdatta)
+
 ## [2022-01-12] - Jan 12, 2022
 [Details](../../commit/2022-01-12)
 
