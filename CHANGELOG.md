@@ -1,3 +1,11 @@
+## [2022-01-15] - Jan 15, 2022
+[Details](../../commit/2022-01-15)
+
+### edge-cloud-infra:
+- Workflow to upload THIRD-PARTY-NOTICES file to Artifactory ([#1901](https://github.com/mobiledgex/edge-cloud-infra/pull/1901)) (Venky)
+- Install third party notice file on platform VMs ([#1899](https://github.com/mobiledgex/edge-cloud-infra/pull/1899)) (Venky)
+- third party notices for shipped software ([#1900](https://github.com/mobiledgex/edge-cloud-infra/pull/1900)) (Jon)
+
 ## [2022-01-13] - Jan 13, 2022
 [Details](../../commit/2022-01-13)
 
