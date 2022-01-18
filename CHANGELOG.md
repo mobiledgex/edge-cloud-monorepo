@@ -1,3 +1,9 @@
+## [2022-01-18] - Jan 18, 2022
+[Details](../../commit/2022-01-18)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5326](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5326) Automatic scanning of developer docker ([#1902](https://github.com/mobiledgex/edge-cloud-infra/pull/1902)) (Venky)
+
 ## [2022-01-15] - Jan 15, 2022
 [Details](../../commit/2022-01-15)
 
