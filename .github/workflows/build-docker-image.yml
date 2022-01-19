@@ -85,7 +85,7 @@ jobs:
   component-containers:
     name: Build component-specific containers
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     needs: build-docker-image
     strategy:
       matrix:
