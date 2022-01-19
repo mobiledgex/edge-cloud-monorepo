@@ -13,7 +13,7 @@ jobs:
   build-docker-image:
     name: Build the edge-cloud image
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     outputs:
       image: ${{ fromJSON(steps.meta.outputs.json).tags[0] }}
       edge-cloud-base-image: ${{ steps.edge-cloud-base-image.outputs.version }}
