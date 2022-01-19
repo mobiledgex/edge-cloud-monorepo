@@ -1,3 +1,9 @@
+## [2022-01-19] - Jan 19, 2022
+[Details](../../commit/2022-01-19)
+
+### edge-cloud:
+- Add parsedeps program to print out open-source dependencies ([#1611](https://github.com/mobiledgex/edge-cloud/pull/1611)) (Jon)
+
 ## [2022-01-18] - Jan 18, 2022
 [Details](../../commit/2022-01-18)
 
