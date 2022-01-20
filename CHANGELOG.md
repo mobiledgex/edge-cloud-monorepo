@@ -1,3 +1,23 @@
+## [2022-01-20] - Jan 20, 2022
+[Details](../../commit/2022-01-20)
+
+### edge-cloud:
+- [EDGECLOUD-6015](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6015) capitalize mcctl arg help comments ([#1616](https://github.com/mobiledgex/edge-cloud/pull/1616)) (Jon)
+- CRM H/A part 2 ([#1607](https://github.com/mobiledgex/edge-cloud/pull/1607)) (Jim)
+- Update readme to include description and useful info ([#1615](https://github.com/mobiledgex/edge-cloud/pull/1615)) (Jon)
+- [EDGECLOUD-6023](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6023) trustpolicyexception should only be allowed on a trusted app ([#1612](https://github.com/mobiledgex/edge-cloud/pull/1612)) (Devdatta)
+   - * [EDGECLOUD-6023](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6023) trustpolicyexception should only be allowed on a trusted app and [EDGECLOUD-6024](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6024) trustpolicyexception should have outboundsecurityrules as mandatory
+   - * [EDGECLOUD-6023](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6023) trustpolicyexception API tests, setting trusted in test_data.go as a part of PR comments
+
+### edge-cloud-infra:
+- tweak k8s install scripts to use only master ip and not derive the ip from network info ([#1905](https://github.com/mobiledgex/edge-cloud-infra/pull/1905)) (Jim)
+- go.mod changes from edge-cloud change ([#1908](https://github.com/mobiledgex/edge-cloud-infra/pull/1908)) (Jon)
+- CRM H/A part 2 ([#1897](https://github.com/mobiledgex/edge-cloud-infra/pull/1897)) (Jim)
+- Update readme to include description and useful info ([#1906](https://github.com/mobiledgex/edge-cloud-infra/pull/1906)) (Jon)
+
+### edge-proto:
+- Add README.md ([#51](https://github.com/mobiledgex/edge-proto/pull/51)) (Jon)
+
 ## [2022-01-19] - Jan 19, 2022
 [Details](../../commit/2022-01-19)
 
