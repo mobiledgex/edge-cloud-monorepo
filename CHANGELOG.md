@@ -1,3 +1,16 @@
+## [2022-01-21] - Jan 21, 2022
+[Details](../../commit/2022-01-21)
+
+### edge-cloud:
+- Adding e2e-tests for QOS Priority Sessions ([#1614](https://github.com/mobiledgex/edge-cloud/pull/1614)) (Bruce Armstrong)
+
+### edge-cloud-infra:
+- Adding e2e-tests for QOS Priority Sessions ([#1904](https://github.com/mobiledgex/edge-cloud-infra/pull/1904)) (Bruce Armstrong)
+- [EDGECLOUD-6007](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6007) failed login attempt delay time should show whole seconds ([#1910](https://github.com/mobiledgex/edge-cloud-infra/pull/1910)) (Jon)
+- [EDGECLOUD-6026](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6026) user update for email that already exists needs better error message ([#1909](https://github.com/mobiledgex/edge-cloud-infra/pull/1909)) (Jon)
+- Teleport version bump ([#1911](https://github.com/mobiledgex/edge-cloud-infra/pull/1911)) (Venky)
+- Gitlab security upgrade to 14.5.3 ([#1907](https://github.com/mobiledgex/edge-cloud-infra/pull/1907)) (Venky)
+
 ## [2022-01-20] - Jan 20, 2022
 [Details](../../commit/2022-01-20)
 
