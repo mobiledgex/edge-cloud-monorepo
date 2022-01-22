@@ -1,3 +1,13 @@
+## [2022-01-22] - Jan 22, 2022
+[Details](../../commit/2022-01-22)
+
+### edge-cloud:
+- [EDGECLOUD-4697](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4697): Use redis for StreamObjs ([#1579](https://github.com/mobiledgex/edge-cloud/pull/1579)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-4697](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4697): Use redis for StreamObjs ([#1892](https://github.com/mobiledgex/edge-cloud-infra/pull/1892)) (Ashish Jain)
+- Set up redis in each region ([#1912](https://github.com/mobiledgex/edge-cloud-infra/pull/1912)) (Venky)
+
 ## [2022-01-21] - Jan 21, 2022
 [Details](../../commit/2022-01-21)
 
