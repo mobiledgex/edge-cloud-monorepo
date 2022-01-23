@@ -1,3 +1,9 @@
+## [2022-01-23] - Jan 23, 2022
+[Details](../../commit/2022-01-23)
+
+### edge-cloud-infra:
+- Fix redis deployment in Ansible ([#1914](https://github.com/mobiledgex/edge-cloud-infra/pull/1914)) (Venky)
+
 ## [2022-01-22] - Jan 22, 2022
 [Details](../../commit/2022-01-22)
 
