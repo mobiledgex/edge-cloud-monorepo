@@ -1,3 +1,13 @@
+## [2022-01-25] - Jan 25, 2022
+[Details](../../commit/2022-01-25)
+
+### edge-cloud:
+- Remove dead files that are no longer needed/relevant ([#1617](https://github.com/mobiledgex/edge-cloud/pull/1617)) (Jon)
+
+### edge-cloud-infra:
+- add standalone redis for e2e ([#1917](https://github.com/mobiledgex/edge-cloud-infra/pull/1917)) (Jim)
+- Switch controller to redis HA ([#1915](https://github.com/mobiledgex/edge-cloud-infra/pull/1915)) (Venky)
+
 ## [2022-01-23] - Jan 23, 2022
 [Details](../../commit/2022-01-23)
 
