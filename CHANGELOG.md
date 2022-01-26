@@ -1,3 +1,13 @@
+## [2022-01-26] - Jan 26, 2022
+[Details](../../commit/2022-01-26)
+
+### edge-cloud:
+- API docs updates ([#1613](https://github.com/mobiledgex/edge-cloud/pull/1613)) (Venky)
+
+### edge-cloud-infra:
+- Reduce number of shards used by Jaeger indexes ([#1916](https://github.com/mobiledgex/edge-cloud-infra/pull/1916)) (Venky)
+- API docs updates ([#1903](https://github.com/mobiledgex/edge-cloud-infra/pull/1903)) (Venky)
+
 ## [2022-01-25] - Jan 25, 2022
 [Details](../../commit/2022-01-25)
 
