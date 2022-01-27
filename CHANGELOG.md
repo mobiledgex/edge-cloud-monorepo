@@ -1,3 +1,19 @@
+## [2022-01-27] - Jan 27, 2022
+[Details](../../commit/2022-01-27)
+
+### edge-cloud:
+- [EDGECLOUD-6036](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6036) check for and add missing mcctl help comments ([#1618](https://github.com/mobiledgex/edge-cloud/pull/1618)) (Jon)
+- [EDGECLOUD-6063](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6063) Thanos metrics pipeline for cloudlet prometheus data ([#1596](https://github.com/mobiledgex/edge-cloud/pull/1596)) (Lev Shvarts)
+- TrustPolicyException fixes ([#1619](https://github.com/mobiledgex/edge-cloud/pull/1619)) (Devdatta)
+   - * [EDGECLOUD-6022](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6022), [EDGECLOUD-6025](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6025), [EDGECLOUD-6041](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6041) : various trustPolicyException fixes
+
+### edge-cloud-infra:
+- [EDGECLOUD-6036](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6036) check for and add missing mcctl help comments ([#1913](https://github.com/mobiledgex/edge-cloud-infra/pull/1913)) (Jon)
+- [EDGECLOUD-6063](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6063) Thanos metrics pipeline for cloudlet prometheus data ([#1884](https://github.com/mobiledgex/edge-cloud-infra/pull/1884)) (Lev Shvarts)
+
+### edge-proto:
+- [EDGECLOUD-6036](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6036) check for and add missing mcctl help comments ([#52](https://github.com/mobiledgex/edge-proto/pull/52)) (Jon)
+
 ## [2022-01-26] - Jan 26, 2022
 [Details](../../commit/2022-01-26)
 
