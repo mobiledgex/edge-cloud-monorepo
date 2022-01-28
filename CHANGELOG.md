@@ -1,3 +1,16 @@
+## [2022-01-28] - Jan 28, 2022
+[Details](../../commit/2022-01-28)
+
+### edge-cloud:
+- [EDGECLOUD-6067](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6067): vmpool update gets stuck and eventually times out ([#1620](https://github.com/mobiledgex/edge-cloud/pull/1620)) (Ashish Jain)
+   - * [EDGECLOUD-6067](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6067): vmpool update gets stuck and eventually times out
+- Fix unit-tests ([#1621](https://github.com/mobiledgex/edge-cloud/pull/1621)) (Ashish Jain)
+- [EDGECLOUD-6068](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6068): Retry auto deletion of appinst if an action is in progress ([#1622](https://github.com/mobiledgex/edge-cloud/pull/1622)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Remove cluster option from fake_envoy_exporter ([#1920](https://github.com/mobiledgex/edge-cloud-infra/pull/1920)) (Lev Shvarts)
+- [EDGECLOUD-6062](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6062) Upgrade base image to address CVE-2021-4034 ([#1918](https://github.com/mobiledgex/edge-cloud-infra/pull/1918)) (Venky)
+
 ## [2022-01-27] - Jan 27, 2022
 [Details](../../commit/2022-01-27)
 
