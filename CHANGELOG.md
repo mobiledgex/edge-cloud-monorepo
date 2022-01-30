@@ -1,3 +1,10 @@
+## [2022-01-30] - Jan 30, 2022
+[Details](../../commit/2022-01-30)
+
+### edge-cloud:
+- Tpe fixes/edgecloud 6022 ([#1627](https://github.com/mobiledgex/edge-cloud/pull/1627)) (Devdatta)
+   - * [EDGECLOUD-6022](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6022), [EDGECLOUD-6025](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6025), [EDGECLOUD-6041](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6041) : various trustPolicyException fixes
+
 ## [2022-01-28] - Jan 28, 2022
 [Details](../../commit/2022-01-28)
 
