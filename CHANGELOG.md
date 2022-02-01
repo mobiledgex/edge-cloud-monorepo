@@ -1,3 +1,25 @@
+## [2022-02-01] - Feb 01, 2022
+[Details](../../commit/2022-02-01)
+
+### edge-cloud:
+- CRM H/A part 3 ([#1626](https://github.com/mobiledgex/edge-cloud/pull/1626)) (Jim)
+- Removing inadvertently added dump.rdb file (brucearmstrong)
+- [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) QosPrioritySessionCreate and QosPrioritySessionDelete ([#1624](https://github.com/mobiledgex/edge-cloud/pull/1624)) (Bruce Armstrong)
+   - * [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) QosPrioritySessionCreate and QosPrioritySessionDelete
+- Switch edge-cloud builds to the forked go-swagger ([#1628](https://github.com/mobiledgex/edge-cloud/pull/1628)) (Venky)
+
+### edge-cloud-infra:
+- CRM H/A part 3 ([#1923](https://github.com/mobiledgex/edge-cloud-infra/pull/1923)) (Jim)
+- [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) QosPrioritySessionCreate and QosPrioritySessionDelete ([#1922](https://github.com/mobiledgex/edge-cloud-infra/pull/1922)) (Bruce Armstrong)
+   - * [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) QosPrioritySessionCreate and QosPrioritySessionDelete
+- Swaggerfix ([#1919](https://github.com/mobiledgex/edge-cloud-infra/pull/1919)) (Jon)
+
+### edge-proto:
+- Merge pull request #53 from mobiledgex/qos-sessions-create-delete (Bruce Armstrong)
+   - [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) QosPrioritySessionCreate and QosPrioritySessionDelete
+- New FindCloudlet QOS result fields (brucearmstrong)
+- [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) QosPrioritySessionCreate and QosPrioritySessionDelete (brucearmstrong)
+
 ## [2022-01-30] - Jan 30, 2022
 [Details](../../commit/2022-01-30)
 
