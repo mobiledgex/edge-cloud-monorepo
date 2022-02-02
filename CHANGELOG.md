@@ -1,3 +1,12 @@
+## [2022-02-02] - Feb 02, 2022
+[Details](../../commit/2022-02-02)
+
+### edge-cloud:
+- Trustpolicyexception ([#1629](https://github.com/mobiledgex/edge-cloud/pull/1629)) (Devdatta)
+
+### edge-cloud-infra:
+- Fix set_services cookbook version in k8s_crm policy ([#1925](https://github.com/mobiledgex/edge-cloud-infra/pull/1925)) (Venky)
+
 ## [2022-02-01] - Feb 01, 2022
 [Details](../../commit/2022-02-01)
 
