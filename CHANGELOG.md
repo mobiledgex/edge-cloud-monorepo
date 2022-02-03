@@ -1,3 +1,9 @@
+## [2022-02-03-1] - Feb 03, 2022
+[Details](../../commit/2022-02-03-1)
+
+### edge-cloud:
+- Go 1.17.6 docker build changes ([#1633](https://github.com/mobiledgex/edge-cloud/pull/1633)) (Venky)
+
 ## [2022-02-03] - Feb 03, 2022
 [Details](../../commit/2022-02-03)
 
