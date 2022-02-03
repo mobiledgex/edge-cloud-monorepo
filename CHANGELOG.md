@@ -1,3 +1,18 @@
+## [2022-02-03] - Feb 03, 2022
+[Details](../../commit/2022-02-03)
+
+### edge-cloud:
+- [EDGECLOUD-6074](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6074): Update dependencies for MacOS Monterey build ([#1623](https://github.com/mobiledgex/edge-cloud/pull/1623)) (lgarner)
+   - * [EDGECLOUD-6074](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6074): Update dependencies for MacOS Monterey build
+- UpdateCloudlet() trustpolicy update time out error message fix  ([#1631](https://github.com/mobiledgex/edge-cloud/pull/1631)) (Devdatta)
+- add cloudlet alias for network ([#1630](https://github.com/mobiledgex/edge-cloud/pull/1630)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6074](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6074): Infra go.mod updates for Monterey compilation. Remove bad test file. ([#1921](https://github.com/mobiledgex/edge-cloud-infra/pull/1921)) (lgarner)
+   - * [EDGECLOUD-6074](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6074): Infra go.mod updates for Monterey compilation. Remove invalid broken test case for golang 1.17.
+- network alias ([#1926](https://github.com/mobiledgex/edge-cloud-infra/pull/1926)) (Jim)
+- [EDGECLOUD-6020](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6020) Encrypt etcd backups ([#1924](https://github.com/mobiledgex/edge-cloud-infra/pull/1924)) (Venky)
+
 ## [2022-02-02] - Feb 02, 2022
 [Details](../../commit/2022-02-02)
 
