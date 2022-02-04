@@ -1,3 +1,22 @@
+## [2022-02-04] - Feb 04, 2022
+[Details](../../commit/2022-02-04)
+
+### edge-cloud:
+- [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) New e2e-tests for QOS Sessions ([#1632](https://github.com/mobiledgex/edge-cloud/pull/1632)) (Bruce Armstrong)
+   - * [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) New e2e-tests for QOS Sessions
+- Revert "[EDGECLOUD-6074](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6074): Update dependencies for MacOS Monterey build (#1623)" (Venky Tumkur)
+- Revert "Go 1.17.6 docker build changes (#1633)" (Venky Tumkur)
+- fix e2e ([#1634](https://github.com/mobiledgex/edge-cloud/pull/1634)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) New e2e-tests for QOS Sessions ([#1927](https://github.com/mobiledgex/edge-cloud-infra/pull/1927)) (Bruce Armstrong)
+   - * [EDGECLOUD-5982](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5982) New e2e-tests for QOS Sessions
+- Revert "[EDGECLOUD-6074](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6074): Infra go.mod updates for Monterey compilation. Remove bad test file. (#1921)" (Venky Tumkur)
+- Flag to skip vault setup during dev deployments ([#1932](https://github.com/mobiledgex/edge-cloud-infra/pull/1932)) (Venky)
+- [EDGECLOUD-6102](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6102): VMPool k8s cluster creation fails as install-k8s scripts args have changed ([#1931](https://github.com/mobiledgex/edge-cloud-infra/pull/1931)) (Ashish Jain)
+- infra portion of e2e fix for HA ([#1930](https://github.com/mobiledgex/edge-cloud-infra/pull/1930)) (Jim)
+- look for node in lowercase ([#1929](https://github.com/mobiledgex/edge-cloud-infra/pull/1929)) (Jim)
+
 ## [2022-02-03-1] - Feb 03, 2022
 [Details](../../commit/2022-02-03-1)
 
