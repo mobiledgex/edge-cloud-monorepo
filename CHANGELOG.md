@@ -1,3 +1,25 @@
+## [2022-02-05] - Feb 05, 2022
+[Details](../../commit/2022-02-05)
+
+### edge-cloud:
+- Change alert names, fix time format error ([#1636](https://github.com/mobiledgex/edge-cloud/pull/1636)) (Lev Shvarts)
+   - * [EDGECLOUD-5895](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5895) AppInst Health Check fail values should be renamed
+   -    - Autogen files and other fixes for the new names(see main PR in edge-proto: [EDGECLOUD-5895](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5895) AppInst Health 
+   - * [EDGECLOUD-5880](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5880) mcctl usage command time format example doesnt work
+- swagger documentation fixes ([#1635](https://github.com/mobiledgex/edge-cloud/pull/1635)) (Jon)
+
+### edge-cloud-infra:
+- Metrics object validation, alert names renaming and time error change ([#1934](https://github.com/mobiledgex/edge-cloud-infra/pull/1934)) (Lev Shvarts)
+   - * [EDGECLOUD-6032](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6032) cloudletusage metrics should require cloudlets:x.cloudlet-org with cloudlets:x.cloudlet
+   - * [EDGECLOUD-5895](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5895) AppInst Health Check fail values should be renamed
+   -    - Autogen files and modifications to cloudlet prom rules for the new names(see main PR in edge-proto: [EDGECLOUD-5895](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5895) AppInst Health Check fail values should be renamed edge-proto#54)
+   - * [EDGECLOUD-5880](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5880) mcctl usage command time format example doesnt work
+- swagger documentations fixes ([#1933](https://github.com/mobiledgex/edge-cloud-infra/pull/1933)) (Jon)
+
+### edge-proto:
+- [EDGECLOUD-5895](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5895) AppInst Health Check fail values should be renamed([#54](https://github.com/mobiledgex/edge-proto/pull/54)) (Lev Shvarts)
+- HealthCheck name changes (Lev Shvarts)
+
 ## [2022-02-04] - Feb 04, 2022
 [Details](../../commit/2022-02-04)
 
