@@ -1,3 +1,17 @@
+## [2022-02-08] - Feb 08, 2022
+[Details](../../commit/2022-02-08)
+
+### edge-cloud:
+- [EDGECLOUD-5995](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5995) Remove dash from mcctl args ([#1637](https://github.com/mobiledgex/edge-cloud/pull/1637)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5995](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5995) Remove dash from mcctl args ([#1935](https://github.com/mobiledgex/edge-cloud-infra/pull/1935)) (Jon)
+- add internal ip to hosts to ensure weave initializes properly ([#1928](https://github.com/mobiledgex/edge-cloud-infra/pull/1928)) (Jim)
+- Implement minimum version checks for teleport ([#1936](https://github.com/mobiledgex/edge-cloud-infra/pull/1936)) (Venky)
+
+### edge-proto:
+- [EDGECLOUD-5995](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5995) Remove dash from mcctl args ([#55](https://github.com/mobiledgex/edge-proto/pull/55)) (Jon)
+
 ## [2022-02-05] - Feb 05, 2022
 [Details](../../commit/2022-02-05)
 
