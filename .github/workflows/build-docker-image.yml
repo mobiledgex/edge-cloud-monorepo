@@ -37,6 +37,12 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: ${{ env.REGISTRY }}/mobiledgex/edge-cloud
+          tags: |
+            type=schedule
+            type=ref,event=branch
+            type=ref,event=tag
+            type=ref,event=pr
+            type=raw,value=nightly
       -
         name: Compute build tag
         id: build-tag
