@@ -1,3 +1,15 @@
+## [2022-02-09] - Feb 09, 2022
+[Details](../../commit/2022-02-09)
+
+### edge-cloud:
+- [EDGECLOUD-5918](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5918) ensure idempotent upgrade functions ([#1643](https://github.com/mobiledgex/edge-cloud/pull/1643)) (Jon)
+- fix nil error check ([#1641](https://github.com/mobiledgex/edge-cloud/pull/1641)) (Devdatta)
+
+### edge-cloud-infra:
+- Fix help string for locationTile and add input validation for usage apis ([#1939](https://github.com/mobiledgex/edge-cloud-infra/pull/1939)) (Lev Shvarts)
+   - [EDGECLOUD-6103](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6103) "usage app" and "metrics app" give inconsistent error for sql injection attempt
+   - [EDGECLOUD-5921](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5921) mcctl usage for metrics clientappusage locationtile needs update for support of deviceinfo
+
 ## [2022-02-08] - Feb 08, 2022
 [Details](../../commit/2022-02-08)
 
