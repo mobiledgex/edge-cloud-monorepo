@@ -1,3 +1,14 @@
+## [2022-02-10] - Feb 10, 2022
+[Details](../../commit/2022-02-10)
+
+### edge-cloud:
+- [EDGECLOUD-5613](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5613): Resource Management for AWS-EKS based Cloudlets ([#1638](https://github.com/mobiledgex/edge-cloud/pull/1638)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5611](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5611) Automatic scanning of developer VM images ([#1941](https://github.com/mobiledgex/edge-cloud-infra/pull/1941)) (Venky)
+- [EDGECLOUD-6107](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6107) cloudletusage metrics should check cloudlet exists for flavorusage ([#1940](https://github.com/mobiledgex/edge-cloud-infra/pull/1940)) (Lev Shvarts)
+- [EDGECLOUD-5613](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5613): Resource Management for AWS-EKS based Cloudlets ([#1937](https://github.com/mobiledgex/edge-cloud-infra/pull/1937)) (Ashish Jain)
+
 ## [2022-02-09] - Feb 09, 2022
 [Details](../../commit/2022-02-09)
 
