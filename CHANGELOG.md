@@ -1,3 +1,15 @@
+## [2022-02-11] - Feb 11, 2022
+[Details](../../commit/2022-02-11)
+
+### edge-cloud:
+- trustpolicyexception not creating rules for autocluster ([#1642](https://github.com/mobiledgex/edge-cloud/pull/1642)) (Devdatta)
+
+### edge-cloud-infra:
+- Add Tom to the vault access lists in main and QA ([#1945](https://github.com/mobiledgex/edge-cloud-infra/pull/1945)) (Venky)
+- [EDGECLOUD-5325](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5325) TEF wants their ops team to be able to access VMs running in their infra ([#1944](https://github.com/mobiledgex/edge-cloud-infra/pull/1944)) (Venky)
+- fix remove ip error ([#1943](https://github.com/mobiledgex/edge-cloud-infra/pull/1943)) (Jim)
+- Turn on ntpd or timesyncd on all VMs ([#1942](https://github.com/mobiledgex/edge-cloud-infra/pull/1942)) (Venky)
+
 ## [2022-02-10] - Feb 10, 2022
 [Details](../../commit/2022-02-10)
 
