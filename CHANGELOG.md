@@ -1,3 +1,16 @@
+## [2022-02-12] - Feb 12, 2022
+[Details](../../commit/2022-02-12)
+
+### edge-cloud:
+- [EDGECLOUD-5918](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5918) make upgrade functions thread safe ([#1644](https://github.com/mobiledgex/edge-cloud/pull/1644)) (Jon)
+- [EDGECLOUD-5318](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5318) add tty and stdin options to mcctl exec commands ([#1645](https://github.com/mobiledgex/edge-cloud/pull/1645)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5318](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5318) add tty and stdin options to mcctl exec commands ([#1946](https://github.com/mobiledgex/edge-cloud-infra/pull/1946)) (Jon)
+- Added cloudletpool tag validation and fixed cloudletorg tag ([#1947](https://github.com/mobiledgex/edge-cloud-infra/pull/1947)) (Lev Shvarts)
+   - * [EDGECLOUD-6120](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6120) "usage cloudletpool" should sanitize the cloudletpool and cloudletpoolorg args
+   - * [EDGECLOUD-6061](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6061) clientappusage metrics not returning metrics when using cloudlet/cloudlet-org only
+
 ## [2022-02-11] - Feb 11, 2022
 [Details](../../commit/2022-02-11)
 
