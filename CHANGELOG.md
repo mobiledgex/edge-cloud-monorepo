@@ -1,3 +1,13 @@
+## [2022-02-14] - Feb 14, 2022
+[Details](../../commit/2022-02-14)
+
+### edge-cloud:
+- [EDGECLOUD-5838](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5838): App deployment support for federation ([#1646](https://github.com/mobiledgex/edge-cloud/pull/1646)) (Ashish Jain)
+
+### edge-cloud-infra:
+- new chef policy for k8s platform workers ([#1949](https://github.com/mobiledgex/edge-cloud-infra/pull/1949)) (Jim)
+- [EDGECLOUD-5838](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5838): App deployment support for federation ([#1948](https://github.com/mobiledgex/edge-cloud-infra/pull/1948)) (Ashish Jain)
+
 ## [2022-02-12] - Feb 12, 2022
 [Details](../../commit/2022-02-12)
 
