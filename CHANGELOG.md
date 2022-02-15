@@ -1,3 +1,17 @@
+## [2022-02-15] - Feb 15, 2022
+[Details](../../commit/2022-02-15)
+
+### edge-cloud:
+- [EDGECLOUD-6150](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6150) fail CreateCloudlet if SingleKubernetesClusterOwner set on non-single cluster cloudlet ([#1648](https://github.com/mobiledgex/edge-cloud/pull/1648)) (Jon)
+- [EDGECLOUD-6145](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6145): Fix small comment issue ([#1647](https://github.com/mobiledgex/edge-cloud/pull/1647)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6133](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6133) check specific SingleKubernetesClusterOwner org exists ([#1957](https://github.com/mobiledgex/edge-cloud-infra/pull/1957)) (Jon)
+- [EDGECLOUD-5917](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5917) add custom descriptions for swagger fix; fix login args ([#1950](https://github.com/mobiledgex/edge-cloud-infra/pull/1950)) (Jon)
+- Consolidate hardcoded changes & fix app related onboarding issues ([#1955](https://github.com/mobiledgex/edge-cloud-infra/pull/1955)) (Ashish Jain)
+- [EDGECLOUD-6144](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6144): Add federation APIKey read policy for FRM service ([#1954](https://github.com/mobiledgex/edge-cloud-infra/pull/1954)) (Ashish Jain)
+- Manage teleport bypass whitelist using terraform ([#1953](https://github.com/mobiledgex/edge-cloud-infra/pull/1953)) (Venky)
+
 ## [2022-02-14] - Feb 14, 2022
 [Details](../../commit/2022-02-14)
 
