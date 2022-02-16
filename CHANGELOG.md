@@ -1,3 +1,13 @@
+## [2022-02-16] - Feb 16, 2022
+[Details](../../commit/2022-02-16)
+
+### edge-cloud-infra:
+- H/A healthcheck fix ([#1961](https://github.com/mobiledgex/edge-cloud-infra/pull/1961)) (Jim)
+- [EDGECLOUD-6104](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6104)  MC crash with missing "thanos_metrics" in Postgres ([#1951](https://github.com/mobiledgex/edge-cloud-infra/pull/1951)) (Lev Shvarts)
+- [EDGECLOUD-6144](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6144): Fix FRM vault policy to read mexenv.json for updating DNS entry ([#1958](https://github.com/mobiledgex/edge-cloud-infra/pull/1958)) (Ashish Jain)
+- Support all Sonoral orgs in teleport ([#1956](https://github.com/mobiledgex/edge-cloud-infra/pull/1956)) (Venky)
+- [EDGECLOUD-6146](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6146) Gitlab upgrade to 14.5.4 ([#1952](https://github.com/mobiledgex/edge-cloud-infra/pull/1952)) (Venky)
+
 ## [2022-02-15] - Feb 15, 2022
 [Details](../../commit/2022-02-15)
 
