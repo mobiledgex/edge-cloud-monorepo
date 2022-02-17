@@ -1,3 +1,12 @@
+## [2022-02-17] - Feb 17, 2022
+[Details](../../commit/2022-02-17)
+
+### edge-cloud:
+- Anthos: ConfigYaml file cleanup with DeleteAppInst ([#1649](https://github.com/mobiledgex/edge-cloud/pull/1649)) (Devdatta)
+
+### edge-cloud-infra:
+- Support for deploying custom builds from `mobiledgex-dev` project in harbor ([#1959](https://github.com/mobiledgex/edge-cloud-infra/pull/1959)) (Venky)
+
 ## [2022-02-16] - Feb 16, 2022
 [Details](../../commit/2022-02-16)
 
