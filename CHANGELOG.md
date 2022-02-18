@@ -1,3 +1,12 @@
+## [2022-02-18] - Feb 18, 2022
+[Details](../../commit/2022-02-18)
+
+### edge-cloud:
+- [EDGECLOUD-6155](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6155): Unable to add federation cloudlets to cloudlet pool ([#1650](https://github.com/mobiledgex/edge-cloud/pull/1650)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6155](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6155): Unable to add federation cloudlets to cloudlet pool ([#1962](https://github.com/mobiledgex/edge-cloud-infra/pull/1962)) (Ashish Jain)
+
 ## [2022-02-17] - Feb 17, 2022
 [Details](../../commit/2022-02-17)
 
