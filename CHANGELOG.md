@@ -1,3 +1,11 @@
+## [2022-02-19] - Feb 19, 2022
+[Details](../../commit/2022-02-19)
+
+### edge-cloud-infra:
+- Add the APAC region to the staging setup ([#1965](https://github.com/mobiledgex/edge-cloud-infra/pull/1965)) (Venky)
+- [EDGECLOUD-6144](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6144): Show other details as part of federator create output ([#1964](https://github.com/mobiledgex/edge-cloud-infra/pull/1964)) (Ashish Jain)
+- [EDGECLOUD-6144](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6144): Enable federation endpoint on staging setup ([#1963](https://github.com/mobiledgex/edge-cloud-infra/pull/1963)) (Ashish Jain)
+
 ## [2022-02-18] - Feb 18, 2022
 [Details](../../commit/2022-02-18)
 
