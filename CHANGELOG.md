@@ -1,3 +1,13 @@
+## [2022-02-21] - Feb 21, 2022
+[Details](../../commit/2022-02-21)
+
+### edge-cloud:
+- H/A fixes ([#1639](https://github.com/mobiledgex/edge-cloud/pull/1639)) (Jim)
+
+### edge-cloud-infra:
+- H/A fixes ([#1938](https://github.com/mobiledgex/edge-cloud-infra/pull/1938)) (Jim)
+- Customise Jenkins builds for staging setup ([#1966](https://github.com/mobiledgex/edge-cloud-infra/pull/1966)) (Venky)
+
 ## [2022-02-19] - Feb 19, 2022
 [Details](../../commit/2022-02-19)
 
