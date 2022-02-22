@@ -1,3 +1,12 @@
+## [2022-02-22] - Feb 22, 2022
+[Details](../../commit/2022-02-22)
+
+### edge-cloud:
+- Security Rules : allow uppercase for Protocol ([#1651](https://github.com/mobiledgex/edge-cloud/pull/1651)) (Devdatta)
+
+### edge-cloud-infra:
+- Have ansible deployments optionally bypass teleport ([#1967](https://github.com/mobiledgex/edge-cloud-infra/pull/1967)) (Venky)
+
 ## [2022-02-21] - Feb 21, 2022
 [Details](../../commit/2022-02-21)
 
