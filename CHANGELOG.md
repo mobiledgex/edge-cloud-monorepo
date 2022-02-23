@@ -1,3 +1,19 @@
+## [2022-02-23] - Feb 23, 2022
+[Details](../../commit/2022-02-23)
+
+### edge-cloud:
+- [EDGECLOUD-5679](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5679): Fix issue to get correct dockerapp container IDs ([#1653](https://github.com/mobiledgex/edge-cloud/pull/1653)) (Ashish Jain)
+- enhance debug command for HA, also fix trailing slash for mc show node ([#1656](https://github.com/mobiledgex/edge-cloud/pull/1656)) (Jim)
+- subsequent switchover after redis failure does not work properly ([#1652](https://github.com/mobiledgex/edge-cloud/pull/1652)) (Jim)
+
+### edge-cloud-infra:
+- Cleanup rootLB DNS entry on cloudlet deletion ([#1972](https://github.com/mobiledgex/edge-cloud-infra/pull/1972)) (Ashish Jain)
+- User API key bug fixes ([#1971](https://github.com/mobiledgex/edge-cloud-infra/pull/1971)) (Ashish Jain)
+- Federation bug fixes ([#1969](https://github.com/mobiledgex/edge-cloud-infra/pull/1969)) (Ashish Jain)
+- fix access cloudlet for k8s deploy ([#1974](https://github.com/mobiledgex/edge-cloud-infra/pull/1974)) (Jim)
+- Enable pod autoscaling on DME ([#1973](https://github.com/mobiledgex/edge-cloud-infra/pull/1973)) (Venky)
+- CRM H/A chef changes for master node down ([#1968](https://github.com/mobiledgex/edge-cloud-infra/pull/1968)) (Jim)
+
 ## [2022-02-22] - Feb 22, 2022
 [Details](../../commit/2022-02-22)
 
