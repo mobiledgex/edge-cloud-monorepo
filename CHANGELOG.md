@@ -1,3 +1,15 @@
+## [2022-02-24] - Feb 24, 2022
+[Details](../../commit/2022-02-24)
+
+### edge-cloud:
+- Fix cloudlet undo on create failures ([#1654](https://github.com/mobiledgex/edge-cloud/pull/1654)) (Ashish Jain)
+- fix RunCommand exec and add check to ensure ready to update init version ([#1657](https://github.com/mobiledgex/edge-cloud/pull/1657)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5979](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5979): Able to create a federatorzone with invalid country code ([#1976](https://github.com/mobiledgex/edge-cloud-infra/pull/1976)) (Ashish Jain)
+- [EDGECLOUD-5325](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5325) Set up teleport using chef ([#1970](https://github.com/mobiledgex/edge-cloud-infra/pull/1970)) (Venky)
+- Flag to pick builds from dev registry for deployment ([#1975](https://github.com/mobiledgex/edge-cloud-infra/pull/1975)) (Venky)
+
 ## [2022-02-23] - Feb 23, 2022
 [Details](../../commit/2022-02-23)
 
