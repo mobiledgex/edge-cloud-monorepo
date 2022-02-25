@@ -1,3 +1,17 @@
+## [2022-02-25] - Feb 25, 2022
+[Details](../../commit/2022-02-25)
+
+### edge-cloud:
+- Fix LB portmap lookup for a namespace ([#1660](https://github.com/mobiledgex/edge-cloud/pull/1660)) (Devdatta)
+- [EDGECLOUD-6161](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6161) disallow VM/docker apps on single kubernetes cluster platform ([#1659](https://github.com/mobiledgex/edge-cloud/pull/1659)) (Jon)
+- [EDGECLOUD-6151](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6151) More logs for error cases ([#1658](https://github.com/mobiledgex/edge-cloud/pull/1658)) (Bruce Armstrong)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6160](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6160) disallow operator org for singlekubernetesclusterowner org ([#1979](https://github.com/mobiledgex/edge-cloud-infra/pull/1979)) (Jon)
+- [EDGECLOUD-6151](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6151) Add error checking for IP address parameters ([#1960](https://github.com/mobiledgex/edge-cloud-infra/pull/1960)) (Bruce Armstrong)
+   - * [EDGECLOUD-6151](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6151) Add error checking for IP address parameters
+- Match externally exposed federation port with container port ([#1978](https://github.com/mobiledgex/edge-cloud-infra/pull/1978)) (Venky)
+
 ## [2022-02-24] - Feb 24, 2022
 [Details](../../commit/2022-02-24)
 
