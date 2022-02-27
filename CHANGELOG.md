@@ -1,3 +1,14 @@
+## [2022-02-27] - Feb 27, 2022
+[Details](../../commit/2022-02-27)
+
+### edge-cloud:
+- Fix cloudlet cleanup issues ([#1663](https://github.com/mobiledgex/edge-cloud/pull/1663)) (Ashish Jain)
+- Fix rootLB TLS certs refresh thread as it can end up using expired certs ([#1662](https://github.com/mobiledgex/edge-cloud/pull/1662)) (Ashish Jain)
+   - [EDGECLOUD-6198](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6198): RootLB TLS certs refresh thread can end up using expired certs
+
+### edge-cloud-infra:
+- Fix cloudlet cleanup issues ([#1981](https://github.com/mobiledgex/edge-cloud-infra/pull/1981)) (Ashish Jain)
+
 ## [2022-02-25] - Feb 25, 2022
 [Details](../../commit/2022-02-25)
 
