@@ -1,3 +1,9 @@
+## [2022-02-28] - Feb 28, 2022
+[Details](../../commit/2022-02-28)
+
+### edge-cloud-infra:
+- crmserver restaring on VCD when create cloudlet has a trust policy ([#1983](https://github.com/mobiledgex/edge-cloud-infra/pull/1983)) (Devdatta)
+
 ## [2022-02-27] - Feb 27, 2022
 [Details](../../commit/2022-02-27)
 
