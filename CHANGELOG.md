@@ -1,3 +1,10 @@
+## [2022-03-01] - Mar 01, 2022
+[Details](../../commit/2022-03-01)
+
+### edge-cloud-infra:
+- do chef init after platform init ([#1984](https://github.com/mobiledgex/edge-cloud-infra/pull/1984)) (Jim)
+- [EDGECLOUD-6202](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6202) Base image update to include updated chef client ([#1982](https://github.com/mobiledgex/edge-cloud-infra/pull/1982)) (Venky)
+
 ## [2022-02-28] - Feb 28, 2022
 [Details](../../commit/2022-02-28)
 
