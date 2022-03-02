@@ -1,3 +1,13 @@
+## [2022-03-02] - Mar 02, 2022
+[Details](../../commit/2022-03-02)
+
+### edge-cloud:
+- Fix redis memory leak ([#1664](https://github.com/mobiledgex/edge-cloud/pull/1664)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6179](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6179)  mc crashes while fetching cloudletpool/cluster usage ([#1977](https://github.com/mobiledgex/edge-cloud-infra/pull/1977)) (Lev Shvarts)
+- Upgrade Artifactory to 7.19.12 ([#1985](https://github.com/mobiledgex/edge-cloud-infra/pull/1985)) (Venky)
+
 ## [2022-03-01] - Mar 01, 2022
 [Details](../../commit/2022-03-01)
 
