@@ -1,3 +1,14 @@
+## [2022-03-03] - Mar 03, 2022
+[Details](../../commit/2022-03-03)
+
+### edge-cloud:
+- Update open source software handling to include software mirroring ([#1666](https://github.com/mobiledgex/edge-cloud/pull/1666)) (Jon)
+- [EDGECLOUD-6165](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6165) Adjust AppInst key defaults for single k8s cloudlet ([#1667](https://github.com/mobiledgex/edge-cloud/pull/1667)) (Jon)
+
+### edge-cloud-infra:
+- Update third-party-notices to reference mirrored source code ([#1986](https://github.com/mobiledgex/edge-cloud-infra/pull/1986)) (Jon)
+- Missed upgrading chef recipe version ([#1987](https://github.com/mobiledgex/edge-cloud-infra/pull/1987)) (Venky)
+
 ## [2022-03-02] - Mar 02, 2022
 [Details](../../commit/2022-03-02)
 
