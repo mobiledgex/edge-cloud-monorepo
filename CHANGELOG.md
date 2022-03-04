@@ -1,3 +1,11 @@
+## [2022-03-04] - Mar 04, 2022
+[Details](../../commit/2022-03-04)
+
+### edge-cloud-infra:
+- In dev mode, pick CRM from mobiledgex-dev registry ([#1990](https://github.com/mobiledgex/edge-cloud-infra/pull/1990)) (Venky)
+- [EDGECLOUD-6221](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6221) disallow user from changing org billing parent ([#1989](https://github.com/mobiledgex/edge-cloud-infra/pull/1989)) (Jon)
+- [EDGECLOUD-6223](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6223) disallow user with no orgs from seeing events ([#1988](https://github.com/mobiledgex/edge-cloud-infra/pull/1988)) (Jon)
+
 ## [2022-03-03] - Mar 03, 2022
 [Details](../../commit/2022-03-03)
 
