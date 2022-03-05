@@ -1,3 +1,17 @@
+## [2022-03-05] - Mar 05, 2022
+[Details](../../commit/2022-03-05)
+
+### edge-cloud:
+- [EDGECLOUD-6226](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6226) fix runcommand exploit allowing access to parent VM ([#1669](https://github.com/mobiledgex/edge-cloud/pull/1669)) (Jon)
+- Vcd oauth switchover ([#1661](https://github.com/mobiledgex/edge-cloud/pull/1661)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6226](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6226) fix runcommand exploit ([#1996](https://github.com/mobiledgex/edge-cloud-infra/pull/1996)) (Jon)
+- [EDGECLOUD-6236](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6236) Users can delete AlertReceviers from other orgs ([#1997](https://github.com/mobiledgex/edge-cloud-infra/pull/1997)) (Lev Shvarts)
+- Vcd oauth switchover ([#1980](https://github.com/mobiledgex/edge-cloud-infra/pull/1980)) (Jim)
+- [EDGECLOUD-6232](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6232): Account creation and password reset request emails vulnerable to phishing ([#1993](https://github.com/mobiledgex/edge-cloud-infra/pull/1993)) (Ashish Jain)
+- [EDGECLOUD-6234](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6234): MC /artifactory/summary leaks user and org information ([#1994](https://github.com/mobiledgex/edge-cloud-infra/pull/1994)) (Ashish Jain)
+
 ## [2022-03-04] - Mar 04, 2022
 [Details](../../commit/2022-03-04)
 
