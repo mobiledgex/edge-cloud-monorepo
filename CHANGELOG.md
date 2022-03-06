@@ -1,3 +1,12 @@
+## [2021-08-14-15] - Mar 06, 2022
+[Details](../../commit/2021-08-14-15)
+
+### edge-cloud:
+- EDGELCOUD-6226 fix runcommand exploit allowing access to parent VM (Jon Gainsley)
+
+### edge-cloud-infra:
+- EDGELCOUD-6226 fix runcommand exploit allowing access to parent VM (Jon Gainsley)
+
 ## [2021-08-14-14] - Mar 06, 2022
 [Details](../../commit/2021-08-14-14)
 
