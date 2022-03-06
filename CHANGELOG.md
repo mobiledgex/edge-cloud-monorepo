@@ -1,3 +1,12 @@
+## [2022-03-06] - Mar 06, 2022
+[Details](../../commit/2022-03-06)
+
+### edge-cloud:
+- [EDGECLOUD-6237](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6237): MC api /orgcloudletinfo/show reveals cluster and vm app info for other organizations ([#1670](https://github.com/mobiledgex/edge-cloud/pull/1670)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6237](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6237): MC api /orgcloudletinfo/show reveals cluster and vm app info for other organizations ([#1995](https://github.com/mobiledgex/edge-cloud-infra/pull/1995)) (Ashish Jain)
+
 ## [2022-03-05] - Mar 05, 2022
 [Details](../../commit/2022-03-05)
 
