@@ -1,3 +1,10 @@
+## [2021-08-14-14] - Mar 06, 2022
+[Details](../../commit/2021-08-14-14)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6223](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6223) disallow user with no orgs from seeing events ([#1988](https://github.com/mobiledgex/edge-cloud-infra/pull/1988)) (Jon)
+- hf4-stage (root)
+
 ## [2021-08-14-13] - Nov 25, 2021
 [Details](../../commit/2021-08-14-13)
 
