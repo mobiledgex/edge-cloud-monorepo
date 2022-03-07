@@ -1,3 +1,12 @@
+## [2022-03-07] - Mar 07, 2022
+[Details](../../commit/2022-03-07)
+
+### edge-cloud:
+- [EDGECLOUD-6226](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6226) sanitize runcommand at MC ([#1671](https://github.com/mobiledgex/edge-cloud/pull/1671)) (Jon)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6226](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6226) sanitize runcommand at MC ([#1999](https://github.com/mobiledgex/edge-cloud-infra/pull/1999)) (Jon)
+
 ## [2022-03-06] - Mar 06, 2022
 [Details](../../commit/2022-03-06)
 
