@@ -1,3 +1,15 @@
+## [2022-03-08] - Mar 08, 2022
+[Details](../../commit/2022-03-08)
+
+### edge-cloud:
+- Enable origin check for websocket connections to EdgeTURN ([#1672](https://github.com/mobiledgex/edge-cloud/pull/1672)) (Ashish Jain)
+   - [EDGECLOUD-6233](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6233): Websocket inspect origin if present
+
+### edge-cloud-infra:
+- [EDGECLOUD-6064](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6064)  Deployment scripts for Thanos components ([#1991](https://github.com/mobiledgex/edge-cloud-infra/pull/1991)) (Lev Shvarts)
+- [EDGECLOUD-6215](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6215): chef error when trying to create cloudlet using baseload v4.9.0 ([#2001](https://github.com/mobiledgex/edge-cloud-infra/pull/2001)) (Ashish Jain)
+- [EDGECLOUD-6233](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6233) Pass "Origin" header on to the backend ([#2000](https://github.com/mobiledgex/edge-cloud-infra/pull/2000)) (Venky)
+
 ## [2022-03-07] - Mar 07, 2022
 [Details](../../commit/2022-03-07)
 
