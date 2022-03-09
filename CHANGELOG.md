@@ -1,3 +1,20 @@
+## [2022-03-09] - Mar 09, 2022
+[Details](../../commit/2022-03-09)
+
+### edge-cloud:
+- change nodetype to enum ([#1674](https://github.com/mobiledgex/edge-cloud/pull/1674)) (Jim)
+- consolidate rootlb type definitions ([#1673](https://github.com/mobiledgex/edge-cloud/pull/1673)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6222](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6222) Prevent artifactory user overwrite ([#2004](https://github.com/mobiledgex/edge-cloud-infra/pull/2004)) (Jon)
+- Nodetype enum ([#2008](https://github.com/mobiledgex/edge-cloud-infra/pull/2008)) (Jim)
+- Hide Thanos-based metrics api and remove unused chef files ([#2002](https://github.com/mobiledgex/edge-cloud-infra/pull/2002)) (Lev Shvarts)
+- [EDGECLOUD-6233](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6233) Pass "Host" header on to the backend ([#2007](https://github.com/mobiledgex/edge-cloud-infra/pull/2007)) (Venky)
+- [EDGECLOUD-6235](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6235) Redact unneccessary info from MC API controller show ([#2005](https://github.com/mobiledgex/edge-cloud-infra/pull/2005)) (Jon)
+- consolidate rootlb types and fix accesscloudlet  ([#2003](https://github.com/mobiledgex/edge-cloud-infra/pull/2003)) (Jim)
+- [EDGECLOUD-6231](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6231) make JWT valid duration configurable ([#1998](https://github.com/mobiledgex/edge-cloud-infra/pull/1998)) (Jon)
+- Chef mobiledgex pkg upgrade cookbook cleanup ([#2006](https://github.com/mobiledgex/edge-cloud-infra/pull/2006)) (Venky)
+
 ## [2022-03-08] - Mar 08, 2022
 [Details](../../commit/2022-03-08)
 
