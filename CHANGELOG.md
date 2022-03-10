@@ -1,3 +1,10 @@
+## [2022-03-10] - Mar 10, 2022
+[Details](../../commit/2022-03-10)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6264](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6264): Fix MC config upgrade ([#2011](https://github.com/mobiledgex/edge-cloud-infra/pull/2011)) (Ashish Jain)
+- Reduce retention period of events in ElasticSearch ([#2009](https://github.com/mobiledgex/edge-cloud-infra/pull/2009)) (Venky)
+
 ## [2022-03-09] - Mar 09, 2022
 [Details](../../commit/2022-03-09)
 
