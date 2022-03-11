@@ -1,3 +1,15 @@
+## [2022-03-11] - Mar 11, 2022
+[Details](../../commit/2022-03-11)
+
+### edge-cloud:
+- [EDGECLOUD-6165](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6165) allow blank cluster-org for old autocluster for CreateAppInst ([#1675](https://github.com/mobiledgex/edge-cloud/pull/1675)) (Jon)
+
+### edge-cloud-infra:
+- update az cli ([#2017](https://github.com/mobiledgex/edge-cloud-infra/pull/2017)) (Jim)
+- [EDGECLOUD-6269](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6269) check for 201 return from Gitlab user create ([#2018](https://github.com/mobiledgex/edge-cloud-infra/pull/2018)) (Jon)
+- baseimage change to unmount openstack config drive ([#2012](https://github.com/mobiledgex/edge-cloud-infra/pull/2012)) (Jim)
+- Fix code to disallow deletion of other user's API key ([#2014](https://github.com/mobiledgex/edge-cloud-infra/pull/2014)) (Ashish Jain)
+
 ## [2022-03-10] - Mar 10, 2022
 [Details](../../commit/2022-03-10)
 
