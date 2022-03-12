@@ -1,3 +1,19 @@
+## [2022-03-12] - Mar 12, 2022
+[Details](../../commit/2022-03-12)
+
+### edge-cloud:
+- e2e-test pgrep tweaks for getting stuck ([#1678](https://github.com/mobiledgex/edge-cloud/pull/1678)) (Jon)
+- check service name ([#1676](https://github.com/mobiledgex/edge-cloud/pull/1676)) (Jim)
+- Update edge-cloud docker base image ([#1679](https://github.com/mobiledgex/edge-cloud/pull/1679)) (Venky)
+
+### edge-cloud-infra:
+- [EDGECLOUD-3621](https://mobiledgex.atlassian.net/browse/EDGECLOUD-3621) filter events from deleted orgs ([#2013](https://github.com/mobiledgex/edge-cloud-infra/pull/2013)) (Jon)
+- [EDGECLOUD-6260](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6260) MC does not force https ([#2022](https://github.com/mobiledgex/edge-cloud-infra/pull/2022)) (Venky)
+- Removing hard version dependency on qemu-utils ([#2019](https://github.com/mobiledgex/edge-cloud-infra/pull/2019)) (Venky)
+- Push docker base image builds to the mobiledgex-dev registry also ([#2020](https://github.com/mobiledgex/edge-cloud-infra/pull/2020)) (Venky)
+- [EDGECLOUD-6232](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6232): Remove callback url as it leads to security issues ([#2015](https://github.com/mobiledgex/edge-cloud-infra/pull/2015)) (Ashish Jain)
+- Show appropriate error for missing record errors from DB ([#2016](https://github.com/mobiledgex/edge-cloud-infra/pull/2016)) (Ashish Jain)
+
 ## [2022-03-11] - Mar 11, 2022
 [Details](../../commit/2022-03-11)
 
