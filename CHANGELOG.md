@@ -1,3 +1,9 @@
+## [2022-03-14] - Mar 14, 2022
+[Details](../../commit/2022-03-14)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6268](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6268) Upgrade Gitlab main instance to 14.6.6 ([#2027](https://github.com/mobiledgex/edge-cloud-infra/pull/2027)) (Venky)
+
 ## [2022-03-12] - Mar 12, 2022
 [Details](../../commit/2022-03-12)
 
