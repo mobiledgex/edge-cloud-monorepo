@@ -1,3 +1,11 @@
+## [2021-08-14-18] - Mar 15, 2022
+[Details](../../commit/2021-08-14-18)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6281](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6281) fix gitlab get user for user delete ([#2026](https://github.com/mobiledgex/edge-cloud-infra/pull/2026)) (Jon)
+- [EDGECLOUD-6269](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6269) check for 201 return from Gitlab user create ([#2018](https://github.com/mobiledgex/edge-cloud-infra/pull/2018)) (Jon)
+- [EDGECLOUD-6222](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6222) Prevent artifactory user overwrite ([#2004](https://github.com/mobiledgex/edge-cloud-infra/pull/2004)) (Jon)
+
 ## [ 2021-08-14-17] - Mar 07, 2022
 [Details](../../commit/2021-08-14-17)
 
