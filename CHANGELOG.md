@@ -1,3 +1,20 @@
+## [2022-03-15] - Mar 15, 2022
+[Details](../../commit/2022-03-15)
+
+### edge-cloud:
+- Simplify redis existing obj checks + fix memory leaks ([#1681](https://github.com/mobiledgex/edge-cloud/pull/1681)) (Ashish Jain)
+- [EDGECLOUD-6273](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6273): Updated replicas is not reflected as part of appinst upgrade ([#1677](https://github.com/mobiledgex/edge-cloud/pull/1677)) (Ashish Jain)
+
+### edge-cloud-infra:
+- remove cloudlet-wide egress rules for VCD ([#2010](https://github.com/mobiledgex/edge-cloud-infra/pull/2010)) (Devdatta)
+- [EDGECLOUD-6282](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6282) remove gitlab address from error message ([#2030](https://github.com/mobiledgex/edge-cloud-infra/pull/2030)) (Jon)
+- vcd vm status ([#2029](https://github.com/mobiledgex/edge-cloud-infra/pull/2029)) (Jim)
+- VM image duplication fixes ([#2023](https://github.com/mobiledgex/edge-cloud-infra/pull/2023)) (Jim)
+- chef fixes ([#2025](https://github.com/mobiledgex/edge-cloud-infra/pull/2025)) (Jim)
+- [EDGECLOUD-6281](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6281) fix gitlab get user for user delete ([#2026](https://github.com/mobiledgex/edge-cloud-infra/pull/2026)) (Jon)
+- Use internal network for k8s control IP if multiple networks available ([#2021](https://github.com/mobiledgex/edge-cloud-infra/pull/2021)) (Ashish Jain)
+- Hosted Artifactory instance for QA testing ([#2028](https://github.com/mobiledgex/edge-cloud-infra/pull/2028)) (Venky)
+
 ## [2022-03-14] - Mar 14, 2022
 [Details](../../commit/2022-03-14)
 
