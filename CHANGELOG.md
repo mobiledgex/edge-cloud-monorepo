@@ -1,3 +1,20 @@
+## [2022-03-16] - Mar 16, 2022
+[Details](../../commit/2022-03-16)
+
+### edge-cloud:
+- update container version ([#1682](https://github.com/mobiledgex/edge-cloud/pull/1682)) (Jim)
+- [EDGECLOUD-6286](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6286): Hide controller address from orgcloudletinfo for nonadmin users ([#1683](https://github.com/mobiledgex/edge-cloud/pull/1683)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Fix MC cleanup crash on CTRL-C ([#2035](https://github.com/mobiledgex/edge-cloud-infra/pull/2035)) (Ashish Jain)
+- [EDGECLOUD-6285](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6285): Fix websocket error handling ([#2034](https://github.com/mobiledgex/edge-cloud-infra/pull/2034)) (Ashish Jain)
+- Revert "[EDGECLOUD-6220](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6220) : part 2 - fixing iptables issues, added egressRestricted, ensure del trustpolicy removes its entries" (Devdatta Ajgaonkar)
+- [EDGECLOUD-6286](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6286): Hide controller address from orgcloudletinfo for non-admin users ([#2033](https://github.com/mobiledgex/edge-cloud-infra/pull/2033)) (Ashish Jain)
+- [EDGECLOUD-6289](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6289): MobiledgeX Deb pkg is not getting updated for new RootLB VMs ([#2032](https://github.com/mobiledgex/edge-cloud-infra/pull/2032)) (Ashish Jain)
+- [EDGECLOUD-6220](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6220) : part 2 - fixing iptables issues, added egressRestricted, ensure del trustpolicy removes its entries (Devdatta Ajgaonkar)
+- delete cloudlet-wide rules if trustpolicy is present (Devdatta Ajgaonkar)
+- remove cloudlet-wide egress rules for VCD (Devdatta Ajgaonkar)
+
 ## [2022-03-15] - Mar 15, 2022
 [Details](../../commit/2022-03-15)
 
