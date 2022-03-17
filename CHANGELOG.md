@@ -1,3 +1,15 @@
+## [2022-03-17] - Mar 17, 2022
+[Details](../../commit/2022-03-17)
+
+### edge-cloud:
+- [EDGECLOUD-6295](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6295) Upgrade base image to address CVE-2022-0778 ([#1685](https://github.com/mobiledgex/edge-cloud/pull/1685)) (Venky)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6288](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6288): AdminManager should have access to delete another user's apikey ([#2042](https://github.com/mobiledgex/edge-cloud-infra/pull/2042)) (Ashish Jain)
+- Pick newest console version for deployments ([#2043](https://github.com/mobiledgex/edge-cloud-infra/pull/2043)) (Venky)
+- [EDGECLOUD-6295](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6295) Upgrade base image to address CVE-2022-0778 ([#2039](https://github.com/mobiledgex/edge-cloud-infra/pull/2039)) (Venky)
+- Display digests instead of tags for docker base images ([#2040](https://github.com/mobiledgex/edge-cloud-infra/pull/2040)) (Venky)
+
 ## [2022-03-16] - Mar 16, 2022
 [Details](../../commit/2022-03-16)
 
