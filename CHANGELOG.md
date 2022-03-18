@@ -1,3 +1,16 @@
+## [2022-03-18] - Mar 18, 2022
+[Details](../../commit/2022-03-18)
+
+### edge-cloud:
+- [EDGECLOUD-6300](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6300): WebSocket to edgeturn server failing ([#1688](https://github.com/mobiledgex/edge-cloud/pull/1688)) (Ashish Jain)
+- Port53 ([#1686](https://github.com/mobiledgex/edge-cloud/pull/1686)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6300](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6300): WebSocket to edgeturn server failing ([#2046](https://github.com/mobiledgex/edge-cloud-infra/pull/2046)) (Ashish Jain)
+- init context ([#2045](https://github.com/mobiledgex/edge-cloud-infra/pull/2045)) (Jim)
+- [EDGECLOUD-6220](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6220) : part 2 remove cloudlet-wide egress rules for VCD  ([#2036](https://github.com/mobiledgex/edge-cloud-infra/pull/2036)) (Devdatta)
+   - * [EDGECLOUD-6220](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6220) : part 2 - fixing iptables issues, added egressRestricted, ensure del trustpolicy removes its entries
+
 ## [2022-03-17] - Mar 17, 2022
 [Details](../../commit/2022-03-17)
 
