@@ -1,3 +1,12 @@
+## [2022-03-20] - Mar 20, 2022
+[Details](../../commit/2022-03-20)
+
+### edge-cloud:
+- Fix redis sync issues by checking start of stream inside a redis tx ([#1687](https://github.com/mobiledgex/edge-cloud/pull/1687)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Fix redis sync issues by checking start of stream inside a redis tx ([#2044](https://github.com/mobiledgex/edge-cloud-infra/pull/2044)) (Ashish Jain)
+
 ## [2022-03-18] - Mar 18, 2022
 [Details](../../commit/2022-03-18)
 
