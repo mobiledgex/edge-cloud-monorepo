@@ -1,3 +1,9 @@
+## [2022-03-21] - Mar 21, 2022
+[Details](../../commit/2022-03-21)
+
+### edge-cloud-infra:
+- fix shepherd when no oauth in effect ([#2048](https://github.com/mobiledgex/edge-cloud-infra/pull/2048)) (Jim)
+
 ## [2022-03-20] - Mar 20, 2022
 [Details](../../commit/2022-03-20)
 
