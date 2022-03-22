@@ -1,3 +1,14 @@
+## [2022-03-22] - Mar 22, 2022
+[Details](../../commit/2022-03-22)
+
+### edge-cloud:
+- Fix e2e tests ([#1690](https://github.com/mobiledgex/edge-cloud/pull/1690)) (Lev Shvarts)
+- [EDGECLOUD-6308](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6308) mcctl error msg when supplying QOS duration with no profile ([#1689](https://github.com/mobiledgex/edge-cloud/pull/1689)) (Bruce Armstrong)
+   - * [EDGECLOUD-6308](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6308) mcctl error message when supplying QOS duration with no profile
+
+### edge-cloud-infra:
+- TrustPolicy on VCD not blocking egress ports correctly - SetupRootLB secGrpName init to a common secgrp ([#2049](https://github.com/mobiledgex/edge-cloud-infra/pull/2049)) (Devdatta)
+
 ## [2022-03-21] - Mar 21, 2022
 [Details](../../commit/2022-03-21)
 
