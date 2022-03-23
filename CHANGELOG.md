@@ -1,3 +1,19 @@
+## [2022-03-23] - Mar 23, 2022
+[Details](../../commit/2022-03-23)
+
+### edge-cloud:
+- create error if pod goes to Unschedulable ([#1692](https://github.com/mobiledgex/edge-cloud/pull/1692)) (Jim)
+- [EDGECLOUD-6279](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6279) autoprov fix ignore deploy errors check ([#1680](https://github.com/mobiledgex/edge-cloud/pull/1680)) (Jon)
+- [EDGECLOUD-5830](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5830): Show release version as part of cloudlet info ([#1684](https://github.com/mobiledgex/edge-cloud/pull/1684)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-4395](https://mobiledgex.atlassian.net/browse/EDGECLOUD-4395) [EDGECLOUD-6078](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6078) Network Sent/Received metrics are not consistent between k8s and docker deployments ([#2047](https://github.com/mobiledgex/edge-cloud-infra/pull/2047)) (Lev Shvarts)
+- add missing e2e test file ([#2057](https://github.com/mobiledgex/edge-cloud-infra/pull/2057)) (Jon)
+- [EDGECLOUD-6266](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6266) Remove deprecated audit log APIs ([#2031](https://github.com/mobiledgex/edge-cloud-infra/pull/2031)) (Jon)
+- [EDGECLOUD-6279](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6279) autoprov fix ignore deploy errors check ([#2024](https://github.com/mobiledgex/edge-cloud-infra/pull/2024)) (Jon)
+- vsphere image is always .qcow now ([#2050](https://github.com/mobiledgex/edge-cloud-infra/pull/2050)) (Jim)
+- [EDGECLOUD-5830](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5830): Show release version as part of cloudlet info ([#2037](https://github.com/mobiledgex/edge-cloud-infra/pull/2037)) (Ashish Jain)
+
 ## [2022-03-22] - Mar 22, 2022
 [Details](../../commit/2022-03-22)
 
