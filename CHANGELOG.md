@@ -1,3 +1,20 @@
+## [2022-03-24] - Mar 24, 2022
+[Details](../../commit/2022-03-24)
+
+### edge-cloud:
+- [EDGECLOUD-6257](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6257): Password update should require re-entering the current password  ([#1691](https://github.com/mobiledgex/edge-cloud/pull/1691)) (Ashish Jain)
+- [EDGECLOUD-6290](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6290) fix mcctl crash, remove deprecated alldata api ([#1693](https://github.com/mobiledgex/edge-cloud/pull/1693)) (Jon)
+- Add third party notices file ([#1696](https://github.com/mobiledgex/edge-cloud/pull/1696)) (Jon)
+- fix regex to not truncate last word ([#1695](https://github.com/mobiledgex/edge-cloud/pull/1695)) (Jim)
+- Handle null object from receive-only channel on redis server disconnect ([#1694](https://github.com/mobiledgex/edge-cloud/pull/1694)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6257](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6257): Password update should require re-entering the current password ([#2052](https://github.com/mobiledgex/edge-cloud-infra/pull/2052)) (Ashish Jain)
+- [EDGECLOUD-6277](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6277) [EDGECLOUD-6278](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6278) redact info for non-admins from controller show ([#2055](https://github.com/mobiledgex/edge-cloud-infra/pull/2055)) (Jon)
+- [EDGECLOUD-6290](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6290) fix mcctl crash, remove deprecated alldata api ([#2058](https://github.com/mobiledgex/edge-cloud-infra/pull/2058)) (Jon)
+- [EDGECLOUD-6245](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6245) [EDGECLOUD-6188](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6188) disallow alertreceiver show for user with no org and fix cloudletusage for multiple clouldets  ([#2056](https://github.com/mobiledgex/edge-cloud-infra/pull/2056)) (Lev Shvarts)
+- [EDGECLOUD-5889](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5889): HF4 staging up-grade failed since prometheus.yml is a folder and not file in CRM ([#2051](https://github.com/mobiledgex/edge-cloud-infra/pull/2051)) (Ashish Jain)
+
 ## [2022-03-23] - Mar 23, 2022
 [Details](../../commit/2022-03-23)
 
