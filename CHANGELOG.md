@@ -1,3 +1,12 @@
+## [2022-03-25] - Mar 25, 2022
+[Details](../../commit/2022-03-25)
+
+### edge-cloud:
+- [EDGECLOUD-6257](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6257): Password update does not require re-entering password ([#1700](https://github.com/mobiledgex/edge-cloud/pull/1700)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Include edge-cloud services in third-party-notices ([#2061](https://github.com/mobiledgex/edge-cloud-infra/pull/2061)) (Jon)
+
 ## [2022-03-24] - Mar 24, 2022
 [Details](../../commit/2022-03-24)
 
