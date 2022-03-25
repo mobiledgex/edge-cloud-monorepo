@@ -1,3 +1,29 @@
+## [2021-08-14-19] - Mar 25, 2022
+[Details](../../commit/2021-08-14-19)
+
+### edge-cloud:
+- Fix unit-tests in r3.0-hf branch (changes pulled from master branch) ([#1698](https://github.com/mobiledgex/edge-cloud/pull/1698)) (Ashish Jain)
+- [EDGECLOUD-6257](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6257): Password update should require re-entering the current password  ([#1691](https://github.com/mobiledgex/edge-cloud/pull/1691)) (Ashish Jain)
+- [EDGECLOUD-6300](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6300): WebSocket to edgeturn server failing ([#1688](https://github.com/mobiledgex/edge-cloud/pull/1688)) (Ashish Jain)
+- [EDGECLOUD-6237](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6237): MC api /orgcloudletinfo/show reveals cluster and vm app info for other organizations ([#1670](https://github.com/mobiledgex/edge-cloud/pull/1670)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6260](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6260) MC does not force https ([#2022](https://github.com/mobiledgex/edge-cloud-infra/pull/2022)) (Venky)
+- [EDGECLOUD-6236](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6236) Add a check for provided username against the org specified in the api. Added unit-test for this case as well. ([#2074](https://github.com/mobiledgex/edge-cloud-infra/pull/2074)) (Lev Shvarts)
+- [EDGECLOUD-6232](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6232): Remove callback url as it leads to security issues ([#2015](https://github.com/mobiledgex/edge-cloud-infra/pull/2015)) (Ashish Jain)
+- [EDGECLOUD-6232](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6232): Account creation and password reset request emails vulnerable to phishing ([#1993](https://github.com/mobiledgex/edge-cloud-infra/pull/1993)) (Ashish Jain)
+- [EDGECLOUD-6257](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6257): Password update should require re-entering the current password ([#2052](https://github.com/mobiledgex/edge-cloud-infra/pull/2052)) (Ashish Jain)
+- [EDGECLOUD-6233](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6233) Pass "Host" header on to the backend ([#2007](https://github.com/mobiledgex/edge-cloud-infra/pull/2007)) (Venky)
+- [EDGECLOUD-6233](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6233) Pass "Origin" header on to the backend ([#2000](https://github.com/mobiledgex/edge-cloud-infra/pull/2000)) (Venky)
+- [EDGECLOUD-6300](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6300): WebSocket to edgeturn server failing ([#2046](https://github.com/mobiledgex/edge-cloud-infra/pull/2046)) (Ashish Jain)
+- [EDGECLOUD-6234](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6234): MC /artifactory/summary leaks user and org information ([#1994](https://github.com/mobiledgex/edge-cloud-infra/pull/1994)) (Ashish Jain)
+- [EDGECLOUD-6237](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6237): MC api /orgcloudletinfo/show reveals cluster and vm app info for other organizations ([#1995](https://github.com/mobiledgex/edge-cloud-infra/pull/1995)) (Ashish Jain)
+- [EDGECLOUD-6253](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6253): Fix code to disallow deletion of other user's API key ([#2014](https://github.com/mobiledgex/edge-cloud-infra/pull/2014)) (Ashish Jain)
+- [EDGECLOUD-6235](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6235) Redact unneccessary info from MC API controller show ([#2068](https://github.com/mobiledgex/edge-cloud-infra/pull/2068)) (Jon)
+- [EDGECLOUD-6231](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6231) make JWT valid duration configurable ([#2060](https://github.com/mobiledgex/edge-cloud-infra/pull/2060)) (Jon)
+- use new baseimage with unmounted config drive. Ignore chef update errors due to version mismatch (Jim)
+- [EDGECLOUD-6258](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6258) Sensitive info in metrics error message ([#2059](https://github.com/mobiledgex/edge-cloud-infra/pull/2059)) (Lev Shvarts)
+
 ## [2021-08-14-18] - Mar 15, 2022
 [Details](../../commit/2021-08-14-18)
 
