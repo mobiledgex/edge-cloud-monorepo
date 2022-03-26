@@ -1,3 +1,12 @@
+## [2021-08-14-20] - Mar 26, 2022
+[Details](../../commit/2021-08-14-20)
+
+### edge-cloud:
+- Appinst uid swap ([#1704](https://github.com/mobiledgex/edge-cloud/pull/1704)) (Jim)
+
+### edge-cloud-infra:
+- e2e tests for appinst uniqueid ([#2080](https://github.com/mobiledgex/edge-cloud-infra/pull/2080)) (Jim)
+
 ## [2021-08-14-19] - Mar 25, 2022
 [Details](../../commit/2021-08-14-19)
 
