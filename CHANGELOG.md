@@ -1,3 +1,19 @@
+## [2022-03-26] - Mar 26, 2022
+[Details](../../commit/2022-03-26)
+
+### edge-cloud:
+- [Anthos] app create with config option of .Deployment.ClusterIp does not work ([#1701](https://github.com/mobiledgex/edge-cloud/pull/1701)) (Devdatta)
+- fix test ([#1706](https://github.com/mobiledgex/edge-cloud/pull/1706)) (Jim)
+- Fix events unit test on linux ([#1705](https://github.com/mobiledgex/edge-cloud/pull/1705)) (Jon)
+- [EDGECLOUD-6303](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6303): AppInst FQDN are not unique across the setups ([#1703](https://github.com/mobiledgex/edge-cloud/pull/1703)) (Ashish Jain)
+- Fix unit tests ([#1702](https://github.com/mobiledgex/edge-cloud/pull/1702)) (Ashish Jain)
+
+### edge-cloud-infra:
+- Get ClusterMasterIp for Anthos ([#2078](https://github.com/mobiledgex/edge-cloud-infra/pull/2078)) (Devdatta)
+- [EDGECLOUD-6303](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6303): AppInst FQDN are not unique across the setups ([#2053](https://github.com/mobiledgex/edge-cloud-infra/pull/2053)) (Ashish Jain)
+- [EDGECLOUD-5889](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5889) Fix references to /tmp when we mount dir for cloudletPrometheus  ([#2077](https://github.com/mobiledgex/edge-cloud-infra/pull/2077)) (Lev Shvarts)
+- [EDGECLOUD-6311](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6311) Add qossesaddr value in QA DME to test QoS with Simulator App ([#2076](https://github.com/mobiledgex/edge-cloud-infra/pull/2076)) (Venky)
+
 ## [2022-03-25] - Mar 25, 2022
 [Details](../../commit/2022-03-25)
 
