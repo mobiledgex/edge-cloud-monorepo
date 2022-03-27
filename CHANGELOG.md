@@ -1,3 +1,9 @@
+## [2022-03-27] - Mar 27, 2022
+[Details](../../commit/2022-03-27)
+
+### edge-cloud-infra:
+- Fix QoS DME param ([#2081](https://github.com/mobiledgex/edge-cloud-infra/pull/2081)) (Venky)
+
 ## [2022-03-26] - Mar 26, 2022
 [Details](../../commit/2022-03-26)
 
