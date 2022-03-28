@@ -1,3 +1,9 @@
+## [2021-08-14-21] - Mar 28, 2022
+[Details](../../commit/2021-08-14-21)
+
+### edge-cloud-infra:
+- Revert "use new baseimage with unmounted config drive. Ignore chef update errors due to version mismatch" (Venky Tumkur)
+
 ## [2021-08-14-20] - Mar 26, 2022
 [Details](../../commit/2021-08-14-20)
 
