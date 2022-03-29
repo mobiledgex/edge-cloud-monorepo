@@ -1,3 +1,12 @@
+## [2022-03-29] - Mar 29, 2022
+[Details](../../commit/2022-03-29)
+
+### edge-cloud:
+- fix references to cloudcommon names ([#1711](https://github.com/mobiledgex/edge-cloud/pull/1711)) (Jon)
+
+### edge-cloud-infra:
+- Build nightly ansible deploy image ([#2054](https://github.com/mobiledgex/edge-cloud-infra/pull/2054)) (Venky)
+
 ## [2022-03-27] - Mar 27, 2022
 [Details](../../commit/2022-03-27)
 
