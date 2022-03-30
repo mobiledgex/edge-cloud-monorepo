@@ -1,3 +1,16 @@
+## [2022-03-30] - Mar 30, 2022
+[Details](../../commit/2022-03-30)
+
+### edge-cloud:
+- [EDGECLOUD-5462](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5462)  "alert show" should show the real status instead of a number ([#1713](https://github.com/mobiledgex/edge-cloud/pull/1713)) (Lev Shvarts)
+- [EDGECLOUD-5839](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5839)  Vault GetKV: Expose warning as error instead ([#1714](https://github.com/mobiledgex/edge-cloud/pull/1714)) (Lev Shvarts)
+- perform sanitization of appinstid in controller ([#1712](https://github.com/mobiledgex/edge-cloud/pull/1712)) (Jim)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5462](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5462)  "alert show" should show the real status instead of a number ([#2087](https://github.com/mobiledgex/edge-cloud-infra/pull/2087)) (Lev Shvarts)
+- [EDGECLOUD-6357](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6357) Failed to get public cert from vault for rootlb ([#2088](https://github.com/mobiledgex/edge-cloud-infra/pull/2088)) (Venky)
+- sanitize vm group name ([#2083](https://github.com/mobiledgex/edge-cloud-infra/pull/2083)) (Jim)
+
 ## [2022-03-29] - Mar 29, 2022
 [Details](../../commit/2022-03-29)
 
