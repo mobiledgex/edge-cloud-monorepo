@@ -1,3 +1,18 @@
+## [2022-04-01] - Apr 01, 2022
+[Details](../../commit/2022-04-01)
+
+### edge-cloud:
+- [EDGECLOUD-6366](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6366): Remove deprecated reporter schedule enum Every30Days ([#1718](https://github.com/mobiledgex/edge-cloud/pull/1718)) (Ashish Jain)
+- [EDGECLOUD-6054](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6054): cloudletusage metrics should show data after cloudlet creation ([#1716](https://github.com/mobiledgex/edge-cloud/pull/1716)) (Ashish Jain)
+- [EDGECLOUD-5834](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5834): GPU drivers uploaded to GCS are not associated with a region ([#1710](https://github.com/mobiledgex/edge-cloud/pull/1710)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5617](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5617): CreateCloudlet for VMPool fails while writing crm access key ([#2091](https://github.com/mobiledgex/edge-cloud-infra/pull/2091)) (Ashish Jain)
+- Updated openstack-tenant/packer readme (Jon)
+- Create openstack-tenant/packages readme (Jon)
+- [EDGECLOUD-6365](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6365) alerts not being triggerd because of shepherd/prometheus mismatch ([#2089](https://github.com/mobiledgex/edge-cloud-infra/pull/2089)) (Lev Shvarts)
+- [EDGECLOUD-5834](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5834): GPU drivers uploaded to GCS are not associated with a region ([#2085](https://github.com/mobiledgex/edge-cloud-infra/pull/2085)) (Ashish Jain)
+
 ## [2022-03-30] - Mar 30, 2022
 [Details](../../commit/2022-03-30)
 
