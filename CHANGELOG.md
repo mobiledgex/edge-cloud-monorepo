@@ -1,3 +1,12 @@
+## [2022-04-01-2] - Apr 01, 2022
+[Details](../../commit/2022-04-01-2)
+
+### edge-cloud:
+- [EDGECLOUD-5854](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5854): Enable Operators to see/download GPU License config after GPU Driver has been created ([#1717](https://github.com/mobiledgex/edge-cloud/pull/1717)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5854](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5854): Enable Operators to see/download GPU License config after GPU Driver has been created ([#2090](https://github.com/mobiledgex/edge-cloud-infra/pull/2090)) (Ashish Jain)
+
 ## [2022-04-01-1] - Apr 01, 2022
 [Details](../../commit/2022-04-01-1)
 
