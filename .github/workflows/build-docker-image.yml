@@ -158,7 +158,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.PAT }}
       -
         name: Build edge-cloud component image
         uses: docker/build-push-action@v2
