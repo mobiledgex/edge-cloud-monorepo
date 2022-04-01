@@ -1,3 +1,9 @@
+## [2022-04-01-1] - Apr 01, 2022
+[Details](../../commit/2022-04-01-1)
+
+### edge-cloud-infra:
+- Fix build (commit got missed in previous PR) ([#2092](https://github.com/mobiledgex/edge-cloud-infra/pull/2092)) (Ashish Jain)
+
 ## [2022-04-01] - Apr 01, 2022
 [Details](../../commit/2022-04-01)
 
