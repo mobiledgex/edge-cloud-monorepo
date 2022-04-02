@@ -1,3 +1,9 @@
+## [2022-04-02] - Apr 02, 2022
+[Details](../../commit/2022-04-02)
+
+### edge-cloud-infra:
+- Vault cert plugin needs to support multiple domains ([#2093](https://github.com/mobiledgex/edge-cloud-infra/pull/2093)) (Venky)
+
 ## [2022-04-01-2] - Apr 01, 2022
 [Details](../../commit/2022-04-01-2)
 
