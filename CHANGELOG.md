@@ -1,3 +1,15 @@
+## [2022-04-06] - Apr 06, 2022
+[Details](../../commit/2022-04-06)
+
+### edge-cloud:
+- [EDGECLOUD-6356](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6356) Cannot update app with qossessionprofile=NoPriority ([#1722](https://github.com/mobiledgex/edge-cloud/pull/1722)) (Bruce Armstrong)
+   - * [EDGECLOUD-6356](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6356) Cannot update app with qossessionprofile=NoPriority
+- [EDGECLOUD-6384](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6384) Creation of cluster instance with gpu flavor fails for existing gpu drivers ([#1720](https://github.com/mobiledgex/edge-cloud/pull/1720)) (Ashish Jain)
+- [EDGECLOUD-5617](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5617): CreateCloudlet fails while writing crm access key for VMPool ([#1719](https://github.com/mobiledgex/edge-cloud/pull/1719)) (Ashish Jain)
+
+### edge-cloud-infra:
+- [EDGECLOUD-5617](https://mobiledgex.atlassian.net/browse/EDGECLOUD-5617): CreateCloudlet fails while writing crm access key for VMPool ([#2094](https://github.com/mobiledgex/edge-cloud-infra/pull/2094)) (Ashish Jain)
+
 ## [2022-04-02] - Apr 02, 2022
 [Details](../../commit/2022-04-02)
 
