@@ -1,3 +1,12 @@
+## [2022-04-07] - Apr 07, 2022
+[Details](../../commit/2022-04-07)
+
+### edge-cloud:
+- Exec container bin ([#1721](https://github.com/mobiledgex/edge-cloud/pull/1721)) (Jim)
+- Check invalid QOS duration for both app create and app update ([#1724](https://github.com/mobiledgex/edge-cloud/pull/1724)) (Bruce Armstrong)
+- [EDGECLOUD-6392](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6392) Nil check for redisClient on Controller cleanup ([#1723](https://github.com/mobiledgex/edge-cloud/pull/1723)) (Jon)
+- [EDGECLOUD-6329](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6329) Notify AppInstRefs sent before AppInst ([#1715](https://github.com/mobiledgex/edge-cloud/pull/1715)) (Jon)
+
 ## [2022-04-06] - Apr 06, 2022
 [Details](../../commit/2022-04-06)
 
