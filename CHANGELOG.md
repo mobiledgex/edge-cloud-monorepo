@@ -1,3 +1,9 @@
+## [2022-04-10] - Apr 10, 2022
+[Details](../../commit/2022-04-10)
+
+### edge-cloud-infra:
+- [EDGECLOUD-6395](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6395) allow user to see org created event ([#2095](https://github.com/mobiledgex/edge-cloud-infra/pull/2095)) (Jon)
+
 ## [2022-04-07] - Apr 07, 2022
 [Details](../../commit/2022-04-07)
 
