@@ -1,3 +1,15 @@
+## [2022-04-12] - Apr 12, 2022
+[Details](../../commit/2022-04-12)
+
+### edge-cloud:
+- Fix invalid gpu driver paths + add missing storagepath as part of addbuild ([#1726](https://github.com/mobiledgex/edge-cloud/pull/1726)) (Ashish Jain)
+   - [EDGECLOUD-6384](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6384): Fix invalid gpu driver paths + add missing storagepath as part of addbuild
+
+### edge-cloud-infra:
+- [EDGECLOUD-6395](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6395) filter org events truncate timestamp to microsecs ([#2098](https://github.com/mobiledgex/edge-cloud-infra/pull/2098)) (Jon)
+- Fix eksctl errors encountered during clusterinst creation ([#2097](https://github.com/mobiledgex/edge-cloud-infra/pull/2097)) (Ashish Jain)
+   - [EDGECLOUD-6396](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6396): Clusterinst create fails on AWS
+
 ## [2022-04-10] - Apr 10, 2022
 [Details](../../commit/2022-04-10)
 
