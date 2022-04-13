@@ -1,3 +1,21 @@
+## [2022-04-13] - Apr 13, 2022
+[Details](../../commit/2022-04-13)
+
+### edge-cloud:
+- Consolidate GPU driver upgrade funcs ([#1730](https://github.com/mobiledgex/edge-cloud/pull/1730)) (Ashish Jain)
+- Open-source under apache license ([#1729](https://github.com/mobiledgex/edge-cloud/pull/1729)) (Jon)
+- remove unsed files ([#1728](https://github.com/mobiledgex/edge-cloud/pull/1728)) (Jim)
+- sanitize k8s service name ([#1727](https://github.com/mobiledgex/edge-cloud/pull/1727)) (Jim)
+
+### edge-cloud-infra:
+- remove cloudlet files ([#2101](https://github.com/mobiledgex/edge-cloud-infra/pull/2101)) (Jim)
+- Open-source under apache license ([#2100](https://github.com/mobiledgex/edge-cloud-infra/pull/2100)) (Jon)
+- [EDGECLOUD-6375](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6375), [EDGECLOUD-6375](https://mobiledgex.atlassian.net/browse/EDGECLOUD-6375) - Enforce ports, fix crash ([#2099](https://github.com/mobiledgex/edge-cloud-infra/pull/2099)) (Bruce Armstrong)
+
+### edge-proto:
+- Delete COPYRIGHT.txt (Jon)
+- Open-source under apache license ([#56](https://github.com/mobiledgex/edge-proto/pull/56)) (Jon)
+
 ## [2022-04-12] - Apr 12, 2022
 [Details](../../commit/2022-04-12)
 
